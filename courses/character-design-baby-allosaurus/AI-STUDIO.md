@@ -10,6 +10,7 @@ Instructions for any AI (Google AI Studio, Claude, etc.) editing this project. R
 - **Primary CTA**: `https://pay.hotmart.com/M105761103N` — every conversion link on the page points here. Do not add other destinations.
 - **Offer**: $49, one-time, lifetime access, 15-day money-back guarantee.
 - **Course facts**: 7h30min, 4 modules, EN with PT subtitles, ZBrush + Blender, Beginner/Intermediate.
+- **Page language**: EN by default, with a working EN | PT toggle in the header (`js/i18n.js`, same mechanism and `vc_lang` localStorage key as the homepage — the language persists across pages). The HTML copy stays in English; PT lives only in the i18n dictionary.
 - **Modules**: 01 Foundations — Storytelling and Character Design · 02 ZBrush — Blockout and Chibi Proportions · 03 ZBrush — Sculpting, Detailing, and Expression · 04 Final Render — Lighting, Scene, and Visual Storytelling.
 - **Bonuses**: Reference sheet pack, Custom brush pack, HDRI lighting pack (sunset), 30% off TopoGun 3 Perpetual License.
 
@@ -20,6 +21,7 @@ character-design-baby-allosaurus/
 ├── index.html      — all markup; sections marked with <!-- SECTION: name -->
 ├── css/styles.css  — all styles; sections marked with /* SECTION: name */
 ├── js/main.js      — scroll-reveal + sticky CTA + mobile menu (shared with other LPs; DO NOT EDIT)
+├── js/i18n.js      — EN | PT toggle: [selector, EN, PT] dictionary, persists in localStorage (vc_lang)
 ├── images/         — webp assets + hero mp4
 ├── fonts/          — Inter + Outfit woff2 (400/500/600/700)
 └── AI-STUDIO.md    — this file
@@ -53,6 +55,7 @@ Typography: Inter (sans), Outfit (display). Radii: 28px cards, 32px large cards,
 - CTA destination: all conversion links go to the Hotmart checkout above.
 - Honesty rules: no fabricated urgency, no countdowns, no fake enrollment numbers, no job/income guarantees. Testimonials only if real and authorized.
 - No inline CSS or JS. No base64 images.
+- CRITICAL i18n RULE: any copy edit in `index.html` MUST be mirrored in the matching EN value in `js/i18n.js` (and its PT translation updated), otherwise the toggle silently overwrites the edit with the old string. Never rename the `vc_lang` key or rewrite the toggle mechanism.
 
 ## 6. Adding new sections
 
