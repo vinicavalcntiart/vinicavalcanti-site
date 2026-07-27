@@ -215,6 +215,8 @@ ul { list-style: none; }
   transition: color .15s;
 }
 .site-header__links > a:hover { color: var(--color-text); }
+.site-header__links > a.btn--members { color: var(--color-white); }
+.site-header__links > a.btn--members:hover { color: var(--color-white); }
 .site-header__lang {
   border-radius: var(--radius-pill);
   border: 1px solid rgba(0,0,0,.1);
