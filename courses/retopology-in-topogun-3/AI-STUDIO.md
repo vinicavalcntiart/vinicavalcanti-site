@@ -9,7 +9,7 @@ Guia para qualquer IA (Google AI Studio, Claude, etc.) editar este projeto sem q
 - **Público:** artistas 3D de nível intermediário (EN/NA), que já modelam mas travam ou perdem tempo na retopologia.
 - **CTA único:** todos os botões de compra apontam para `https://pay.hotmart.com/S105526894H`.
 - **Preço:** $39 · one-time · lifetime access · 15-day money-back guarantee.
-- **Idioma da página:** inglês. Curso em EN com legendas PT.
+- **Idioma da página:** EN por padrão, com toggle EN | PT funcional no header (`js/i18n.js`, mesmo mecanismo e chave `vc_lang` do localStorage da homepage — o idioma persiste entre páginas). O HTML fica em inglês; o PT vive só no dicionário do i18n. Curso em EN com legendas PT.
 - **Specs do curso:** 3h de vídeo · 4 módulos · Intermediate · TopoGun 3.
 - **Bônus (único):** 30% off na TopoGun 3 Perpetual License para todos os alunos.
 
@@ -20,6 +20,7 @@ Guia para qualquer IA (Google AI Studio, Claude, etc.) editar este projeto sem q
 ├── index.html        ← página completa, seções marcadas com <!-- SECTION: nome -->
 ├── css/styles.css    ← todos os estilos; tokens no :root
 ├── js/main.js        ← scroll reveal, menu mobile, sticky CTA, guard do vídeo. NÃO EDITAR.
+├── js/i18n.js        ← toggle EN | PT: dicionário [seletor, EN, PT], persiste no localStorage (vc_lang)
 ├── images/           ← webp + mp4 (caminhos relativos ./images/...)
 └── fonts/            ← Inter e Outfit em woff2 (400/500/600/700)
 ```
@@ -67,6 +68,7 @@ Nota: os nomes das variáveis continuam `--color-navy*` por compatibilidade com 
 - Estrutura de pastas e caminhos relativos.
 - CTA: todo link de compra aponta para o checkout Hotmart ou âncora `#pricing`.
 - Honestidade: sem countdown, sem vagas falsas, sem garantia de emprego/renda. Reembolso de 15 dias é real (política Hotmart do produto).
+- REGRA CRÍTICA do i18n: qualquer edição de texto no `index.html` DEVE ser espelhada no valor EN correspondente do `js/i18n.js` (e a tradução PT atualizada), senão o toggle sobrescreve a edição com o texto antigo. Nunca renomear a chave `vc_lang` nem reescrever o mecanismo do toggle.
 
 ## 6. Como adicionar novas seções
 
