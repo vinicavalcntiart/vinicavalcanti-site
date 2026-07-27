@@ -411,7 +411,7 @@ ul { list-style: none; }
 .module-card p { margin-top: 0.625rem; font-size: 0.875rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
 
 /* SECTION: identity --------------------------------------------------------------------------- */
-.identity__grid { display: grid; gap: 2.5rem; align-items: center; }
+.identity__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.5rem; align-items: center; }
 @media (min-width: 768px) { .identity__grid { grid-template-columns: 0.85fr 1.15fr; } }
 .identity__media img {
   border-radius: var(--radius-card-lg);
@@ -419,7 +419,7 @@ ul { list-style: none; }
   background: rgba(255,255,255,.06);
   padding: 10px;
   box-shadow: var(--shadow-xl);
-  max-width: 26rem;
+  max-width: min(26rem, 100%);
   margin-inline: auto;
 }
 @media (min-width: 768px) { .identity__media img { margin-inline: 0; } }
