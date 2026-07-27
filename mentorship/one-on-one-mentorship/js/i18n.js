@@ -209,11 +209,15 @@
       });
     });
     document.documentElement.setAttribute('lang', lang === 'pt' ? 'pt-BR' : 'en');
+    document.querySelectorAll('.site-header__lang').forEach(function (btn) {
+      btn.innerHTML = lang === 'pt' ? 'EN | <strong>PT</strong>' : '<strong>EN</strong> | PT';
+      btn.setAttribute('aria-label', lang === 'pt' ? 'Mudar idioma para inglês' : 'Switch language to Portuguese');
+    });
   }
 
   var lang = 'en';
   try { lang = localStorage.getItem(STORAGE_KEY) || 'en'; } catch (e) { /* private mode */ }
-  if (lang === 'pt') apply('pt');
+  apply(lang);
 
   document.querySelectorAll('.site-header__lang').forEach(function (btn) {
     btn.addEventListener('click', function () {
