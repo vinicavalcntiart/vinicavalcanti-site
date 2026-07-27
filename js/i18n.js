@@ -49,7 +49,8 @@
     ['.mship-billboard__text', "Over 10 weeks, you'll receive direct, one-on-one guidance from a Senior Character Artist who works in the industry every day. You'll build a complete character from the very first blockout to a portfolio-ready final piece, with feedback and support at every stage of the process.", 'Ao longo de 10 semanas, voc\u00ea recebe orienta\u00e7\u00e3o direta e individual de um Senior Character Artist que trabalha na ind\u00fastria todos os dias. Voc\u00ea vai construir um personagem completo, do primeiro blockout at\u00e9 uma pe\u00e7a final pronta para o portf\u00f3lio, com feedback e suporte em cada etapa do processo.'],
     ['.mship-billboard__tag', "This is not a course. It's a mentorship.", 'Isso n\u00e3o \u00e9 um curso. \u00c9 uma mentoria.'],
     ['#mentorship-cta', 'Start Now!', 'Come\u00e7ar Agora!'],
-    ['.mship-billboard__price span', 'Investment', 'Investimento'],
+    ['.mship-billboard__price span:nth-child(1)', 'Investment', 'Investimento'],
+    ['.mship-billboard__price .hero__price-note', 'or 3 payments', 'ou 3x'],
 
     ['#testimonials .eyebrow', 'Students', 'Alunos'],
     ['#testimonials .section__head h2', 'Artists already on their way.', 'Artistas j\u00e1 a caminho.'],
