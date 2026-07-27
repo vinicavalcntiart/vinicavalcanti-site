@@ -30,11 +30,19 @@
   var burger = document.getElementById('nav-burger');
   var mobileMenu = document.getElementById('mobile-menu');
   if (burger && mobileMenu) {
+    var setMenuOpen = function (open) {
+      mobileMenu.hidden = !open;
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    };
     burger.addEventListener('click', function () {
-      var isOpen = !mobileMenu.hidden;
-      mobileMenu.hidden = isOpen;
-      burger.setAttribute('aria-expanded', String(!isOpen));
-      burger.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
+      setMenuOpen(mobileMenu.hidden);
+    });
+    mobileMenu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { setMenuOpen(false); });
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && !mobileMenu.hidden) setMenuOpen(false);
     });
   }
 

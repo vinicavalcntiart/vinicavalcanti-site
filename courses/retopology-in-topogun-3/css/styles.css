@@ -248,6 +248,7 @@ ul { list-style: none; }
   padding: 0.5rem 1rem 1rem;
   border-top: 1px solid rgba(0,0,0,.05);
 }
+.site-header__mobile[hidden] { display: none; }
 .site-header__mobile > a {
   padding: 0.75rem 0.5rem;
   font-size: 0.9375rem;
@@ -257,6 +258,7 @@ ul { list-style: none; }
 }
 .site-header__mobile > a:active { background: rgba(0,0,0,.05); }
 .site-header__mobile .btn--members { margin-top: 0.5rem; text-align: center; }
+.site-header__mobile .site-header__lang { margin-top: 0.5rem; align-self: center; }
 @media (min-width: 768px) { .site-header__mobile { display: none !important; } }
 
 /* SECTION: pattern overlay (triangle grid, light on navy) ------------------------------ */
