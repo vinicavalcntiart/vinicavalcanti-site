@@ -8,7 +8,7 @@ Instructions for any AI (Google AI Studio, Claude, etc.) editing this project. R
 - **Goal**: Convert visitors into buyers via the Hotmart checkout.
 - **Audience**: Aspiring and junior character artists (international, English-speaking).
 - **Primary CTA**: `https://pay.hotmart.com/J105527673H` — ALL buy buttons point here. Do not add other conversion destinations.
-- **Language**: English only. Do not translate copy without authorization.
+- **Language**: EN by default, with a working EN | PT toggle in the header (`js/i18n.js`, same mechanism and `vc_lang` localStorage key as the homepage — the language persists across pages). The HTML copy stays in English; PT lives only in the i18n dictionary.
 - **Parent brand**: vinicavalcanti.com. Header and footer are faithful replicas of the root site and must stay identical to it.
 
 ## 2. File map
@@ -18,6 +18,7 @@ Instructions for any AI (Google AI Studio, Claude, etc.) editing this project. R
 ├── index.html        — single-page LP, sections marked with <!-- SECTION: name -->
 ├── css/styles.css    — all styling; tokens in :root; sections mirror HTML section names
 ├── js/main.js        — vanilla JS: reveal, mobile menu, video autoplay guard, sticky CTA
+├── js/i18n.js        — EN | PT toggle: [selector, EN, PT] dictionary, persists in localStorage (vc_lang)
 ├── images/           — webp assets + Turnable_Zbrush.mp4
 ├── fonts/            — Inter + Outfit woff2 (400/500/600/700)
 └── AI-STUDIO.md      — this file
@@ -54,6 +55,7 @@ The navy is used only for hero, identity section, and final CTA band. Everything
 - No inline CSS or JS. No frameworks. No base64 images.
 - Honesty rules: no fake urgency, no countdowns, no invented enrollment numbers, no job/income guarantees.
 - `prefers-reduced-motion` handling in CSS and JS (accessibility requirement).
+- CRITICAL i18n RULE: any copy edit in `index.html` MUST be mirrored in the matching EN value in `js/i18n.js` (and its PT translation updated), otherwise the toggle silently overwrites the edit with the old string. Never rename the `vc_lang` key or rewrite the toggle mechanism.
 
 ## 6. How to add a new section
 
