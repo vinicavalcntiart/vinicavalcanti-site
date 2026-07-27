@@ -77,5 +77,5 @@ Seguir o padrão: `<section class="section" id="nome"><div class="container">...
 ## 7. Pendências
 
 - [ ] Comprimir `Turnable_Topogun.mp4` (7.5MB → 2-3MB: H.264 CRF 26-28, `-movflags +faststart`, sem áudio).
-- [ ] Exportar poster real do primeiro frame: `images/topogun-poster-1280x720.webp` (usado como poster do vídeo e og:image).
+- [x] Poster real exportado do primeiro frame do vídeo: `images/topogun-poster-720x720.webp` (720x720, mesma proporção do vídeo; usado como poster do vídeo e og:image). O nome antigo `topogun-poster-1280x720.webp` nunca existiu (era 404).
 - [ ] Opcional: OG image dedicada 1200×630.
