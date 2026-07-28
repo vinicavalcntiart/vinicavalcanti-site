@@ -27,7 +27,7 @@ Textos, preços, ordem dos cursos, imagens (mantendo dimensões e nomes descriti
 ## 6. O que NÃO pode ser alterado
 Paleta, tipografia, logo, estrutura de pastas, caminhos relativos (`./images/...`), CSS minificado, honestidade do copy (sem countdown, sem vagas falsas, sem promessa de emprego/renda), CTAs dos cursos para as páginas individuais em vinicavalcanti.com.
 
-EXCEÇÃO DOCUMENTADA (analytics): o projeto proíbe JS inline, mas o snippet do Meta Pixel no `<head>` (todas as 5 páginas, id 999436976070756) é a exceção padrão para código base de analytics. NÃO remover o pixel nem o `js/pixel-events.js` achando que é violação da regra de inline JS.
+EXCEÇÃO DOCUMENTADA (analytics): o projeto proíbe JS inline, mas os snippets de analytics no `<head>` (todas as 5 páginas) são a exceção padrão para código base de analytics: Meta Pixel (id 999436976070756) e Google Analytics 4 / gtag.js (Measurement ID G-ZQB2W7YE9M). NÃO remover o pixel, o GA4 nem o `js/pixel-events.js` achando que é violação da regra de inline JS.
 
 ## 7. Como adicionar novas seções
 Seguir o padrão: `<section class="section" id="nome">` + `<div class="container">` + `<div class="section__head reveal">` com eyebrow + h2.h-display + p.section__lead. Cards usam `.card`/`.card--lg`. Adicionar `reveal` para animação de entrada. Marcar com `<!-- SECTION: nome -->` no HTML e `/* SECTION:nome */` no CSS.
