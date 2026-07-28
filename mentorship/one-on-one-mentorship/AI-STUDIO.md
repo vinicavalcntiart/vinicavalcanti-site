@@ -100,7 +100,7 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 - The design tokens in `:root` (palette, radii, fonts). Never introduce new accent colors.
 - Typography families (Inter/Outfit) or the `fonts/` files.
 - The logo (`images/logo_vini_cavalcanti_3D.webp`) and its placement in header/footer.
-- Folder structure and relative paths (`./css/`, `./js/`, `./images/`, `./fonts/`). Never inline CSS/JS, never embed images as base64.
+- Folder structure and relative paths (`./css/`, `./js/`, `./images/`, `./fonts/`). Never inline CSS/JS, never embed images as base64. DOCUMENTED EXCEPTION: the Meta Pixel base snippet in the `<head>` (analytics, id 999436976070756) is the standard exception to the no-inline-JS rule — do NOT remove it or `js/pixel-events.js` (fires InitiateCheckout on Hotmart CTA clicks).
 - The Hotmart checkout URLs, unless the owner provides new ones.
 - The honest-scarcity rule: no countdown timers, no fabricated spot counters, no job guarantees anywhere in the copy. The career section keeps approximate public-data salary ranges with its disclaimer footnote; never present salaries as outcomes of the program or remove the footnote.
 - The single-CTA principle: every link in the main flow leads to the Hotmart checkout (or anchors to `#pricing`). This includes the gallery images. Don't add competing CTAs (newsletter, socials, portfolio links, etc.).

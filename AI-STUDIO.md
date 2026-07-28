@@ -8,7 +8,7 @@ Homepage estática da Vini Cavalcanti School (plano B, domínio vinicavalcanti.a
 ## 2. Mapa de arquivos
 - `index.html` — página única, seções marcadas com `<!-- SECTION: nome -->` na ordem: header, hero, school, courses, mentorship, testimonials, faq, contact, footer.
 - `css/styles.css` — minificado, UMA regra por linha, blocos com `/* SECTION:nome */`. NUNCA reformatar (upload aborta com CSS expandido).
-- `js/main.js` — menu mobile, reveal on scroll. `js/contact.js` — envio do formulário FormSubmit com fallback POST. `js/i18n.js` — toggle EN | PT funcional: dicionário de seletores CSS com strings EN/PT, aplica innerHTML, persiste em localStorage (`vc_lang`) e troca o atributo lang do html. Ao editar textos da página, atualizar TAMBÉM o dicionário no i18n.js, senão o toggle sobrescreve a edição.
+- `js/main.js` — menu mobile, reveal on scroll. `js/contact.js` — envio do formulário FormSubmit com fallback POST. `js/i18n.js` — toggle EN | PT funcional: dicionário de seletores CSS com strings EN/PT, aplica innerHTML, persiste em localStorage (`vc_lang`) e troca o atributo lang do html. Ao editar textos da página, atualizar TAMBÉM o dicionário no i18n.js, senão o toggle sobrescreve a edição. `js/pixel-events.js` — Meta Pixel: dispara InitiateCheckout no clique de CTAs para pay.hotmart.com (arquivo compartilhado, idêntico em todas as páginas).
 - `images/` — webp. `fonts/` — 8 woff2 (Inter 400/500/600/700, Outfit 400/500/600/700).
 
 ## 3. Design tokens (NUNCA alterar sem autorização)
@@ -26,6 +26,8 @@ Textos, preços, ordem dos cursos, imagens (mantendo dimensões e nomes descriti
 
 ## 6. O que NÃO pode ser alterado
 Paleta, tipografia, logo, estrutura de pastas, caminhos relativos (`./images/...`), CSS minificado, honestidade do copy (sem countdown, sem vagas falsas, sem promessa de emprego/renda), CTAs dos cursos para as páginas individuais em vinicavalcanti.com.
+
+EXCEÇÃO DOCUMENTADA (analytics): o projeto proíbe JS inline, mas o snippet do Meta Pixel no `<head>` (todas as 5 páginas, id 999436976070756) é a exceção padrão para código base de analytics. NÃO remover o pixel nem o `js/pixel-events.js` achando que é violação da regra de inline JS.
 
 ## 7. Como adicionar novas seções
 Seguir o padrão: `<section class="section" id="nome">` + `<div class="container">` + `<div class="section__head reveal">` com eyebrow + h2.h-display + p.section__lead. Cards usam `.card`/`.card--lg`. Adicionar `reveal` para animação de entrada. Marcar com `<!-- SECTION: nome -->` no HTML e `/* SECTION:nome */` no CSS.

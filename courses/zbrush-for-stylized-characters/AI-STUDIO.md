@@ -52,7 +52,7 @@ The navy is used only for hero, identity section, and final CTA band. Everything
 - Header and footer markup, links, and styling (they mirror vinicavalcanti.com).
 - The single-CTA rule: every buy button → Hotmart checkout `J105527673H`.
 - Folder structure and relative paths (`./css/`, `./js/`, `./images/`, `./fonts/`).
-- No inline CSS or JS. No frameworks. No base64 images.
+- No inline CSS or JS. No frameworks. No base64 images. DOCUMENTED EXCEPTION: the Meta Pixel base snippet in the `<head>` (analytics, id 999436976070756) is the standard exception to the no-inline-JS rule — do NOT remove it or `js/pixel-events.js` (fires InitiateCheckout on Hotmart CTA clicks).
 - Honesty rules: no fake urgency, no countdowns, no invented enrollment numbers, no job/income guarantees.
 - `prefers-reduced-motion` handling in CSS and JS (accessibility requirement).
 - CRITICAL i18n RULE: any copy edit in `index.html` MUST be mirrored in the matching EN value in `js/i18n.js` (and its PT translation updated), otherwise the toggle silently overwrites the edit with the old string. Never rename the `vc_lang` key or rewrite the toggle mechanism.
