@@ -39,7 +39,7 @@ fbq('track', 'PageView');
 (function() {
   var _fbq = window.fbq;
   window.fbq = function() {
-    if (arguments[0] === 'track' && arguments[1] !== 'PageView') return;
+    if ((arguments[0] === 'track' || arguments[0] === 'trackCustom') && arguments[1] !== 'PageView') return;
     return _fbq.apply(this, arguments);
   };
   for (var k in _fbq) { window.fbq[k] = _fbq[k]; }
