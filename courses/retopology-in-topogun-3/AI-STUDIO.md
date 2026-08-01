@@ -69,7 +69,7 @@ Nota: os nomes das variáveis continuam `--color-navy*` por compatibilidade com 
 - CTA: todo link de compra aponta para o checkout Hotmart ou âncora `#pricing`.
 - Honestidade: sem countdown, sem vagas falsas, sem garantia de emprego/renda. Reembolso de 15 dias é real (política Hotmart do produto).
 - REGRA CRÍTICA do i18n: qualquer edição de texto no `index.html` DEVE ser espelhada no valor EN correspondente do `js/i18n.js` (e a tradução PT atualizada), senão o toggle sobrescreve a edição com o texto antigo. Nunca renomear a chave `vc_lang` nem reescrever o mecanismo do toggle.
-- EXCEÇÃO DOCUMENTADA (analytics): o snippet do Meta Pixel no `<head>` (id 999436976070756) é a exceção padrão à regra de sem JS inline — NÃO remover o pixel. O Pixel dispara APENAS PageView e só executa no domínio de produção (guard de hostname vinicavalcanti.com); o InitiateCheckout é responsabilidade exclusiva da integração nativa da Hotmart no checkout — NÃO readicionar esse evento na página.
+- EXCEÇÃO DOCUMENTADA (analytics): o snippet do Meta Pixel no `<head>` (id 999436976070756) é a exceção padrão à regra de sem JS inline — NÃO remover. A página NÃO carrega o fbevents.js: o PageView sai por image pixel direto dentro da trava de domínio de produção (o motor de inferência do fbevents.js gerava InitiateCheckout FALSO no clique dos CTAs, imune a autoConfig=false e a wrappers no window.fbq). Todo evento de funil nasce exclusivamente na integração nativa da Hotmart em pay.hotmart.com — NÃO reintroduzir fbevents.js/fbq na página.
 
 ## 6. Como adicionar novas seções
 

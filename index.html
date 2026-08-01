@@ -39,25 +39,10 @@
 <!-- Meta Pixel Code -->
 <script>
 if (window.location.hostname === 'vinicavalcanti.com' || window.location.hostname.endsWith('.vinicavalcanti.com')) {
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('set', 'autoConfig', 'false', '999436976070756');
-fbq('init', '999436976070756');
-fbq('track', 'PageView');
-(function() {
-  var _fbq = window.fbq;
-  window.fbq = function() {
-    if ((arguments[0] === 'track' || arguments[0] === 'trackCustom') && arguments[1] !== 'PageView') return;
-    return _fbq.apply(this, arguments);
-  };
-  for (var k in _fbq) { window.fbq[k] = _fbq[k]; }
-})();
+  var px = new Image();
+  px.src = 'https://www.facebook.com/tr?id=999436976070756&ev=PageView&dl='
+    + encodeURIComponent(location.href) + '&rl=' + encodeURIComponent(document.referrer)
+    + '&if=false&ts=' + Date.now();
 }
 </script>
 <noscript><img height="1" width="1" style="display:none"

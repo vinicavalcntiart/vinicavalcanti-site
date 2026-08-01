@@ -54,7 +54,7 @@ Typography: Inter (sans), Outfit (display). Radii: 28px cards, 32px large cards,
 - Folder structure and relative paths.
 - CTA destination: all conversion links go to the Hotmart checkout above.
 - Honesty rules: no fabricated urgency, no countdowns, no fake enrollment numbers, no job/income guarantees. Testimonials only if real and authorized.
-- No inline CSS or JS. No base64 images. DOCUMENTED EXCEPTION: the Meta Pixel base snippet in the `<head>` (analytics, id 999436976070756) is the standard exception to the no-inline-JS rule — do NOT remove it. The Pixel fires ONLY PageView and runs only on the production hostname (vinicavalcanti.com guard); InitiateCheckout is handled exclusively by Hotmart's native integration at checkout — do NOT re-add it on the page.
+- No inline CSS or JS. No base64 images. DOCUMENTED EXCEPTION: the Meta Pixel snippet in the `<head>` (analytics, id 999436976070756) is the standard exception to the no-inline-JS rule — do NOT remove it. The pages do NOT load fbevents.js: PageView is sent via a direct image pixel inside the production-hostname guard (fbevents' internal inference engine generated FALSE InitiateCheckout events on CTA clicks, immune to autoConfig=false and window.fbq wrappers). All funnel events (InitiateCheckout, Purchase) originate exclusively from Hotmart's native integration at pay.hotmart.com — do NOT reintroduce fbevents.js/fbq on the page.
 - CRITICAL i18n RULE: any copy edit in `index.html` MUST be mirrored in the matching EN value in `js/i18n.js` (and its PT translation updated), otherwise the toggle silently overwrites the edit with the old string. Never rename the `vc_lang` key or rewrite the toggle mechanism.
 
 ## 6. Adding new sections
