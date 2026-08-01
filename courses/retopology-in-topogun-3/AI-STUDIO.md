@@ -69,7 +69,7 @@ Nota: os nomes das variáveis continuam `--color-navy*` por compatibilidade com 
 - CTA: todo link de compra aponta para o checkout Hotmart ou âncora `#pricing`.
 - Honestidade: sem countdown, sem vagas falsas, sem garantia de emprego/renda. Reembolso de 15 dias é real (política Hotmart do produto).
 - REGRA CRÍTICA do i18n: qualquer edição de texto no `index.html` DEVE ser espelhada no valor EN correspondente do `js/i18n.js` (e a tradução PT atualizada), senão o toggle sobrescreve a edição com o texto antigo. Nunca renomear a chave `vc_lang` nem reescrever o mecanismo do toggle.
-- EXCEÇÃO DOCUMENTADA (analytics): o snippet do Meta Pixel no `<head>` (id 999436976070756) é a exceção padrão à regra de sem JS inline — NÃO remover o pixel nem o `js/pixel-events.js` (InitiateCheckout nos CTAs da Hotmart).
+- EXCEÇÃO DOCUMENTADA (analytics): o snippet do Meta Pixel no `<head>` (id 999436976070756) é a exceção padrão à regra de sem JS inline — NÃO remover o pixel. O Pixel dispara APENAS PageView e só executa no domínio de produção (guard de hostname vinicavalcanti.com); o InitiateCheckout é responsabilidade exclusiva da integração nativa da Hotmart no checkout — NÃO readicionar esse evento na página.
 
 ## 6. Como adicionar novas seções
 
