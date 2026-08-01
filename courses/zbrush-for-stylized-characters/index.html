@@ -51,6 +51,14 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '999436976070756');
 fbq('track', 'PageView');
+(function() {
+  var _fbq = window.fbq;
+  window.fbq = function() {
+    if (arguments[0] === 'track' && arguments[1] !== 'PageView') return;
+    return _fbq.apply(this, arguments);
+  };
+  for (var k in _fbq) { window.fbq[k] = _fbq[k]; }
+})();
 }
 </script>
 <noscript><img height="1" width="1" style="display:none"
