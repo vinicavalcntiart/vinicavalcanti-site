@@ -722,3 +722,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
   border-radius: 8px;
 }
 .hero a:focus-visible, .identity a:focus-visible, .final-cta--band a:focus-visible { outline-color: var(--color-white); }
+
+/* SECTION: included (intro course bundled) ------------------------------------------ */
+.included__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: center; }
+@media (min-width: 768px) { .included__grid { grid-template-columns: 0.45fr 1.55fr; } }
+.included__media img { border-radius: var(--radius-card-lg); border: 1px solid rgba(0,0,0,.05); box-shadow: var(--shadow-lg); max-width: min(18rem, 100%); margin-inline: auto; }
+.included__body h2 { font-size: 1.875rem; margin-top: 0.75rem; }
+.included__body p { margin-top: 1rem; max-width: 36rem; font-size: 1.0625rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }

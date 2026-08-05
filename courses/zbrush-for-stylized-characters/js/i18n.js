@@ -72,6 +72,10 @@
     ['#pricing-buy', 'Get this course', 'Quero este curso'],
     ['.pricing__scarcity', 'Secure checkout via Hotmart. Study at your own pace, come back to the lessons whenever you want.', 'Checkout seguro via Hotmart. Estude no seu ritmo e volte às aulas quando quiser.'],
 
+    ['#included .eyebrow', 'Also included', 'Também incluso'],
+    ['#included h2', 'Intro to ZBrush: Mushroom comes with it', 'O Intro to ZBrush: Mushroom vem junto'],
+    ['#included p', 'Never touched ZBrush? This course already includes the full <strong>Intro to ZBrush: Mushroom</strong> course <strong>($19 value)</strong> — 12 lessons from absolute zero, so you arrive at the stylized pipeline ready.', 'Nunca mexeu no ZBrush? Este curso já inclui o curso completo <strong>Intro to ZBrush: Mushroom</strong> <strong>(valor de $19)</strong> — 12 aulas do zero absoluto, para você chegar pronto ao pipeline estilizado.'],
+
     ['#faq .section__head h2', 'Frequently asked questions', 'Perguntas frequentes'],
     ['#faq .faq__item:nth-of-type(1) summary', 'Do I need prior experience in 3D? <span class="faq__icon">+</span>', 'Preciso de experiência prévia em 3D? <span class="faq__icon">+</span>'],
     ['#faq .faq__item:nth-of-type(1) .faq__answer', 'The course is designed for beginner and intermediate artists. Basic familiarity with ZBrush navigation helps, but every creative and technical decision is explained step by step.', 'O curso foi pensado para artistas iniciantes e intermediários. Familiaridade básica com a navegação do ZBrush ajuda, mas cada decisão criativa e técnica é explicada passo a passo.'],

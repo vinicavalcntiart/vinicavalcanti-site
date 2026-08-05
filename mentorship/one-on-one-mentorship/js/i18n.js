@@ -188,6 +188,11 @@
     { s: '#cf-message', attr: 'placeholder', en: 'How can I help?', pt: 'Como posso ajudar?' },
     { s: '#contact-submit', en: 'Send message', pt: 'Enviar mensagem' },
 
+    /* included (intro course bundled) */
+    { s: '#included .eyebrow', en: 'Also included', pt: 'Tamb&eacute;m incluso' },
+    { s: '#included h2', en: 'Intro to ZBrush: Mushroom comes with it', pt: 'O Intro to ZBrush: Mushroom vem junto' },
+    { s: '#included p', en: 'Starting from zero in ZBrush? The mentorship already includes the full <strong>Intro to ZBrush: Mushroom</strong> course <strong>($19 value)</strong> — 12 lessons to cover the basics before your one-on-one sessions begin.', pt: 'Come&ccedil;ando do zero no ZBrush? A mentoria j&aacute; inclui o curso completo <strong>Intro to ZBrush: Mushroom</strong> <strong>(valor de $19)</strong> &mdash; 12 aulas para cobrir a base antes de as suas sess&otilde;es one-on-one come&ccedil;arem.' },
+
     /* footer */
     { s: '.site-footer__links a:nth-child(1)', en: 'Courses', pt: 'Cursos' },
     { s: '.site-footer__links a:nth-child(2)', en: 'Mentorship', pt: 'Mentoria' },

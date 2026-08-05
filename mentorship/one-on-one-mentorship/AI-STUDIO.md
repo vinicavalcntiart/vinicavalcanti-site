@@ -46,6 +46,7 @@ mentorship-one-on-one/
 | `SECTION: mentor` | Photo, single-paragraph bio, studio + academic credentials | Authority |
 | `SECTION: fit` | Who this is for / not for (3 bullets each), "Your result" callout | Honest filtering, trust |
 | `SECTION: career` | Salary stats + salary-by-level, with data disclaimer. Blue band. | Justify the investment |
+| `SECTION: included` | Intro to ZBrush: Mushroom bundled ($19 value) — informational, no outbound CTA (single-CTA rule) | Value stack before the offer |
 | `SECTION: pricing` | Includes list, price, both Hotmart CTAs, scarcity note | Conversion |
 | `SECTION: faq` | 4 objection-killing questions | Objection handling |
 | `SECTION: final-cta` | Banner.webp visual + closing headline + both CTAs | Last push |
