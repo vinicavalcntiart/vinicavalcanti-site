@@ -742,3 +742,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .next-steps__card p { font-size: 0.9375rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
 .next-steps__note { font-weight: 600; color: var(--color-orange) !important; }
 .next-steps__card .btn { margin-top: auto; }
+
+/* SECTION: inside (annotated lesson screenshots) ------------------------------------ */
+.inside__list { display: grid; gap: 1.5rem; max-width: 56rem; margin-inline: auto; }
+.inside__list img { width: 100%; height: auto; border-radius: var(--radius-card); border: 1px solid rgba(0,0,0,.05); box-shadow: var(--shadow-md); background: var(--color-white); }

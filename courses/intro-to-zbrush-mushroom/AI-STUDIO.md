@@ -33,7 +33,7 @@ intro-to-zbrush-mushroom/
 └── fonts/            ← Inter e Outfit woff2 (400/500/600/700)
 ```
 
-Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
+Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards) · inside (3 screenshots anotados das aulas) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
 
 ## 4. Design tokens (NUNCA alterar sem autorização do Vini)
 
@@ -55,6 +55,6 @@ Específicos deste curso (sampleados do chapéu vermelho-tijolo da arte do cogum
 ## 6. Pendências
 
 - [ ] **BLOQUEANTE: trocar o checkout placeholder.** Todos os links `https://pay.hotmart.com/XXXXXXXXXX?sck=lp_mushroom` (hero, identity, pricing, final-cta, sticky-cta) devem receber o ID real do produto na Hotmart assim que criado. NÃO divulgar a página antes disso.
-- [ ] Substituir as artes provisórias (frames extraídos do vídeo) pelas oficiais quando os arquivos chegarem: capa quadrada (og:image + identity), capa wide 800x500 (card da home em `/images/course-Intro_Zbrush_Mushroom.webp`).
-- [ ] Adicionar seção "inside the course" com screenshots anotados das aulas (3–6 imagens 1280x720 webp) quando os arquivos chegarem.
+- [x] Artes oficiais aplicadas: capa quadrada 600x600 (identity + og:image + seções "Also included" das outras LPs) e capa wide 800x500 (card da home). O poster do vídeo segue sendo frame extraído (mesma proporção do vídeo, intencional).
+- [x] Seção "inside" adicionada com os 3 screenshots anotados das aulas.
 - [ ] OG image dedicada 1200×630 (gerar a partir da capa quadrada oficial).

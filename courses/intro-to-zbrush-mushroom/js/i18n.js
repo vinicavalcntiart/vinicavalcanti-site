@@ -57,6 +57,10 @@
     ['#grid-project article:nth-of-type(4) h3', 'Part 4 — Render and Export', 'Parte 4 — Render e Exportação'],
     ['#grid-project article:nth-of-type(4) p', 'Render your finished character and export it to share anywhere.', 'Renderize seu personagem finalizado e exporte para compartilhar onde quiser.'],
 
+    ['#inside .section__head .eyebrow', 'Inside the course', 'Por dentro do curso'],
+    ['#inside .section__head h2', 'Real lessons, drawn over the screen', 'Aulas reais, desenhadas sobre a tela'],
+    ['#inside .section__lead', 'Every concept is annotated live on top of ZBrush — you see exactly where to look and what matters.', 'Cada conceito é anotado ao vivo por cima do ZBrush — você vê exatamente para onde olhar e o que importa.'],
+
     ['.identity__body h2', 'Never opened ZBrush?<br>This was made for <span class="accent-orange">you</span>.', 'Nunca abriu o ZBrush?<br>Isto foi feito para <span class="accent-orange">você</span>.'],
     ['.identity__body p', 'No prior knowledge needed. Every lesson tells you WHAT you\'re learning, WHY it matters and the GOAL you should reach before moving on — a step-by-step method built so beginners never feel lost.', 'Nenhum conhecimento prévio necessário. Cada aula diz O QUE você está aprendendo, POR QUE isso importa e o OBJETIVO que você deve alcançar antes de avançar — um método passo a passo feito para iniciante não se perder.'],
     ['.identity__body .btn--inverse', 'Start from zero today', 'Comece do zero hoje'],
