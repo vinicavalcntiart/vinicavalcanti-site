@@ -35,7 +35,7 @@
     ['#courses .grid-3 article:nth-of-type(1) .course-card__ribbon', 'START HERE', 'COMECE AQUI'],
     ['#courses .grid-3 article:nth-of-type(1) .badge--level', 'Absolute Beginner', 'Iniciante Absoluto'],
     ['#courses .grid-3 article:nth-of-type(1) .badge--meta', '12 lessons', '12 aulas'],
-    ['#courses .grid-3 article:nth-of-type(1) .course-card__body > p', 'Your first steps in ZBrush, one concept at a time \u2014 finish your first complete character, sculpted, painted and rendered.', 'Seus primeiros passos no ZBrush, um conceito de cada vez \u2014 finalize seu primeiro personagem completo, esculpido, pintado e renderizado.'],
+    ['#courses .grid-3 article:nth-of-type(1) .course-card__body > p', 'Your first steps in ZBrush. Finish your first complete character: sculpted, painted and rendered.', 'Seus primeiros passos no ZBrush. Termine seu primeiro personagem completo: esculpido, pintado e renderizado.'],
     ['#courses .grid-3 article:nth-of-type(2) .badge--level', 'Beginner / Intermediate', 'Iniciante / Intermedi\u00e1rio'],
     ['#courses .grid-3 article:nth-of-type(3) .badge--level', 'Intermediate', 'Intermedi\u00e1rio'],
     ['#courses .grid-3 article:nth-of-type(4) .badge--level', 'Beginner / Intermediate', 'Iniciante / Intermedi\u00e1rio'],

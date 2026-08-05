@@ -746,3 +746,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 /* SECTION: inside (annotated lesson screenshots) ------------------------------------ */
 .inside__list { display: grid; gap: 1.5rem; max-width: 56rem; margin-inline: auto; }
 .inside__list img { width: 100%; height: auto; border-radius: var(--radius-card); border: 1px solid rgba(0,0,0,.05); box-shadow: var(--shadow-md); background: var(--color-white); }
+
+/* SECTION: blue accents (azul da logo para contraste com as bandas vermelho-tijolo) - */
+.eyebrow--course { background: var(--color-blue); }
+.hero .accent-orange, .identity__body .accent-orange { color: var(--color-blue); }
+.hero__price-value { color: var(--color-blue); }
+.hero .btn--primary { background: var(--color-blue); box-shadow: var(--shadow-xl); }
+.hero .btn--primary:hover { background: var(--color-blue-hover); }
+.btn--inverse { color: var(--color-blue); }
+.btn--inverse:hover { background: var(--color-blue-soft); }
