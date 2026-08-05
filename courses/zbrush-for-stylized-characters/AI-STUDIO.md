@@ -24,7 +24,7 @@ Instructions for any AI (Google AI Studio, Claude, etc.) editing this project. R
 └── AI-STUDIO.md      — this file
 ```
 
-HTML sections, in order: `header` (root replica) · `hero` (navy, autoplay turntable) · `studios` · `modules` · `identity` (navy) · `bonuses` · `included` (Intro to ZBrush: Mushroom bundled, $19 value — informational, no outbound CTA to respect the single-CTA rule) · `instructor` · `pricing` · `faq` · `final-cta` (navy) · `footer` (root replica) · `sticky-cta` (mobile).
+HTML sections, in order: `header` (root replica) · `hero` (navy, autoplay turntable) · `studios` · `modules` · `identity` (navy) · `bonuses` · `included` (Intro to ZBrush: Mushroom bundled, $19 value — informational, no outbound CTA to respect the single-CTA rule; styled as a `section--mushroom` band: brick red sampled from the Mushroom key art #A63A2B/#7E2418 + triangle pattern + blue eyebrow — that course's identity by design, do NOT convert it to this page's navy) · `instructor` · `pricing` · `faq` · `final-cta` (navy) · `footer` (root replica) · `sticky-cta` (mobile).
 
 ## 3. Design tokens (DO NOT CHANGE without authorization)
 

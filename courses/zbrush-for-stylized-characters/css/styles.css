@@ -724,8 +724,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .hero a:focus-visible, .identity a:focus-visible, .final-cta--band a:focus-visible { outline-color: var(--color-white); }
 
 /* SECTION: included (intro course bundled) ------------------------------------------ */
+/* Band carries the Intro to ZBrush: Mushroom identity: brick red sampled from that
+   course's key art (#A63A2B / #7E2418) + blue eyebrow — intentionally NOT this page's navy. */
+.section--mushroom { background: linear-gradient(150deg, #A63A2B 30%, #7E2418); color: var(--color-white); }
 .included__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: center; }
 @media (min-width: 768px) { .included__grid { grid-template-columns: 0.45fr 1.55fr; } }
-.included__media img { border-radius: var(--radius-card-lg); border: 1px solid rgba(0,0,0,.05); box-shadow: var(--shadow-lg); max-width: min(18rem, 100%); margin-inline: auto; }
-.included__body h2 { font-size: 1.875rem; margin-top: 0.75rem; }
-.included__body p { margin-top: 1rem; max-width: 36rem; font-size: 1.0625rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
+.included__media img { border-radius: var(--radius-card-lg); border: 1px solid rgba(255,255,255,.16); box-shadow: var(--shadow-xl); max-width: min(18rem, 100%); margin-inline: auto; }
+#included .eyebrow { background: var(--color-blue); color: var(--color-white); }
+.included__body h2 { font-size: 1.875rem; margin-top: 0.75rem; color: var(--color-white); }
+.included__body p { margin-top: 1rem; max-width: 36rem; font-size: 1.0625rem; line-height: var(--leading-relaxed); color: rgba(255,255,255,.75); }
+.included__body p strong { color: var(--color-white); }
