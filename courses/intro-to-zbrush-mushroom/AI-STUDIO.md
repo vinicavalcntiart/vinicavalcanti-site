@@ -11,7 +11,7 @@ Guia para qualquer IA (Google AI Studio, Claude, etc.) editar este projeto sem q
 - **Método (ângulo pedagógico da escola):** um conceito por aula; cada aula declara O QUE / POR QUE / OBJETIVO e termina com autoavaliação — o aluno sabe se está pronto antes de avançar.
 - **Preço:** $19 · one-time · lifetime · 15-day money-back guarantee.
 - **Specs:** 12 videoaulas gravadas · áudio EN · legendas EN e PT · ZBrush (qualquer versão recente).
-- **CTA único:** todos os botões de compra apontam para o checkout Hotmart deste produto com `?sck=lp_mushroom`. ATENÇÃO: o ID atual `XXXXXXXXXX` é PLACEHOLDER (ver Pendências).
+- **CTA único:** todos os botões de compra apontam para `https://pay.hotmart.com/O107028008C?sck=lp_mushroom`. Não adicionar outros destinos de conversão.
 - **Posicionamento no funil:** vendido separadamente por $19 E incluído de graça no ZBrush for Stylized Characters e na Mentoria. Por isso esta LP tem, DE PROPÓSITO, a seção `next-steps` com links para essas duas páginas — é a única LP autorizada a ter destinos secundários (é a porta de entrada do funil). Não replicar esse padrão nas outras LPs.
 - **Idioma da página:** EN por padrão, com toggle EN | PT funcional no header (`js/i18n.js`, mesma mecânica e chave `vc_lang` da homepage).
 
@@ -54,7 +54,7 @@ Específicos deste curso (sampleados do chapéu vermelho-tijolo da arte do cogum
 
 ## 6. Pendências
 
-- [ ] **BLOQUEANTE: trocar o checkout placeholder.** Todos os links `https://pay.hotmart.com/XXXXXXXXXX?sck=lp_mushroom` (hero, identity, pricing, final-cta, sticky-cta) devem receber o ID real do produto na Hotmart assim que criado. NÃO divulgar a página antes disso.
+- [x] Checkout real configurado: `O107028008C` em todos os CTAs (hero, identity, pricing, final-cta, sticky-cta). Página liberada para divulgação.
 - [x] Artes oficiais aplicadas: capa quadrada 600x600 (identity + og:image + seções "Also included" das outras LPs) e capa wide 800x500 (card da home). O poster do vídeo segue sendo frame extraído (mesma proporção do vídeo, intencional).
 - [x] Seção "inside" adicionada com os 3 screenshots anotados das aulas.
 - [ ] OG image dedicada 1200×630 (gerar a partir da capa quadrada oficial).
