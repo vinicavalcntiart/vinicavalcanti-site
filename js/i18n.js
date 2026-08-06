@@ -34,7 +34,7 @@
     ['#courses .section__lead', 'Each course covers one real stage of production, taught the same way it happens inside a studio. Lifetime access, 15-day money-back guarantee.', 'Cada curso cobre uma etapa real de produ\u00e7\u00e3o, ensinada do mesmo jeito que acontece dentro de um est\u00fadio. Acesso vital\u00edcio, garantia de reembolso de 15 dias.'],
     ['#courses .grid-3 article:nth-of-type(1) .course-card__ribbon', 'START HERE', 'COMECE AQUI'],
     ['#courses .grid-3 article:nth-of-type(1) .badge--level', 'Absolute Beginner', 'Iniciante Absoluto'],
-    ['#courses .grid-3 article:nth-of-type(1) .badge--meta', '12 lessons', '12 aulas'],
+    ['#courses .grid-3 article:nth-of-type(1) .badge--meta', '13 lessons', '13 aulas'],
     ['#courses .grid-3 article:nth-of-type(1) .course-card__body > p', 'Your first steps in ZBrush. Finish your first complete character: sculpted, painted and rendered.', 'Seus primeiros passos no ZBrush. Termine seu primeiro personagem completo: esculpido, pintado e renderizado.'],
     ['#courses .grid-3 article:nth-of-type(2) .badge--level', 'Beginner / Intermediate', 'Iniciante / Intermedi\u00e1rio'],
     ['#courses .grid-3 article:nth-of-type(3) .badge--level', 'Intermediate', 'Intermedi\u00e1rio'],

@@ -10,15 +10,18 @@ Guia para qualquer IA (Google AI Studio, Claude, etc.) editar este projeto sem q
 - **Resultado do aluno:** um personagem cogumelo completo — esculpido, pintado (polypaint) e renderizado.
 - **Método (ângulo pedagógico da escola):** um conceito por aula; cada aula declara O QUE / POR QUE / OBJETIVO e termina com autoavaliação — o aluno sabe se está pronto antes de avançar.
 - **Preço:** $19 · one-time · lifetime · 15-day money-back guarantee.
-- **Specs:** 12 videoaulas gravadas · áudio EN · legendas EN e PT · ZBrush (qualquer versão recente).
+- **Specs:** 13 videoaulas gravadas · áudio EN · legendas EN e PT · ZBrush (qualquer versão recente).
 - **CTA único:** todos os botões de compra apontam para `https://pay.hotmart.com/O107028008C?sck=lp_mushroom`. Não adicionar outros destinos de conversão.
 - **Posicionamento no funil:** vendido separadamente por $19 E incluído de graça no ZBrush for Stylized Characters e na Mentoria. Por isso esta LP tem, DE PROPÓSITO, a seção `next-steps` com links para essas duas páginas — é a única LP autorizada a ter destinos secundários (é a porta de entrada do funil). Não replicar esse padrão nas outras LPs.
 - **Idioma da página:** EN por padrão, com toggle EN | PT funcional no header (`js/i18n.js`, mesma mecânica e chave `vc_lang` da homepage).
 
-## 2. Currículo (12 aulas — fonte da verdade)
+## 2. Currículo (13 aulas — fonte da verdade)
 
 Fundamentos (1–8): 01 How ZBrush Works - Canvas, Edit Mode and Tools · 02 Advanced Navigation and Sculpting Setup · 03 Subdivision and Essential Brushes · 04 Masks and Polygroups · 05 Gizmo, Transpose and Canvas Setup · 06 SubTools and Symmetry · 07 DynaMesh and Resolution · 08 ZRemesher and Polypaint.
 Projeto final (9–12): Cute Mushroom — Part 1 Blocking · Part 2 Shaping and Face · Part 3 Details and Polypaint · Part 4 Render and Export.
+Bônus (13): The Cartoon Outline Look — acabamento de desenho 2D com contorno cartoon, direto no ZBrush (o look da arte de capa).
+
+REGRA DE COPY (aula bônus): NUNCA descrever a técnica ou o workflow do outline em nenhum texto do site (nada de duplicação, normais ou qualquer passo). A copy vende o RESULTADO ("that hand-drawn cartoon look, straight inside ZBrush"); o como é segredo do curso.
 
 ## 3. Mapa de arquivos
 
@@ -33,7 +36,7 @@ intro-to-zbrush-mushroom/
 └── fonts/            ← Inter e Outfit woff2 (400/500/600/700)
 ```
 
-Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards) · inside (3 screenshots anotados das aulas) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
+Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards + card bônus 13 full-width `module-card--bonus`) · inside (3 screenshots anotados das aulas) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
 
 ## 4. Design tokens (NUNCA alterar sem autorização do Vini)
 

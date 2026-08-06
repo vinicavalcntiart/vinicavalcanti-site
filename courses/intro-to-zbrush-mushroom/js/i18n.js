@@ -17,7 +17,7 @@
     ['.hero__badges .eyebrow--course', 'Course', 'Curso'],
     ['.hero__badges span:nth-child(2)', 'Absolute Beginner', 'Iniciante Absoluto'],
     ['.hero__badges span:nth-child(3)', 'EN (EN/PT Subtitles)', 'EN (Legendas EN/PT)'],
-    ['.hero__badges span:nth-child(4)', '12 lessons', '12 aulas'],
+    ['.hero__badges span:nth-child(4)', '13 lessons', '13 aulas'],
     ['.hero h1', 'Intro to ZBrush: <span class="accent-orange">Mushroom</span>.', 'Intro to ZBrush: <span class="accent-orange">Mushroom</span>.'],
     ['.hero__sub', 'Your first steps in ZBrush. Start from zero and finish your first complete character: sculpted, painted and rendered.', 'Seus primeiros passos no ZBrush. Comece do zero e termine seu primeiro personagem completo: esculpido, pintado e renderizado.'],
     ['#hero-buy', 'Get this course', 'Quero este curso'],
@@ -27,9 +27,9 @@
 
     ['.studios__line', 'Taught by a <strong>Senior Character Artist</strong> who lives this process every day inside real studios.', 'Ensinado por um <strong>Senior Character Artist</strong> que vive esse processo todos os dias dentro de estúdios reais.'],
 
-    ['#modules .section__head .eyebrow', '12 lessons included', '12 aulas incluídas'],
+    ['#modules .section__head .eyebrow', '13 lessons included', '13 aulas incluídas'],
     ['#modules .section__head h2', 'One concept per lesson', 'Um conceito por aula'],
-    ['#modules .section__lead', 'Every lesson states its goal and ends with a self-check, so you know when you are ready to move on. Lessons 1 to 8 build the foundations, tool by tool. Lessons 9 to 12 are the final project.', 'Cada aula declara seu objetivo e termina com uma autoavaliação, assim você sabe quando está pronto para avançar. As aulas 1 a 8 constroem os fundamentos, ferramenta por ferramenta. As aulas 9 a 12 são o projeto final.'],
+    ['#modules .section__lead', 'Every lesson states its goal and ends with a self-check, so you know when you are ready to move on. Lessons 1 to 8 build the foundations, tool by tool. Lessons 9 to 12 are the final project. Lesson 13 is a bonus: the cartoon outline look.', 'Cada aula declara seu objetivo e termina com uma autoavaliação, assim você sabe quando está pronto para avançar. As aulas 1 a 8 constroem os fundamentos, ferramenta por ferramenta. As aulas 9 a 12 são o projeto final. A aula 13 é um bônus: o visual de contorno cartoon.'],
     ['#modules .modules__block-title:nth-of-type(1)', 'Foundations', 'Fundamentos'],
     ['#grid-foundations article:nth-of-type(1) h3', 'How ZBrush Works', 'Como o ZBrush Funciona'],
     ['#grid-foundations article:nth-of-type(1) p', 'Canvas, Edit Mode and Tools. Understand the logic that makes ZBrush different.', 'Canvas, Edit Mode e Tools. Entenda a lógica que faz o ZBrush ser diferente.'],
@@ -56,6 +56,8 @@
     ['#grid-project article:nth-of-type(3) p', 'Surface details and full color, painted inside ZBrush.', 'Detalhes de superfície e cor completa, pintados dentro do ZBrush.'],
     ['#grid-project article:nth-of-type(4) h3', 'Part 4: Render and Export', 'Parte 4: Render e Exportação'],
     ['#grid-project article:nth-of-type(4) p', 'Render your finished character and export it to share anywhere.', 'Renderize seu personagem finalizado e exporte para compartilhar onde quiser.'],
+    ['#grid-project article:nth-of-type(5) h3', 'Bonus: The Cartoon Outline Look', 'Bônus: O Visual de Contorno Cartoon'],
+    ['#grid-project article:nth-of-type(5) p', 'Give your sculpt that hand-drawn cartoon look, with the outline you see on the course cover, straight inside ZBrush.', 'Dê à sua escultura aquele acabamento de desenho à mão, com o contorno que você vê na capa do curso, direto dentro do ZBrush.'],
 
     ['#inside .section__head .eyebrow', 'Inside the course', 'Por dentro do curso'],
     ['#inside .section__head h2', 'Real lessons, drawn over the screen', 'Aulas reais, desenhadas sobre a tela'],
@@ -74,12 +76,13 @@
 
     ['.pricing__badges .badge--limited', 'Lifetime access', 'Acesso vitalício'],
     ['.pricing__badges .badge--oneonone', 'EN · EN/PT Subtitles', 'EN · Legendas EN/PT'],
-    ['.pricing__includes li:nth-child(1)', '12 recorded video lessons', '12 videoaulas gravadas'],
+    ['.pricing__includes li:nth-child(1)', '13 recorded video lessons', '13 videoaulas gravadas'],
     ['.pricing__includes li:nth-child(2)', 'From absolute zero, no experience needed', 'Do zero absoluto, nenhuma experiência necessária'],
     ['.pricing__includes li:nth-child(3)', 'Complete final project: sculpt, paint and render', 'Projeto final completo: esculpir, pintar e renderizar'],
-    ['.pricing__includes li:nth-child(4)', 'Stated goal and self-check in every lesson', 'Objetivo declarado e autoavaliação em cada aula'],
-    ['.pricing__includes li:nth-child(5)', 'English audio with English and Portuguese subtitles', 'Áudio em inglês com legendas em inglês e português'],
-    ['.pricing__includes li:nth-child(6)', '15-day money-back guarantee', 'Garantia de reembolso de 15 dias'],
+    ['.pricing__includes li:nth-child(4)', 'Bonus lesson: the cartoon outline look', 'Aula bônus: o visual de contorno cartoon'],
+    ['.pricing__includes li:nth-child(5)', 'Stated goal and self-check in every lesson', 'Objetivo declarado e autoavaliação em cada aula'],
+    ['.pricing__includes li:nth-child(6)', 'English audio with English and Portuguese subtitles', 'Áudio em inglês com legendas em inglês e português'],
+    ['.pricing__includes li:nth-child(7)', '15-day money-back guarantee', 'Garantia de reembolso de 15 dias'],
     ['.pricing__price-note', 'one-time payment', 'pagamento único'],
     ['#pricing-buy', 'Get this course', 'Quero este curso'],
     ['.pricing__scarcity', 'Secure checkout via Hotmart. Study at your own pace, come back to the lessons whenever you want.', 'Checkout seguro via Hotmart. Estude no seu ritmo e volte às aulas quando quiser.'],
@@ -109,7 +112,7 @@
     ['#faq .faq__item:nth-of-type(6) summary', 'What if I\'m not happy with the course? <span class="faq__icon">+</span>', 'E se eu não gostar do curso? <span class="faq__icon">+</span>'],
     ['#faq .faq__item:nth-of-type(6) .faq__answer', 'You have a 15-day money-back guarantee after purchase, with plenty of time to explore the content and decide whether it\'s the right fit for you.', 'Você tem garantia de reembolso de 15 dias após a compra, com tempo de sobra para explorar o conteúdo e decidir se é para você.'],
 
-    ['.final-cta h2', 'Twelve lessons. One cute mushroom.<br>Your first finished character.', 'Doze aulas. Um cogumelo fofo.<br>Seu primeiro personagem finalizado.'],
+    ['.final-cta h2', 'Thirteen lessons. One cute mushroom.<br>Your first finished character.', 'Treze aulas. Um cogumelo fofo.<br>Seu primeiro personagem finalizado.'],
     ['.final-cta .container > p', 'The easiest way to find out if 3D character art is for you.', 'O jeito mais fácil de descobrir se arte de personagens 3D é para você.'],
     ['#final-buy', 'Get this course for $19', 'Quero este curso por $19'],
 

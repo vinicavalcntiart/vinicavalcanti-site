@@ -409,6 +409,9 @@ ul { list-style: none; }
 .module-card--blue .module-card__num { color: var(--color-blue); background: var(--color-blue-soft); }
 .module-card h3 { font-size: 1.0625rem; font-weight: 600; letter-spacing: var(--tracking-tight); }
 .module-card p { margin-top: 0.625rem; font-size: 0.875rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
+.module-card--bonus { grid-column: 1 / -1; background: var(--color-blue-soft); }
+.module-card--bonus .module-card__num { color: var(--color-white); background: var(--color-blue); }
+.module-card--bonus p { max-width: 34rem; }
 
 /* SECTION: identity --------------------------------------------------------------------------- */
 .identity__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.5rem; align-items: center; }
@@ -679,6 +682,7 @@ ul { list-style: none; }
   }
   .module-card:hover .module-card__num { background: var(--color-orange); color: var(--color-white); }
   .module-card--blue:hover .module-card__num { background: var(--color-blue); color: var(--color-white); }
+  .module-card--bonus:hover .module-card__num { background: var(--color-blue-hover); color: var(--color-white); }
   .module-card__num { transition: background .2s, color .2s; }
   .studios__row span, .instructor__pills span { transition: background .2s, color .2s, box-shadow .2s; }
   .studios__row span:hover, .instructor__pills span:hover {
