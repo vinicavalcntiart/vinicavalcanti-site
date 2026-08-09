@@ -52,6 +52,8 @@ mentorship-one-on-one/
 | `SECTION: final-cta` | Banner.webp visual + closing headline + both CTAs | Last push |
 | `SECTION: contact` | Contact form (name/email/message), orange band + pattern, FormSubmit backend | Secondary conversion / questions |
 | `SECTION: discord` | Banner da comunidade: banda azul (`--color-blue` gradiente) + pattern-light, selo branco circular com a logo do Discord, CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Última seção antes do footer | Community / retention |
+
+PROMOÇÃO ATIVA: cupom **MENTORSHIP20** (20% off, "por tempo limitado" — promoção REAL autorizada pelo Vini em 2026-08-09, não é urgência falsa). Elementos: `.hero__promo` (pill no hero, variante clara laranja-soft) e `.promo-banner` (card no pricing) + 3 entradas i18n. Quando acabar, remover elementos E entradas i18n.
 | `SECTION: footer` | Logo, links to root site, tagline | Brand consistency |
 
 Removed in v6 (do not restore without explicit request): `problem` (its headline moved to the video section) and `testimonials` (the previous quotes were illustrative/fictional; the section returns only when real mentee quotes exist).

@@ -27,6 +27,7 @@
     { s: '.hero__cta-row .btn--primary', en: 'Sign up now!', pt: 'Inscreva-se agora!' },
     { s: '.hero__price-label', en: 'Investment', pt: 'Investimento' },
     { s: '.hero__price-note', en: 'or 3 payments', pt: 'ou 3x' },
+    { s: '.hero__promo', en: 'Limited time: <strong>20% off</strong> with coupon <strong>MENTORSHIP20</strong>', pt: 'Por tempo limitado: <strong>20% de desconto</strong> com o cupom <strong>MENTORSHIP20</strong>' },
 
     /* video */
     { s: '.video-section .eyebrow', en: 'Watch first', pt: 'Assista primeiro' },
@@ -156,6 +157,8 @@
     { s: '#pricing .pricing__includes li:nth-child(4)', en: 'Structured weekly lessons on the learning platform', pt: 'Aulas semanais estruturadas na plataforma' },
     { s: '#pricing .pricing__includes li:nth-child(5)', en: 'One complete character: blockout to final render', pt: 'Um personagem completo: do blockout ao render final' },
     { s: '#pricing .pricing__includes li:nth-child(6)', en: 'Portfolio-focused review in the final week', pt: 'Review focado em portf&oacute;lio na &uacute;ltima semana' },
+    { s: '.promo-banner__tag', en: 'Limited time', pt: 'Por tempo limitado' },
+    { s: '.promo-banner p', en: 'Get <strong>20% off</strong> with coupon <strong class="promo-banner__code">MENTORSHIP20</strong> at checkout.', pt: 'Use o cupom <strong class="promo-banner__code">MENTORSHIP20</strong> no checkout e ganhe <strong>20% de desconto</strong>.' },
     { s: '#pricing .pricing__price-note', en: 'one payment, or split in 3', pt: 'pagamento &uacute;nico, ou em 3x' },
     { s: '#pricing .pricing__cta .btn--primary', en: 'Sign up now!', pt: 'Inscreva-se agora!' },
     { s: '#pricing .pricing__cta .btn--secondary', en: 'Sign up now! 3 payments', pt: 'Inscreva-se agora! Em 3x' },
