@@ -257,3 +257,13 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
 /* SECTION: structural hooks */
 .hero,.instructor,.tstm,.faq{}
+/* SECTION: discord (school community banner) */
+.discord-banner{background:linear-gradient(150deg,var(--color-blue) 30%,var(--color-blue-hover));color:var(--color-white);}
+.discord-banner__inner{display:grid;gap:1.5rem;justify-items:center;text-align:center;}
+@media (min-width:768px){.discord-banner__inner{grid-template-columns:auto 1fr auto;align-items:center;justify-items:start;text-align:left;gap:2rem;}}
+.discord-banner__badge{width:5.5rem;height:5.5rem;border-radius:50%;background:var(--color-white);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-lg);}
+.discord-banner__badge img{width:3.25rem;height:auto;display:block;}
+.discord-banner__body h2{color:var(--color-white);font-size:1.875rem;}
+.discord-banner__body p{margin-top:0.5rem;max-width:34rem;color:rgba(255,255,255,.8);line-height:var(--leading-relaxed);}
+#discord .btn--inverse{color:var(--color-blue);}
+#discord .btn--inverse:hover{background:var(--color-blue-soft);}

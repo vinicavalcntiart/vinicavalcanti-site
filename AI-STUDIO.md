@@ -19,6 +19,7 @@ Laranja `#EF7722` (hover `#d9661b`, soft `#FFF2E7`, grad `#F9A335`). Azul `#0CA6
 - **mentorship**: banda escura full-width `mship-billboard` com pattern triangular branco (`section--pattern-light`), tudo centralizado: brand eyebrow laranja, arte `mentorship_image.webp` como banner arredondado no topo (21/9 em desktop), badges Season 2 / Limited Spots / One-on-One, título grande, CTA "Start Now!" e preço $600.
 - **testimonials**: 4 cards editoriais com avatar de iniciais (gradiente laranja/azul), nome+cargo no topo, citação com frase-chave marcada (`span.hl`, marca-texto), aspas decorativas no canto. Cards 2 e 3 com fundo tintado (blue-soft / orange-soft); em desktop os cards pares descem 1.5rem (stagger). Depoimentos reais e autorizados. Não inventar novos.
 - **contact**: fundo laranja soft com pattern triangular laranja (`section--pattern-orange`); hover do botão full-width do formulário é translateY(-2px), sem scale.
+- **discord** (entre testimonials e faq): banner da comunidade em banda azul (`--color-blue` gradiente) + `section--pattern-light`, selo branco circular com a logo do Discord (`images/discord-logo.webp`), CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Réplica do mesmo banner existe na LP da mentoria (última seção antes do footer).
 - Demais seções: header/footer são réplica do root, não alterar entre versões.
 
 ## 5. O que pode ser editado

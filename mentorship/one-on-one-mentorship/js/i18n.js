@@ -193,6 +193,11 @@
     { s: '#included h2', en: 'Intro to ZBrush: Mushroom comes with it', pt: 'O Intro to ZBrush: Mushroom vem junto' },
     { s: '#included p', en: 'Starting from zero in ZBrush? The mentorship already includes the full <strong>Intro to ZBrush: Mushroom</strong> course <strong>($19 value)</strong>: 13 lessons to cover the basics before your one-on-one sessions begin.', pt: 'Come&ccedil;ando do zero no ZBrush? A mentoria j&aacute; inclui o curso completo <strong>Intro to ZBrush: Mushroom</strong> <strong>(valor de $19)</strong>: 13 aulas para cobrir a base antes de as suas sess&otilde;es one-on-one come&ccedil;arem.' },
 
+    /* discord (school community banner) */
+    { s: '#discord h2', en: 'Join the school\'s Discord', pt: 'Entre no Discord da escola' },
+    { s: '#discord p', en: 'Share your progress, ask questions and meet other artists learning 3D. Free for everyone.', pt: 'Compartilhe seu progresso, tire d&uacute;vidas e conhe&ccedil;a outros artistas aprendendo 3D. Gratuito para todos.' },
+    { s: '#discord .btn', en: 'Join the Discord', pt: 'Entrar no Discord' },
+
     /* footer */
     { s: '.site-footer__links a:nth-child(1)', en: 'Courses', pt: 'Cursos' },
     { s: '.site-footer__links a:nth-child(2)', en: 'Mentorship', pt: 'Mentoria' },

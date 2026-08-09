@@ -72,6 +72,10 @@
       'Vini\'s classes <span class="hl">really elevated the level of my work</span>, especially in how I see the entire process. The retopology part with TopoGun became much clearer. Today, I have a much better understanding of edge loop flow and how to prepare meshes with animation and game performance in mind.',
       'As aulas do Vini <span class="hl">elevaram muito o n\u00edvel do meu trabalho</span>, principalmente em como eu enxergo o processo inteiro. A parte de retopologia com o TopoGun ficou muito mais clara. Hoje entendo muito melhor o fluxo de edge loops e como preparar meshes pensando em anima\u00e7\u00e3o e performance de game.'],
 
+    ['#discord h2', 'Join the school\'s Discord', 'Entre no Discord da escola'],
+    ['#discord p', 'Share your progress, ask questions and meet other artists learning 3D. Free for everyone.', 'Compartilhe seu progresso, tire dúvidas e conheça outros artistas aprendendo 3D. Gratuito para todos.'],
+    ['#discord .btn', 'Join the Discord', 'Entrar no Discord'],
+
     ['#faq .section__head h2', 'Frequently asked questions', 'Perguntas frequentes'],
     ['#faq .section__lead', "If you still have questions, they're probably answered right here.", 'Se voc\u00ea ainda tem d\u00favidas, provavelmente elas est\u00e3o respondidas aqui.'],
     ['#faq .faq-item:nth-of-type(1) summary span:first-child', 'Do I need prior experience in 3D?', 'Preciso de experi\u00eancia pr\u00e9via em 3D?'],
