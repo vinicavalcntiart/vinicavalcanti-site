@@ -55,7 +55,11 @@ Específicos deste curso (sampleados do chapéu vermelho-tijolo da arte do cogum
 - REGRA CRÍTICA do i18n: qualquer edição de texto no `index.html` DEVE ser espelhada no valor EN correspondente do `js/i18n.js` (e a tradução PT atualizada), senão o toggle sobrescreve a edição. Nunca renomear a chave `vc_lang` nem reescrever o mecanismo.
 - EXCEÇÃO DOCUMENTADA (analytics): a página NÃO carrega fbevents.js — o PageView do Meta Pixel sai por image pixel direto dentro da trava de domínio de produção (o motor de inferência do fbevents gerava InitiateCheckout falso). Todo evento de funil nasce na integração nativa da Hotmart. NÃO reintroduzir fbevents.js/fbq. GA4 (gtag.js) no head é a exceção padrão de analytics.
 
-## 6. Pendências
+## 6. Promoção ativa
+
+- Cupom **ZBRUSH10** (10% off, "por tempo limitado" — promoção REAL autorizada pelo Vini em 2026-08-09, não é urgência falsa). Elementos: `.hero__promo` (pill no hero) e `.promo-banner` (card no pricing) + 3 entradas i18n. Quando a promoção acabar, remover esses elementos E as entradas i18n correspondentes nas DUAS LPs (esta e a do ZBrush for Stylized Characters).
+
+## 7. Pendências
 
 - [x] Checkout real configurado: `O107028008C` em todos os CTAs (hero, identity, pricing, final-cta, sticky-cta). Página liberada para divulgação.
 - [x] Artes oficiais aplicadas: capa quadrada 600x600 (identity + og:image + seções "Also included" das outras LPs) e capa wide 800x500 (card da home). O poster do vídeo segue sendo frame extraído (mesma proporção do vídeo, intencional).

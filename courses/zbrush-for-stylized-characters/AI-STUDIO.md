@@ -75,7 +75,11 @@ The navy is used only for hero, identity section, and final CTA band. Everything
 2. Reusable classes: `.card`, `.grid-4`, `.eyebrow--orange/--blue`, `.badge--*`, `.btn--primary/--inverse/--members`, `.reveal` (scroll animation), `.section--orange` (soft orange bg), `.section--navy` + `.section--pattern-light` (navy band with triangle pattern).
 3. Add matching CSS under a `/* SECTION: my-section */` comment in `styles.css`.
 
-## 7. Known pendências
+## 7. Active promotion
+
+- Coupon **ZBRUSH10** (10% off, "limited time" — REAL promotion authorized by Vini on 2026-08-09, not fake urgency). Elements: `.hero__promo` (hero pill) and `.promo-banner` (pricing card) + 3 i18n entries. When the promotion ends, remove these elements AND the matching i18n entries on BOTH LPs (this one and Intro to ZBrush: Mushroom).
+
+## 8. Known pendências
 
 - `Turnable_Zbrush.mp4` is ~10 MB — should be compressed to ~2-3 MB (H.264, CRF 26-28) and/or a webm variant added.
 - Poster frame currently uses `images/1280x720.webp` (course cover art); a real first-frame poster from the video would be better.

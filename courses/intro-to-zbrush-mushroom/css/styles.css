@@ -772,3 +772,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .discord-banner__body p { margin-top: 0.5rem; max-width: 34rem; color: rgba(255,255,255,.8); line-height: var(--leading-relaxed); }
 #discord .btn--inverse { color: var(--color-blue); }
 #discord .btn--inverse:hover { background: var(--color-blue-soft); }
+
+/* SECTION: promo (limited-time coupon ZBRUSH10) */
+.hero__promo { margin-top: 1.125rem; display: inline-flex; align-items: center; border-radius: var(--radius-pill); background: rgba(255,255,255,.1); box-shadow: inset 0 0 0 1px rgba(255,255,255,.22); padding: 0.5rem 1.125rem; font-size: 0.875rem; color: rgba(255,255,255,.9); }
+.hero__promo strong { color: var(--color-white); margin-inline: 0.25rem; }
+.promo-banner { display: flex; flex-wrap: wrap; align-items: center; gap: 0.625rem 0.875rem; background: var(--color-orange-soft); border: 1px dashed rgba(239,119,34,.45); border-radius: 16px; padding: 0.875rem 1.25rem; margin-top: 1.5rem; }
+.promo-banner__tag { display: inline-flex; border-radius: var(--radius-pill); background: var(--color-orange); color: var(--color-white); font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: var(--tracking-widest); padding: 0.25rem 0.75rem; }
+.promo-banner p { font-size: 0.9375rem; color: rgba(0,0,0,.7); }
+.promo-banner__code { background: var(--color-white); border: 1px solid rgba(239,119,34,.35); border-radius: 8px; padding: 0.125rem 0.5rem; letter-spacing: 0.06em; color: var(--color-orange); white-space: nowrap; }
