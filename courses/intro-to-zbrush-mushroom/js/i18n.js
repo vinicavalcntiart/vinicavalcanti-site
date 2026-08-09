@@ -98,6 +98,10 @@
     ['#next-steps .next-steps__card:nth-of-type(2) .btn', 'See the mentorship ($600)', 'Ver a mentoria ($600)'],
     ['.next-steps__note', 'Includes Intro to ZBrush: Mushroom ($19 value)', 'Inclui o Intro to ZBrush: Mushroom (valor de $19)'],
 
+    ['#discord h2', 'Join the school\'s Discord', 'Entre no Discord da escola'],
+    ['#discord p', 'Share your progress, ask questions and meet other artists learning 3D. Free for everyone.', 'Compartilhe seu progresso, tire dúvidas e conheça outros artistas aprendendo 3D. Gratuito para todos.'],
+    ['#discord .btn', 'Join the Discord', 'Entrar no Discord'],
+
     ['#faq .section__head h2', 'Frequently asked questions', 'Perguntas frequentes'],
     ['#faq .faq__item:nth-of-type(1) summary', 'Do I need any experience in 3D or ZBrush? <span class="faq__icon">+</span>', 'Preciso de alguma experiência em 3D ou ZBrush? <span class="faq__icon">+</span>'],
     ['#faq .faq__item:nth-of-type(1) .faq__answer', 'No. This course was designed for absolute beginners. It starts from opening ZBrush for the first time and explains every concept before using it.', 'Não. Este curso foi feito para iniciantes absolutos. Começa em abrir o ZBrush pela primeira vez e explica cada conceito antes de usá-lo.'],

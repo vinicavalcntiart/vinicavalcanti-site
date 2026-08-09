@@ -742,6 +742,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .next-steps__grid { display: grid; gap: 1.5rem; }
 @media (min-width: 768px) { .next-steps__grid { grid-template-columns: repeat(2, 1fr); } }
 .next-steps__card { padding: 2rem; display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; }
+.next-steps__media { width: 100%; }
+.next-steps__media img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: calc(var(--radius-card) - 12px); }
 .next-steps__card h3 { font-family: var(--font-display); font-size: 1.375rem; font-weight: 700; letter-spacing: var(--tracking-tight); }
 .next-steps__card p { font-size: 0.9375rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
 .next-steps__note { font-weight: 600; color: var(--color-orange) !important; }
@@ -759,3 +761,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .hero .btn--primary:hover { background: var(--color-blue-hover); }
 .btn--inverse { color: var(--color-blue); }
 .btn--inverse:hover { background: var(--color-blue-soft); }
+
+/* SECTION: discord (school community banner) */
+.discord-banner { background: linear-gradient(150deg, var(--color-blue) 30%, var(--color-blue-hover)); color: var(--color-white); }
+.discord-banner__inner { display: grid; gap: 1.5rem; justify-items: center; text-align: center; }
+@media (min-width: 768px) { .discord-banner__inner { grid-template-columns: auto 1fr auto; align-items: center; justify-items: start; text-align: left; gap: 2rem; } }
+.discord-banner__badge { width: 5.5rem; height: 5.5rem; border-radius: 50%; background: var(--color-white); display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg); }
+.discord-banner__badge img { width: 3.25rem; height: auto; display: block; }
+.discord-banner__body h2 { color: var(--color-white); font-size: 1.875rem; }
+.discord-banner__body p { margin-top: 0.5rem; max-width: 34rem; color: rgba(255,255,255,.8); line-height: var(--leading-relaxed); }
+#discord .btn--inverse { color: var(--color-blue); }
+#discord .btn--inverse:hover { background: var(--color-blue-soft); }

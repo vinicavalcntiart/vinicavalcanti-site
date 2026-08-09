@@ -36,7 +36,7 @@ intro-to-zbrush-mushroom/
 └── fonts/            ← Inter e Outfit woff2 (400/500/600/700)
 ```
 
-Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards + card bônus 13 full-width `module-card--bonus`) · inside (3 screenshots anotados das aulas) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
+Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards + card bônus 13 full-width `module-card--bonus`) · inside (3 screenshots anotados das aulas) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria, cards com arte de capa `next-steps__media`) · discord (banner da comunidade: banda azul + pattern, logo do Discord recolorida em `--color-blue`, link externo https://discord.gg/MuEwrCS46r — autorizado como exceção extra de destino, junto com next-steps) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
 
 ## 4. Design tokens (NUNCA alterar sem autorização do Vini)
 
