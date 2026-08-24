@@ -10,8 +10,8 @@
     ['#nav-link-contact, #mobile-menu a[href="#contact"], .site-footer__links a[href="#contact"]', 'Contact', 'Contato'],
     ['#nav-members-desktop, #mobile-menu .btn--members', 'Members Area', '\u00c1rea de Membros'],
 
-    ['.hero--home h1', 'Learn to create <span class="accent-orange">memorable</span> 3D characters for games.', 'Aprenda a criar personagens 3D <span class="accent-orange">memor\u00e1veis</span> para games.'],
-    ['.hero__sub', 'A school dedicated to 3D character art for games, taught by someone who lives this process every day inside real studios.', 'Uma escola dedicada \u00e0 arte de personagens 3D para games, ensinada por algu\u00e9m que vive esse processo todos os dias dentro de est\u00fadios reais.'],
+    ['.hero--home h1', 'Learn to create <span class="accent-orange">memorable</span> 3D characters for games and animation.', 'Aprenda a criar personagens 3D <span class="accent-orange">memor\u00e1veis</span> para games e anima\u00e7\u00e3o.'],
+    ['.hero__sub', 'A school dedicated to 3D character art for games and animation, taught by someone who lives this process every day inside real studios.', 'Uma escola dedicada \u00e0 arte de personagens 3D para games e anima\u00e7\u00e3o, ensinada por algu\u00e9m que vive esse processo todos os dias dentro de est\u00fadios reais.'],
     ['#hero-courses', 'Explore Courses &darr;', 'Explorar Cursos &darr;'],
 
     ['#about .eyebrow', 'The School', 'A Escola'],
