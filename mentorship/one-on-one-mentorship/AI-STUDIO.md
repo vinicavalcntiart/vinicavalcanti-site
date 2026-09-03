@@ -47,6 +47,7 @@ mentorship-one-on-one/
 | `SECTION: fit` | Who this is for / not for (3 bullets each), "Your result" callout | Honest filtering, trust |
 | `SECTION: career` | Salary stats + salary-by-level, with data disclaimer. Blue band. | Justify the investment |
 | `SECTION: included` | Intro to ZBrush: Mushroom bundled ($19 value) — informational, no outbound CTA (single-CTA rule). Banda `section--mushroom`: vermelho-tijolo sampleado da arte do Mushroom (#A63A2B/#7E2418) + pattern triangular + eyebrow azul — identidade visual DAQUELE curso, intencional; não converter para as cores desta página | Value stack before the offer |
+| `SECTION: lifetime` | 3 cards limpos respondendo a objeção mais comum dos alunos ("como assim não pago mais nada?"): pagamento único e vitalício, one-on-one semanal até o projeto terminar, todo material novo incluso. Fica logo antes do pricing de propósito — derruba a dúvida antes do preço. Manter curto: 3 cards de uma linha + nota de fecho | Objection handling |
 | `SECTION: pricing` | Includes list, price, both Hotmart CTAs, scarcity note | Conversion |
 | `SECTION: faq` | 4 objection-killing questions | Objection handling |
 | `SECTION: final-cta` | Banner.webp visual + closing headline + both CTAs | Last push |

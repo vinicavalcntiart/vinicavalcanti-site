@@ -1103,3 +1103,16 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .promo-banner__tag { display: inline-flex; border-radius: var(--radius-pill); background: var(--color-orange); color: var(--color-white); font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: var(--tracking-widest); padding: 0.25rem 0.75rem; }
 .promo-banner p { font-size: 0.9375rem; color: rgba(0,0,0,.7); }
 .promo-banner__code { background: var(--color-white); border: 1px solid rgba(239,119,34,.35); border-radius: 8px; padding: 0.125rem 0.5rem; letter-spacing: 0.06em; color: var(--color-orange); white-space: nowrap; }
+
+/* SECTION: lifetime (what the single payment covers) */
+.lifetime__card { padding: 2rem; }
+.lifetime__icon {
+  width: 2rem; height: 2rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-pill);
+  background: var(--color-orange-soft); color: var(--color-orange);
+  font-weight: 700; font-size: 0.9375rem;
+}
+.lifetime__card h3 { margin-top: 1rem; font-size: 1.0625rem; font-weight: 600; letter-spacing: var(--tracking-tight); }
+.lifetime__card p { margin-top: 0.625rem; font-size: 0.9375rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
+.lifetime__note { margin: 2rem auto 0; max-width: 34rem; text-align: center; font-size: 1rem; font-weight: 600; color: rgba(0,0,0,.7); }

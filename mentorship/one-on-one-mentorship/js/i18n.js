@@ -148,6 +148,17 @@
     { s: '#career .career__level:nth-of-type(3) span:first-child', en: 'Senior', pt: 'S&ecirc;nior' },
     { s: '#career .career__note', en: '* Based on public US market data (Glassdoor, LinkedIn Salary). Salaries vary widely by country, studio and portfolio. This program teaches the craft; no income is guaranteed.', pt: '* Baseado em dados p&uacute;blicos do mercado dos EUA (Glassdoor, LinkedIn Salary). Sal&aacute;rios variam muito por pa&iacute;s, est&uacute;dio e portf&oacute;lio. Este programa ensina o of&iacute;cio; nenhuma renda &eacute; garantida.' },
 
+    /* lifetime (what the single payment covers) */
+    { s: '#lifetime .eyebrow', en: 'No surprises', pt: 'Sem surpresas' },
+    { s: '#lifetime .section__head h2', en: 'One payment. Nothing else, ever.', pt: 'Um pagamento. Nada al&eacute;m disso, nunca.' },
+    { s: '#lifetime .lifetime__card:nth-of-type(1) h3', en: 'Pay once, keep it for life', pt: 'Pague uma vez, &eacute; seu para sempre' },
+    { s: '#lifetime .lifetime__card:nth-of-type(1) p', en: 'Your access never expires and there is no renewal to worry about.', pt: 'Seu acesso nunca expira e n&atilde;o existe renova&ccedil;&atilde;o para se preocupar.' },
+    { s: '#lifetime .lifetime__card:nth-of-type(2) h3', en: 'Sessions until the project is done', pt: 'Sess&otilde;es at&eacute; o projeto ficar pronto' },
+    { s: '#lifetime .lifetime__card:nth-of-type(2) p', en: 'One live one-on-one every week, for as long as your character takes.', pt: 'Um one-on-one ao vivo por semana, pelo tempo que o seu personagem levar.' },
+    { s: '#lifetime .lifetime__card:nth-of-type(3) h3', en: 'New material always included', pt: 'Material novo sempre incluso' },
+    { s: '#lifetime .lifetime__card:nth-of-type(3) p', en: 'Every course or extra content added to the mentorship is already yours.', pt: 'Todo curso ou conte&uacute;do extra adicionado &agrave; mentoria j&aacute; &eacute; seu.' },
+    { s: '#lifetime .lifetime__note', en: 'No extra fees. Not for bonus content, not for extra sessions.', pt: 'Nenhuma taxa extra. Nem por conte&uacute;do b&ocirc;nus, nem por sess&otilde;es adicionais.' },
+
     /* pricing */
     { s: '#pricing .badge--limited', en: 'Limited Spots', pt: 'Vagas Limitadas' },
     { s: '#pricing .badge--oneonone', en: 'One-on-One Mentorship', pt: 'Mentoria One-on-One' },
