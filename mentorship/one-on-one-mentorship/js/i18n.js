@@ -150,7 +150,7 @@
 
     /* lifetime (what the single payment covers) */
     { s: '#lifetime .eyebrow', en: 'No surprises', pt: 'Sem surpresas' },
-    { s: '#lifetime .section__head h2', en: 'One payment. Nothing else, ever.', pt: 'Um pagamento. Nada al&eacute;m disso, nunca.' },
+    { s: '#lifetime .section__head h2', en: 'You pay once. Everything else is included.', pt: 'Voc&ecirc; paga uma vez. Todo o resto est&aacute; incluso.' },
     { s: '#lifetime .lifetime__card:nth-of-type(1) h3', en: 'Pay once, keep it for life', pt: 'Pague uma vez, &eacute; seu para sempre' },
     { s: '#lifetime .lifetime__card:nth-of-type(1) p', en: 'Your access never expires and there is no renewal to worry about.', pt: 'Seu acesso nunca expira e n&atilde;o existe renova&ccedil;&atilde;o para se preocupar.' },
     { s: '#lifetime .lifetime__card:nth-of-type(2) h3', en: 'Sessions until the project is done', pt: 'Sess&otilde;es at&eacute; o projeto ficar pronto' },
