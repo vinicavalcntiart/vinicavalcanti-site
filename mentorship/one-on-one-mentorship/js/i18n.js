@@ -77,8 +77,8 @@
 
     /* journey */
     { s: '#schedule .eyebrow', en: 'Mentorship schedule', pt: 'Cronograma da mentoria' },
-    { s: '#schedule .section__head h2', en: 'The 10-week journey', pt: 'A jornada de 10 semanas' },
-    { s: '#schedule .section__lead', en: 'A complete character pipeline: sculpture in ZBrush and Blender, texturing in Substance Painter, grooming and rendering in Houdini.', pt: 'Um pipeline completo de personagem: escultura no ZBrush e Blender, texturiza&ccedil;&atilde;o no Substance Painter, grooming e render no Houdini.' },
+    { s: '#schedule .section__head h2', en: 'The week-by-week journey', pt: 'A jornada semana a semana' },
+    { s: '#schedule .section__lead', en: 'A complete character pipeline: sculpture in ZBrush and Blender, texturing in Substance Painter, grooming and rendering in Houdini. The plan is laid out over 10 weeks, and your weekly sessions keep going until the character is finished.', pt: 'Um pipeline completo de personagem: escultura no ZBrush e Blender, texturiza&ccedil;&atilde;o no Substance Painter, grooming e render no Houdini. O plano est&aacute; organizado em 10 semanas, e as suas sess&otilde;es semanais continuam at&eacute; o personagem ficar pronto.' },
     { s: '#schedule .pipeline__item:nth-child(2) span', en: 'Retopology', pt: 'Retopologia' },
     { s: '#schedule .pipeline__item:nth-child(3) span', en: 'UVs &amp; Baking', pt: 'UVs &amp; Bake' },
     { s: '#schedule .pipeline__item:nth-child(4) span', en: 'Texturing', pt: 'Texturiza&ccedil;&atilde;o' },
