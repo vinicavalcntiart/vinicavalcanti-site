@@ -6,7 +6,8 @@ Guide for any AI (Google AI Studio, Claude, etc.) or human editor working on thi
 
 ## 1. Overview
 
-- **What**: Sales landing page for the **Vini Cavalcanti Mentorship Program (Season 2)**, a 10-week one-on-one mentorship in 3D character art.
+- **What**: Sales landing page for the **Vini Cavalcanti Mentorship Program (Season 2)**, a one-on-one mentorship in 3D character art.
+- **FORMATO REAL (fonte da verdade, corrigido em 2026-09-11 — NÃO reintroduzir "10 semanas" em lugar nenhum):** até **2 sessões ao vivo por semana** no Google Meet, agendadas no fuso do mentorado; as sessões continuam **até o personagem ficar pronto, sem prazo nem data final**; **acesso vitalício** às aulas da plataforma. O currículo tem 10 etapas (`Stage 1`…`Stage 10`), que são ORDEM de conteúdo, não semanas de calendário. Qualquer texto novo que implique duração fixa ou limite de uma sessão por semana está errado.
 - **Version**: v6.2. The page was deliberately shortened in v6 (less copy, more visuals, intro video); v6.1 added the color-band rhythm and the 3D mesh decoration (static pattern + animated icosahedron); v6.2 replaced the header with the homepage v2 header (full nav + EN | PT toggle + Members Area), added the contact form section and the site-wide language toggle (`js/i18n.js`), and shipped the mp4 video fallback. Do not re-inflate sections with long paragraphs; the short format is intentional.
 - **Goal**: Conversion. Funnel: capture attention (hero), video pitch in Vini's own words, differentiate the one-on-one format, show mechanism and visual proof, build trust (mentor), remove objections (fit, FAQ), justify investment (career), drive to a single repeated CTA.
 - **Audience**: Aspiring and junior 3D character artists in Europe and North America. Language: English.
@@ -47,7 +48,7 @@ mentorship-one-on-one/
 | `SECTION: fit` | Who this is for / not for (3 bullets each), "Your result" callout | Honest filtering, trust |
 | `SECTION: career` | Salary stats + salary-by-level, with data disclaimer. Blue band. | Justify the investment |
 | `SECTION: included` | Intro to ZBrush: Mushroom bundled ($19 value) — informational, no outbound CTA (single-CTA rule). Banda `section--mushroom`: vermelho-tijolo sampleado da arte do Mushroom (#A63A2B/#7E2418) + pattern triangular + eyebrow azul — identidade visual DAQUELE curso, intencional; não converter para as cores desta página | Value stack before the offer |
-| `SECTION: lifetime` | 3 cards limpos respondendo a objeção mais comum dos alunos ("como assim não pago mais nada?"): pagamento único e vitalício, one-on-one semanal até o projeto terminar, todo material novo incluso. Fica logo antes do pricing de propósito — derruba a dúvida antes do preço. Manter curto: 3 cards de uma linha + nota de fecho | Objection handling |
+| `SECTION: lifetime` | 3 cards limpos respondendo a objeção mais comum dos alunos ("como assim não pago mais nada?"): pagamento único e vitalício, até 2 one-on-one por semana até o projeto terminar, todo material novo incluso. Fica logo antes do pricing de propósito — derruba a dúvida antes do preço. Manter curto: 3 cards de uma linha + nota de fecho | Objection handling |
 | `SECTION: pricing` | Includes list, price, both Hotmart CTAs, scarcity note | Conversion |
 | `SECTION: faq` | 4 objection-killing questions | Objection handling |
 | `SECTION: final-cta` | Banner.webp visual + closing headline + both CTAs | Last push |
@@ -172,7 +173,7 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 ## 12. Software pills & pipeline strip
 
 - `SECTION: software` uses `.software__pill` components. Two logo treatments: horizontal wordmark logos (ZBrush, Blender, Houdini) use `.software__logo` (height 1.625rem, natural width, no duplicated text name; only the `.software__role` caption accompanies them); square icon logos (Substance Painter) add `.software__logo--icon` (2rem square) and keep the tool name text. Logo files: `Zbrush_Logo.webp`, `blender_logo.webp`, `SubstancePainter.webp`, `Houdini_black_color.webp`. When adding a tool, pick the treatment that matches the logo shape; keep logos on white.
-- The `.pipeline` strip at the top of `SECTION: journey` shows the 5 production stages with square-framed images: `Blockout.webp`, `Retopology.webp`, `UVs.webp`, `Texture.webp`, `Rendering.webp`, in pipeline order. Images use `object-fit: contain` on a white frame so full characters are never cropped; don't switch back to `cover`. It illustrates the course flow; it does not replace the 10-week module structure below it and must not contradict it. To swap a stage image, replace the file keeping the same name.
+- The `.pipeline` strip at the top of `SECTION: journey` shows the 5 production stages with square-framed images: `Blockout.webp`, `Retopology.webp`, `UVs.webp`, `Texture.webp`, `Rendering.webp`, in pipeline order. Images use `object-fit: contain` on a white frame so full characters are never cropped; don't switch back to `cover`. It illustrates the course flow; it does not replace the 10-stage module structure below it and must not contradict it. To swap a stage image, replace the file keeping the same name.
 - Both rows are flex-wrap and center-aligned; they stack naturally on mobile. Don't convert them to horizontal scroll containers.
 
 ## 13. Career section rules

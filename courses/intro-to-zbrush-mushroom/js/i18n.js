@@ -97,7 +97,7 @@
     ['#next-steps .next-steps__card:nth-of-type(1) > p:nth-of-type(1)', 'The complete process for designing and sculpting original stylized characters, from concept to final sculpt.', 'O processo completo para criar e esculpir personagens estilizados originais, do conceito ao sculpt final.'],
     ['#next-steps .next-steps__card:nth-of-type(1) .btn', 'See the course ($49)', 'Ver o curso ($49)'],
     ['#next-steps .next-steps__card:nth-of-type(2) h3', 'One-on-One Mentorship', 'Mentoria One-on-One'],
-    ['#next-steps .next-steps__card:nth-of-type(2) > p:nth-of-type(1)', 'Ten weeks of one-on-one guidance from a Senior Character Artist. You finish a portfolio-ready character with feedback every week.', 'Dez semanas de orientação individual de um Senior Character Artist. Você termina um personagem de portfólio com feedback toda semana.'],
+    ['#next-steps .next-steps__card:nth-of-type(2) > p:nth-of-type(1)', 'One-on-one guidance from a Senior Character Artist until your character is done. You finish a portfolio-ready character with feedback every week.', 'Orientação individual de um Senior Character Artist até o seu personagem ficar pronto. Você termina um personagem de portfólio com feedback toda semana.'],
     ['#next-steps .next-steps__card:nth-of-type(2) .btn', 'See the mentorship ($600)', 'Ver a mentoria ($600)'],
     ['.next-steps__note', 'Includes Intro to ZBrush: Mushroom ($19 value)', 'Inclui o Intro to ZBrush: Mushroom (valor de $19)'],
 
