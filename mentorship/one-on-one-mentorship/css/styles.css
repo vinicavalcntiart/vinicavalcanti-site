@@ -135,6 +135,7 @@ ul { list-style: none; }
 
 /* SECTION: typography utilities ---------------------------------------------- */
 .h-display {
+  font-family: var(--font-display);
   font-weight: 600;
   letter-spacing: var(--tracking-tight);
   line-height: var(--leading-tight);
@@ -1116,3 +1117,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .lifetime__card h3 { margin-top: 1rem; font-size: 1.0625rem; font-weight: 600; letter-spacing: var(--tracking-tight); }
 .lifetime__card p { margin-top: 0.625rem; font-size: 0.9375rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.6); }
 .lifetime__note { margin: 2rem auto 0; max-width: 34rem; text-align: center; font-size: 1rem; font-weight: 600; color: rgba(0,0,0,.7); }
+
+/* SECTION: gallery — project files block (two portrait artworks + copy) */
+.files { margin-top: 3.5rem; }
+.files__head { text-align: center; }
+.files__head h3 { margin-top: 0.875rem; font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; letter-spacing: var(--tracking-tight); line-height: var(--leading-tight); }
+@media (min-width: 640px) { .files__head h3 { font-size: 1.875rem; } }
+.files__head p { margin: 0.75rem auto 0; max-width: 34rem; font-size: 1.0625rem; line-height: var(--leading-relaxed); color: rgba(0,0,0,.65); }
+.files__art { margin: 1.75rem auto 0; max-width: 44rem; display: grid; gap: 1rem; grid-template-columns: 1fr; }
+@media (min-width: 480px) { .files__art { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; } }
+.files__art .gallery__item img { aspect-ratio: 2 / 3; }

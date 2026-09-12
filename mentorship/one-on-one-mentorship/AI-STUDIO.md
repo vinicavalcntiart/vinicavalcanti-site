@@ -43,7 +43,7 @@ mentorship-one-on-one/
 | `SECTION: how-it-works` | 4 cards, one sentence each | Mechanism |
 | `SECTION: software` | Logo pills: ZBrush, Blender, Substance Painter, Houdini | Tool credibility |
 | `SECTION: journey` | Pipeline image strip (5 stages) + 3 modules with topic-only week cards | Proof of structure |
-| `SECTION: gallery` | 3 character renders by Vini, linking to the Hotmart checkout | Visual proof of the pipeline |
+| `SECTION: gallery` | 3 character renders by Vini, linking to the Hotmart checkout. Below the caption, the `.files` block: two portrait artworks (`detective-mouse-full.webp` / `detective-mouse-closeup.webp`, 2:3, 900px wide) + eyebrow "Project files included" + copy stating mentees get access to the project files. Same `.gallery__item` styling and checkout link | Visual proof of the pipeline + project files perk |
 | `SECTION: mentor` | Photo, single-paragraph bio, studio + academic credentials | Authority |
 | `SECTION: fit` | Who this is for / not for (3 bullets each), "Your result" callout | Honest filtering, trust |
 | `SECTION: career` | Salary stats + salary-by-level, with data disclaimer. Blue band. | Justify the investment |
@@ -84,6 +84,8 @@ All tokens live in `:root` at the top of `css/styles.css`. They were extracted f
 | `--radius-pill` | `9999px` | Buttons, badges |
 
 Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0.025em` and `line-height: 1.25`. Body uses weight 400, `line-height: 1.6–1.625`, black at reduced opacity (`rgba(0,0,0,.6)` range). Inline emphasis inside paragraphs uses `<strong>` and `<em>` (see the mentor bio for the canonical pattern).
+
+- TIPOGRAFIA (corrigido em 2026-09-12): `.h-display` DEVE declarar `font-family: var(--font-display)` (Outfit). Sem isso os títulos caem em Inter e o Outfit nem é baixado, porque nada o referencia. Não remover.
 
 ## 4. Video section rules
 

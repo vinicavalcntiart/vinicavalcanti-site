@@ -108,9 +108,12 @@
     { s: '#schedule .module:nth-of-type(3) .week-card:nth-child(1) p', en: '<strong>Final Rendering &amp; Portfolio</strong>', pt: '<strong>Render Final &amp; Portf&oacute;lio</strong>' },
 
     /* gallery */
-    { s: '.gallery-section .eyebrow', en: "The standard you'll be chasing", pt: 'O padr&atilde;o que voc&ecirc; vai perseguir' },
+    { s: '.gallery-section .section__head .eyebrow', en: "The standard you'll be chasing", pt: 'O padr&atilde;o que voc&ecirc; vai perseguir' },
     { s: '.gallery-section .section__head h2', en: 'Characters built with this exact pipeline.', pt: 'Personagens constru&iacute;dos com exatamente este pipeline.' },
     { s: '.gallery__caption', en: 'Every one of these went through the pipeline you just read: sculpt, texture, groom, render. <strong>The next character to come out of it is yours.</strong>', pt: 'Cada um deles passou pelo pipeline que voc&ecirc; acabou de ler: escultura, textura, grooming, render. <strong>O pr&oacute;ximo personagem a sair dele &eacute; o seu.</strong>' },
+    { s: '.files__head .eyebrow', en: 'Project files included', pt: 'Project files inclusos' },
+    { s: '.files__head h3', en: 'You get the project files.', pt: 'Voc&ecirc; recebe os project files.' },
+    { s: '.files__head p', en: 'Mentees get access to the project files. Open them, study how each stage was built, and compare with your own work.', pt: 'Mentorados t&ecirc;m acesso aos project files. Abra, estude como cada etapa foi constru&iacute;da e compare com o seu pr&oacute;prio trabalho.' },
 
     /* mentor */
     { s: '.mentor .eyebrow', en: 'Your mentor', pt: 'Seu mentor' },
@@ -169,6 +172,7 @@
     { s: '#pricing .pricing__includes li:nth-child(5)', en: 'One complete character: blockout to final render', pt: 'Um personagem completo: do blockout ao render final' },
     { s: '#pricing .pricing__includes li:nth-child(6)', en: 'Portfolio-focused review at the end', pt: 'Review focado em portf&oacute;lio no fim' },
     { s: '#pricing .pricing__includes li:nth-child(7)', en: 'Lifetime access to every lesson', pt: 'Acesso vital&iacute;cio a todas as aulas' },
+    { s: '#pricing .pricing__includes li:nth-child(8)', en: 'Access to the project files', pt: 'Acesso aos project files' },
     { s: '.promo-banner__tag', en: 'Limited time', pt: 'Por tempo limitado' },
     { s: '.promo-banner p', en: 'Get <strong>20% off</strong> with coupon <strong class="promo-banner__code">MENTORSHIP20</strong> at checkout.', pt: 'Use o cupom <strong class="promo-banner__code">MENTORSHIP20</strong> no checkout e ganhe <strong>20% de desconto</strong>.' },
     { s: '#pricing .pricing__price-note', en: 'one payment, or split in 3', pt: 'pagamento &uacute;nico, ou em 3x' },
