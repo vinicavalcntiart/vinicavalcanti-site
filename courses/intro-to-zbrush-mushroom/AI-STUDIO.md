@@ -31,13 +31,13 @@ intro-to-zbrush-mushroom/
 ├── css/styles.css    ← tokens no :root; base copiada do template das LPs
 ├── js/main.js        ← reveal, menu mobile, sticky CTA, guard do vídeo. NÃO EDITAR (compartilhado).
 ├── js/i18n.js        ← toggle EN | PT: dicionário [seletor, EN, PT], localStorage (vc_lang)
-├── js/inside.js       ← carrossel "lesson player" da seção inside (só esta página). Pode editar.
+├── js/inside.js       ← troca da imagem principal do "lesson player" da seção inside (só esta página). Pode editar.
 ├── js/tracking-params.js ← auto-tag de origem + repasse ao checkout. NÃO EDITAR (compartilhado).
 ├── images/           ← Hero_Mushroom.mp4 (turntable comprimido), poster 800x800, render 600x600
 └── fonts/            ← Inter e Outfit woff2 (400/500/600/700)
 ```
 
-Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards + card bônus 13 full-width `module-card--bonus`) · inside (`#inside-player`: moldura escura estilo reprodutor com os 3 screenshots anotados num carrossel de scroll-snap, capítulos clicáveis Aula 01/03/09, setas no desktop, arrasto no mobile, contador 1/3. SEM botão de play de propósito: não há vídeo real; se o Vini mandar um clipe de aula, aí entra um play verdadeiro) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria, cards com arte de capa `next-steps__media`) · discord (banner da comunidade: banda azul + pattern, logo do Discord recolorida em `--color-blue`, link externo https://discord.gg/MuEwrCS46r — autorizado como exceção extra de destino, junto com next-steps) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
+Seções do index.html na ordem: header (réplica root, NÃO ALTERAR) · hero (banda vermelho-tijolo, vídeo turntable) · studios (NÃO ALTERAR) · modules (2 blocos: Foundations 8 cards + Final Project 4 cards + card bônus 13 full-width `module-card--bonus`) · inside (`#inside-player`: UMA moldura escura estilo reprodutor com as 3 screenshots ao mesmo tempo: a do cogumelo (Aula 09) é a principal, grande; as outras duas são miniaturas ao lado (desktop) ou abaixo (mobile) e trocam de lugar com a principal ao clicar. Decisão do Vini em 2026-10-07. SEM botão de play de propósito: não há vídeo real; se vier um clipe de aula, aí entra um play verdadeiro) · identity (banda vermelha: método para iniciantes) · instructor (NÃO ALTERAR, compartilhado) · pricing ($19) · next-steps (funil: stylized + mentoria, cards com arte de capa `next-steps__media`) · discord (banner da comunidade: banda azul + pattern, logo do Discord recolorida em `--color-blue`, link externo https://discord.gg/MuEwrCS46r — autorizado como exceção extra de destino, junto com next-steps) · faq (6 `<details>`) · final-cta · footer (réplica, NÃO ALTERAR) · sticky-cta mobile.
 
 ## 4. Design tokens (NUNCA alterar sem autorização do Vini)
 
