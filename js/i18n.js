@@ -13,6 +13,8 @@
     ['.hero--home h1', 'Learn to create <span class="accent-orange">memorable</span> 3D characters for games and animation.', 'Aprenda a criar personagens 3D <span class="accent-orange">memor\u00e1veis</span> para games e anima\u00e7\u00e3o.'],
     ['.hero__sub', 'A school dedicated to 3D character art for games and animation, taught by someone who lives this process every day inside real studios.', 'Uma escola dedicada \u00e0 arte de personagens 3D para games e anima\u00e7\u00e3o, ensinada por algu\u00e9m que vive esse processo todos os dias dentro de est\u00fadios reais.'],
     ['#hero-courses', 'Explore Courses &darr;', 'Explorar Cursos &darr;'],
+    ['#hero-mentorship', 'See the Mentorship', 'Ver a Mentoria'],
+    ['.hero__studios-label', 'Studios', 'Estúdios'],
 
     ['#about .eyebrow', 'The School', 'A Escola'],
     ['.instructor__body h2', "Learn from someone who's inside the industry, not just talking about it.", 'Aprenda com algu\u00e9m que est\u00e1 dentro da ind\u00fastria, n\u00e3o s\u00f3 falando sobre ela.'],
