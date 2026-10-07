@@ -25,7 +25,7 @@ Laranja `#EF7722` (hover `#d9661b`, soft `#FFF2E7`, grad `#F9A335`). Azul `#0CA6
 ## 5. O que pode ser editado
 Textos, preços, ordem dos cursos, imagens (mantendo dimensões e nomes descritivos), perguntas do FAQ.
 
-Copy enxuta (2026-10-07): bio do Vini em 2 parágrafos curtos + 4 pills (credenciais acadêmicas viraram pill), respostas do FAQ em 1-2 frases, lead dos depoimentos em 1 frase. Ao editar, manter esse tamanho; não voltar a inflar.
+Copy enxuta (2026-10-07): bio do Vini em 2 parágrafos curtos + 4 pills. OS TÍTULOS ACADÊMICOS (Master's M.A. Cand. in Creative Industries e Game Art Specialist, PG Dip) FICAM POR EXTENSO NO 2º PARÁGRAFO, além do pill: o Vini considera fator decisivo na escolha de professor; nunca remover do texto, respostas do FAQ em 1-2 frases, lead dos depoimentos em 1 frase. Ao editar, manter esse tamanho; não voltar a inflar.
 
 ## 6. O que NÃO pode ser alterado
 Paleta, tipografia, logo, estrutura de pastas, caminhos relativos (`./images/...`), CSS minificado, honestidade do copy (sem countdown, sem vagas falsas, sem promessa de emprego/renda), CTAs dos cursos para as páginas individuais em vinicavalcanti.com.
