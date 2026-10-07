@@ -16,7 +16,7 @@ Laranja `#EF7722` (hover `#d9661b`, soft `#FFF2E7`, grad `#F9A335`). Azul `#0CA6
 
 ## 4. Seções e decisões de layout
 - **hero**: mosaico 12x12 com 10 artes do portfólio. Destaques (6x6, lado a lado no topo): `vinicius-cavalcanti-boardinsta01-3.webp` (esquerda) e `portfolio-character.webp` (direita). Abaixo, 8 tiles 3x3 na ordem: novice, warden, foxboard, warrior, render, stars, wip, `vinicius-cavalcanti-board1-1_1x.webp`. Não reordenar sem recalcular as áreas (soma deve dar 144).
-- **mentorship**: banda escura full-width `mship-billboard` com pattern triangular branco (`section--pattern-light`), tudo centralizado: brand eyebrow laranja, arte `mentorship_image.webp` como banner arredondado no topo (21/9 em desktop), badges Season 2 / Limited Spots / One-on-One, título grande, CTA "Start Now!" e preço $600.
+- **mentorship**: banda escura full-width `mship-billboard` com pattern triangular branco (`section--pattern-light`), tudo centralizado: brand eyebrow laranja, arte `mentorship_image.webp` como banner arredondado no topo (21/9 em desktop), badges Season 2 / Limited Spots / One-on-One, título grande, CTA "Start Now!" e preço $600. Abaixo do lead, a linha `.mship-billboard__facts` (3 pills: até 2 sessões/semana, até o personagem ficar pronto, acesso vitalício) substituiu o parágrafo longo em 2026-10-07; os fatos vêm do formato real da mentoria (ver AI-STUDIO da LP). Não reintroduzir parágrafo nem "10 semanas".
 - **testimonials**: 4 cards editoriais com avatar de iniciais (gradiente laranja/azul), nome+cargo no topo, citação com frase-chave marcada (`span.hl`, marca-texto), aspas decorativas no canto. Cards 2 e 3 com fundo tintado (blue-soft / orange-soft); em desktop os cards pares descem 1.5rem (stagger). Depoimentos reais e autorizados. Não inventar novos.
 - **contact**: fundo laranja soft com pattern triangular laranja (`section--pattern-orange`); hover do botão full-width do formulário é translateY(-2px), sem scale.
 - **discord** (entre testimonials e faq): banner da comunidade em banda azul (`--color-blue` gradiente) + `section--pattern-light`, selo branco circular com a logo do Discord (`images/discord-logo.webp`), CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Réplica do mesmo banner existe na LP da mentoria (última seção antes do footer).
@@ -24,6 +24,8 @@ Laranja `#EF7722` (hover `#d9661b`, soft `#FFF2E7`, grad `#F9A335`). Azul `#0CA6
 
 ## 5. O que pode ser editado
 Textos, preços, ordem dos cursos, imagens (mantendo dimensões e nomes descritivos), perguntas do FAQ.
+
+Copy enxuta (2026-10-07): bio do Vini em 2 parágrafos curtos + 4 pills (credenciais acadêmicas viraram pill), respostas do FAQ em 1-2 frases, lead dos depoimentos em 1 frase. Ao editar, manter esse tamanho; não voltar a inflar.
 
 ## 6. O que NÃO pode ser alterado
 Paleta, tipografia, logo, estrutura de pastas, caminhos relativos (`./images/...`), CSS minificado, honestidade do copy (sem countdown, sem vagas falsas, sem promessa de emprego/renda), CTAs dos cursos para as páginas individuais em vinicavalcanti.com.

@@ -267,3 +267,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .discord-banner__body p{margin-top:0.5rem;max-width:34rem;color:rgba(255,255,255,.8);line-height:var(--leading-relaxed);}
 #discord .btn--inverse{color:var(--color-blue);}
 #discord .btn--inverse:hover{background:var(--color-blue-soft);}
+/* SECTION: mentorship — facts row (replaces the long paragraph) */
+.mship-billboard__facts{margin:1.25rem auto 0;display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;}
+.mship-billboard__facts li{display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1rem;border-radius:var(--radius-pill);background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);font-size:0.875rem;font-weight:500;color:rgba(255,255,255,.88);}
+.mship-billboard__facts li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--color-orange);flex:none;}
