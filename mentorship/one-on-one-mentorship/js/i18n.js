@@ -106,6 +106,14 @@
     { s: '#schedule .module:nth-of-type(2) .week-card:nth-child(3) p', en: '<strong>Advanced Grooming &amp; LookDev</strong>', pt: '<strong>Grooming Avan&ccedil;ado &amp; LookDev</strong>' },
     { s: '#schedule .module:nth-of-type(3) .week-card:nth-child(1) .week-card__label', en: 'Stage 10', pt: 'Etapa 10' },
     { s: '#schedule .module:nth-of-type(3) .week-card:nth-child(1) p', en: '<strong>Final Rendering &amp; Portfolio</strong>', pt: '<strong>Render Final &amp; Portf&oacute;lio</strong>' },
+    { s: '#schedule .module:nth-of-type(4) .module__title', en: 'Bonus modules, included at no extra cost', pt: 'M&oacute;dulos b&ocirc;nus, inclusos sem custo extra' },
+    { s: '#schedule .module:nth-of-type(4) .week-card .week-card__label', en: 'Bonus', pt: 'B&ocirc;nus' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(1) p:nth-of-type(1)', en: '<strong>Bonus Video: Head Sculpt</strong>', pt: '<strong>V&iacute;deo B&ocirc;nus: Escultura de Cabe&ccedil;a</strong>' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(1) p:nth-of-type(2)', en: 'A complete head sculpt, start to finish.', pt: 'Uma escultura de cabe&ccedil;a completa, do in&iacute;cio ao fim.' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(2) p:nth-of-type(1)', en: '<strong>Intro to ZBrush: Mushroom</strong>', pt: '<strong>Intro to ZBrush: Mushroom</strong>' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(2) p:nth-of-type(2)', en: 'The full 13-lesson course, $19 value.', pt: 'O curso completo de 13 aulas, valor de $19.' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(3) p:nth-of-type(1)', en: '<strong>Intro to Blender + Grease Pencil</strong>', pt: '<strong>Intro to Blender + Grease Pencil</strong>' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(3) p:nth-of-type(2)', en: 'Blender fundamentals plus Grease Pencil.', pt: 'Fundamentos do Blender mais Grease Pencil.' },
 
     /* gallery */
     { s: '.gallery-section .section__head .eyebrow', en: "The standard you'll be chasing", pt: 'O padr&atilde;o que voc&ecirc; vai perseguir' },

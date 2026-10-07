@@ -42,7 +42,7 @@ mentorship-one-on-one/
 | `SECTION: not-a-course` | 3-column comparison (recorded / cohort / 1-on-1) | Differentiation |
 | `SECTION: how-it-works` | 4 cards, one sentence each | Mechanism |
 | `SECTION: software` | Logo pills: ZBrush, Blender, Substance Painter, Houdini | Tool credibility |
-| `SECTION: journey` | Pipeline image strip (5 stages) + 3 modules with topic-only week cards | Proof of structure |
+| `SECTION: journey` | Pipeline image strip (5 stages) + 3 modules with topic-only stage cards, tinted per module (orange / blue / orange via `--mod` custom property on `.module`), + 4th `.module--bonus` listing the bonus modules that exist in the Hotmart members area (Head Sculpt video, Intro to ZBrush: Mushroom, Intro to Blender + Grease Pencil; dashed orange cards, solid BONUS pill). Keep the bonus list in sync with the Hotmart product | Proof of structure + value stack |
 | `SECTION: gallery` | 3 character renders by Vini, linking to the Hotmart checkout. Below the caption, the `.files` block: two portrait artworks (`detective-mouse-full.webp` / `detective-mouse-closeup.webp`, 2:3, 900px wide) + eyebrow "Project files included" + copy stating mentees get access to the project files. Same `.gallery__item` styling and checkout link | Visual proof of the pipeline + project files perk |
 | `SECTION: mentor` | Photo, single-paragraph bio, studio + academic credentials | Authority |
 | `SECTION: fit` | Who this is for / not for (3 bullets each), "Your result" callout | Honest filtering, trust |
