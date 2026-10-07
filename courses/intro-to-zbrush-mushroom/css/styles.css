@@ -750,8 +750,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .next-steps__card .btn { margin-top: auto; }
 
 /* SECTION: inside (annotated lesson screenshots) ------------------------------------ */
-.inside__list { display: grid; gap: 1.5rem; max-width: 56rem; margin-inline: auto; }
-.inside__list img { width: 100%; height: auto; border-radius: var(--radius-card); border: 1px solid rgba(0,0,0,.05); box-shadow: var(--shadow-md); background: var(--color-white); }
+.inside__list { display: grid; gap: 1.5rem; max-width: 60rem; margin-inline: auto; }
+@media (min-width: 768px) { .inside__list { grid-template-columns: repeat(2, 1fr); } .inside__item--wide { grid-column: 1 / -1; } }
+.inside__item { margin: 0; display: flex; flex-direction: column; background: var(--color-white); border: 1px solid rgba(0,0,0,.05); border-radius: var(--radius-card); box-shadow: var(--shadow-md); overflow: hidden; }
+.inside__frame { padding: 0.5rem 0.5rem 0; background: var(--color-white); }
+.inside__frame img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; object-position: top; border-radius: calc(var(--radius-card) - 8px); display: block; }
+.inside__item figcaption { display: flex; align-items: center; gap: 0.75rem; padding: 0.875rem 1.25rem 1rem; }
+.inside__tag { flex: none; display: inline-flex; align-items: center; padding: 0.2rem 0.6rem; border-radius: var(--radius-pill); background: var(--color-orange-soft); color: var(--color-orange); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: var(--tracking-widest); }
+.inside__title { font-size: 0.9375rem; font-weight: 600; color: rgba(0,0,0,.8); letter-spacing: var(--tracking-tight); }
 
 /* SECTION: blue accents (azul da logo para contraste com as bandas vermelho-tijolo) - */
 .eyebrow--course { background: var(--color-blue); }

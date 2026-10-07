@@ -63,6 +63,12 @@
     ['#inside .section__head .eyebrow', 'Inside the course', 'Por dentro do curso'],
     ['#inside .section__head h2', 'Real lessons, drawn over the screen', 'Aulas reais, desenhadas sobre a tela'],
     ['#inside .section__lead', 'Every concept is annotated live on top of ZBrush, so you see exactly where to look.', 'Cada conceito é anotado ao vivo por cima do ZBrush, para você ver exatamente para onde olhar.'],
+    ['#inside .inside__item:nth-of-type(1) .inside__tag', 'Lesson 03', 'Aula 03'],
+    ['#inside .inside__item:nth-of-type(1) .inside__title', 'Subdivision and the essential brushes', 'Subdivisão e os brushes essenciais'],
+    ['#inside .inside__item:nth-of-type(2) .inside__tag', 'Lesson 09', 'Aula 09'],
+    ['#inside .inside__item:nth-of-type(2) .inside__title', 'Blocking the mushroom', 'Blocking do cogumelo'],
+    ['#inside .inside__item:nth-of-type(3) .inside__tag', 'Lesson 01', 'Aula 01'],
+    ['#inside .inside__item:nth-of-type(3) .inside__title', 'From the 2.5D canvas to a 3D mesh', 'Do canvas 2.5D para a mesh 3D'],
 
     ['.identity__body h2', 'Never opened ZBrush?<br>This was made for <span class="accent-orange">you</span>.', 'Nunca abriu o ZBrush?<br>Isto foi feito para <span class="accent-orange">você</span>.'],
     ['.identity__body p', 'No prior knowledge needed. Every lesson tells you WHAT you\'re learning, WHY it matters and the GOAL you should reach before moving on. A step-by-step method built so beginners never feel lost.', 'Nenhum conhecimento prévio necessário. Cada aula diz O QUE você está aprendendo, POR QUE isso importa e o OBJETIVO que você deve alcançar antes de avançar. Um método passo a passo feito para iniciante não se perder.'],
