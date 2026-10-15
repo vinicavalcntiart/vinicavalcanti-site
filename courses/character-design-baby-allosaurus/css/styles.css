@@ -735,3 +735,16 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .instructor__pills > span{display:inline-flex;align-items:center;gap:0.5rem;padding:0.3125rem 1rem 0.3125rem 0.3125rem;}
 .instructor__pills > span .ico{--ico:30px;}
 .discord-banner__badge svg{width:3.25rem;height:3.25rem;color:var(--color-blue);display:block;}
+
+/* SECTION: icons (round 2, 2026-10-15) — hero badges, bonus cards, pricing list and badges */
+.badge--hero{align-items:center;gap:0.35rem;}
+.badge--hero .ph{width:14px;height:14px;flex:none;}
+.badge--ico-orange .ph{color:var(--color-orange);}
+.badge--ico-blue .ph{color:var(--color-blue);}
+.pricing__badges .badge{align-items:center;gap:0.35rem;}
+.pricing__badges .badge .ph{width:14px;height:14px;flex:none;}
+@media (min-width:640px){.badge--hero .ph,.pricing__badges .badge .ph{width:15px;height:15px;}}
+.bonus-card__icon{margin-bottom:1rem;}
+.pricing__includes li{display:flex;align-items:flex-start;gap:0.625rem;padding-left:0;}
+.pricing__includes li::before{content:none;}
+.pricing__includes li .ph{width:20px;height:20px;flex:none;color:var(--color-orange);margin-top:0.2rem;}

@@ -80,3 +80,12 @@ Seguir o padrão: `<section class="section" id="nome"><div class="container">...
 - [ ] Comprimir `Turnable_Topogun.mp4` (7.5MB → 2-3MB: H.264 CRF 26-28, `-movflags +faststart`, sem áudio).
 - [x] Poster real exportado do primeiro frame do vídeo: `images/topogun-poster-720x720.webp` (720x720, mesma proporção do vídeo; usado como poster do vídeo e og:image). O nome antigo `topogun-poster-1280x720.webp` nunca existiu (era 404).
 - [ ] Opcional: OG image dedicada 1200×630.
+
+## Ícones (2026-10-15, padrão do site: ver seção 9 do AI-STUDIO.md da raiz)
+
+Phosphor FILL inline (`svg.ph`), bolhas `.ico` laranja/azul alternadas. Nesta LP:
+- Hero: ícone direto nos badges (14px, 15px em 640px+) alternando laranja/azul via `.badge--ico-orange|blue`: chart-bar (nível), subtitles (EN/PT), clock (3h), polygon (TopoGun 3). Eyebrow "Course" sem ícone.
+- Bônus: bolha `.bonus-card__icon ico ico--md ico--orange` com seal-percent (30% TopoGun).
+- Pricing: lista com check-circle laranja direto (20px) no lugar do "✓" via CSS; badges com infinity (Lifetime) e subtitles (EN · PT).
+- Mantidos sem ícone: números 01-04 dos módulos, "+" do FAQ, studios.
+- REGRA i18n: texto que divide o elemento com um ícone fica em `span.pill__text` e o seletor do i18n.js aponta para ele (hero badges 2 e 3, badges do pricing, 6 itens da lista).

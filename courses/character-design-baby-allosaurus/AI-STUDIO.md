@@ -81,3 +81,12 @@ Available utilities: `.section`, `.section--compact`, `.section--orange`, `.sect
 - `images/Ad_Video_Timelapse.mp4` is ~90MB — must be compressed (H.264, CRF 26-28, no audio, `-movflags +faststart`, target 2-3MB) before launch.
 - Real poster frame from the video (currently using `Cover.webp`).
 - Dedicated OG image 1200×630 (currently using `Cover.webp`).
+
+## Ícones (2026-10-15, padrão do site: ver seção 9 do AI-STUDIO.md da raiz)
+
+Phosphor FILL inline (`svg.ph`), bolhas `.ico` laranja/azul alternadas. Nesta LP:
+- Hero: ícone direto nos badges (14px, 15px em 640px+) alternando laranja/azul via `.badge--ico-orange|blue`: chart-bar (nível), subtitles (EN/PT), clock (7h30min), cube (ZBrush + Blender). Eyebrow "Course" sem ícone.
+- Bônus: bolha `.bonus-card__icon ico ico--md`: images (reference sheets), paint-brush (brushes), lightbulb (HDRI lighting; NÃO usar sol com raios, motivo proibido), seal-percent (30% TopoGun). Laranja, azul, laranja, azul.
+- Pricing: lista com check-circle laranja direto (20px) no lugar do "✓" via CSS; badges com infinity (Lifetime) e subtitles (EN · PT).
+- Mantidos sem ícone: números 01-04 dos módulos, "+" do FAQ, studios.
+- REGRA i18n: texto que divide o elemento com um ícone fica em `span.pill__text` e o seletor do i18n.js aponta para ele (hero badges 2 e 3, badges do pricing, 6 itens da lista).

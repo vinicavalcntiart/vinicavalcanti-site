@@ -66,3 +66,11 @@ Específicos deste curso (sampleados do chapéu vermelho-tijolo da arte do cogum
 - [x] Artes oficiais aplicadas: capa quadrada 600x600 (identity + og:image + seções "Also included" das outras LPs) e capa wide 800x500 (card da home). O poster do vídeo segue sendo frame extraído (mesma proporção do vídeo, intencional).
 - [x] Seção "inside" adicionada com os 3 screenshots anotados das aulas.
 - [ ] OG image dedicada 1200×630 (gerar a partir da capa quadrada oficial).
+
+## Ícones, rodada 2 (2026-10-15, padrão do site: ver seção 9 do AI-STUDIO.md da raiz)
+
+- Hero: ícone direto nos badges (14px, 15px em 640px+) alternando laranja/azul via `.badge--ico-orange|blue`: chart-bar (nível), subtitles (EN/PT), play-circle (13 lessons), cube (ZBrush). Eyebrow "Course" sem ícone. Laranja sobre a banda vermelha ficou legível por causa do fundo claro do badge.
+- Pricing: lista com check-circle laranja direto (20px) no lugar do "✓" via CSS; badges com infinity (Lifetime) e subtitles (EN · EN/PT).
+- Já existiam: pills do instrutor, next-steps (bolhas md), Discord (marca oficial via Simple Icons), rodapé.
+- Mantidos sem ícone: números dos 13 cards de aula, "+" do FAQ, studios, player de screenshots.
+- REGRA i18n: texto que divide o elemento com um ícone fica em `span.pill__text` e o seletor do i18n.js aponta para ele (hero badges 2, 3 e 4, badges do pricing, 7 itens da lista).
