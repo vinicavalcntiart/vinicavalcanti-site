@@ -289,3 +289,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .instructor__pills > span{display:inline-flex;align-items:center;gap:0.5rem;padding:0.3125rem 1rem 0.3125rem 0.3125rem;}
 .instructor__pills > span .ico{--ico:30px;}
 .discord-banner__badge svg{width:3.25rem;height:3.25rem;color:var(--color-blue);display:block;}
+/* SECTION:promo-bar — home only, above the sticky header. Colors are the brief's (#0B0B0C / #FCFBF8), not new tokens. Never wraps: nowrap + overflow hidden, with the long middle part hidden on narrow desktops and everything but pill/title/CTA hidden on mobile. */
+.promo-bar{display:flex;align-items:center;justify-content:center;gap:8px;padding:6px 16px;min-height:40px;background:#0B0B0C;color:#FCFBF8;text-decoration:none;font-family:var(--font-sans);font-weight:500;font-size:13px;line-height:1.2;white-space:nowrap;overflow:hidden;}
+.promo-bar__pill{display:inline-flex;align-items:center;background:var(--color-orange);color:#fff;font-family:var(--font-display);font-weight:700;font-size:11px;line-height:1;padding:4px 10px;border-radius:var(--radius-pill);letter-spacing:.02em;}
+.promo-bar__title{font-family:var(--font-display);font-weight:700;font-size:13px;}
+.promo-bar__sep{opacity:.45;}
+.promo-bar__cta{color:var(--color-orange);font-weight:600;}
+.promo-bar__cta--short{display:none;}
+.promo-bar:hover .promo-bar__cta{text-decoration:underline;text-underline-offset:2px;}
+@media (min-width:601px) and (max-width:899px){.promo-bar__x{display:none;}}
+@media (max-width:600px){.promo-bar{min-height:28px;padding:6px 12px;font-size:12px;}}
+@media (max-width:600px){.promo-bar__pill{padding:2px 8px;}}
+@media (max-width:600px){.promo-bar__d{display:none;}}
+@media (max-width:600px){.promo-bar__cta--short{display:inline;}}

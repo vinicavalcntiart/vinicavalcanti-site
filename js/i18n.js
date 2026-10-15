@@ -4,6 +4,14 @@
 
   /* [selector, EN innerHTML, PT innerHTML] - applied to ALL matches */
   var STR = [
+    ['.promo-bar__pill', 'Season 2', 'Temporada 2'],
+    ['.promo-bar__title', '1:1 Mentorship', 'Mentoria 1:1'],
+    ['.promo-bar__title-ext', 'with a Senior Character Artist', 'com Senior Character Artist'],
+    ['.promo-bar__desc--a', 'one character, from blockout to portfolio', 'um personagem, do blockout ao portf\u00f3lio'],
+    ['.promo-bar__desc--b', 'limited spots', 'vagas limitadas'],
+    ['.promo-bar__cta--long', 'Apply now &rarr;', 'Quero entrar &rarr;'],
+    ['.promo-bar__cta--short', 'Apply &rarr;', 'Entrar &rarr;'],
+
     ['#nav-link-courses, #mobile-menu a[href="#courses"], .site-footer__links a[href="#courses"]', 'Courses', 'Cursos'],
     ['#nav-link-mentorship, #mobile-menu a[href="#mentorship"], .site-footer__links a[href="#mentorship"]', 'Mentorship', 'Mentoria'],
     ['#nav-link-portfolio, #mobile-menu a[href*="artstation"]', 'Portfolio', 'Portf\u00f3lio'],
