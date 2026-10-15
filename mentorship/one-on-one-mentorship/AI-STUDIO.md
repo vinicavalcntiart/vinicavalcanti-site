@@ -53,7 +53,7 @@ mentorship-one-on-one/
 | `SECTION: faq` | 4 objection-killing questions | Objection handling |
 | `SECTION: final-cta` | Banner.webp visual + closing headline + both CTAs | Last push |
 | `SECTION: contact` | Contact form (name/email/message), orange band + pattern, FormSubmit backend | Secondary conversion / questions |
-| `SECTION: discord` | Banner da comunidade: banda azul (`--color-blue` gradiente) + pattern-light, selo branco circular com a logo do Discord, CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Última seção antes do footer | Community / retention |
+| `SECTION: discord` | Banner da comunidade: banda azul (`--color-blue` gradiente) + pattern-light, selo branco circular com o discord-logo do Phosphor (SVG inline; o antigo discord-logo.webp foi removido), CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Última seção antes do footer | Community / retention |
 
 PROMOÇÃO ATIVA: cupom **MENTORSHIP20** (20% off, "por tempo limitado" — promoção REAL autorizada pelo Vini em 2026-08-09, não é urgência falsa). Elementos: `.hero__promo` (pill no hero, variante clara laranja-soft) e `.promo-banner` (card no pricing) + 3 entradas i18n. Quando acabar, remover elementos E entradas i18n.
 | `SECTION: footer` | Logo, links to root site, tagline | Brand consistency |
@@ -191,3 +191,5 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 - **Language toggle**: the `EN | PT` button in the header switches every text on the page via `js/i18n.js`, a dictionary of `{selector, en, pt}` entries. The choice persists in `localStorage` under `vc_lang`, the same key the homepage uses, so the language follows the visitor across pages.
 - **CRITICAL RULE**: any copy edit in `index.html` MUST be mirrored in the matching `en:` value in `js/i18n.js` (and its `pt:` translation updated). If the dictionary is not updated, the toggle will silently overwrite the edited text with the old string. Elements are targeted by ids (`#compare`, `#how`, `#software`, `#fit`, `#career`, section classes) and structural selectors; do not remove those ids or the `.faq__q` / `.fit__label` wrapper spans, they exist for the toggle.
 - Styles for all v6.2 additions live at the end of `styles.css` under the comment "ADDED (home v2 parity)", copied byte-exact from the homepage stylesheet. Keep them grouped there.
+
+- Ícones: seguem o padrão do site (Phosphor fill em bolhas laranja/azul, ver seção 9 do AI-STUDIO.md da raiz). Nesta página: how-it-works (calendar-check, chat-circle-dots, play-circle, trophy, alternando laranja/azul), lifetime (infinity, check-circle, play-circle), fit (check-circle laranja / x-circle azul), career (currency-dollar, laptop, trend-up), Discord.

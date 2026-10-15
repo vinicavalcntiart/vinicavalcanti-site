@@ -79,9 +79,9 @@
     ['#instructor .eyebrow', 'Your instructor', 'Seu instrutor'],
     ['#instructor h2', 'Learn from someone who\'s inside the industry, not just talking about it.', 'Aprenda com alguém que está dentro da indústria, não só falando sobre ela.'],
     ['.instructor__bio', 'Hi, I\'m <span class="accent-orange"><strong>Vini Cavalcanti</strong></span>, <strong>Senior 3D Character Artist</strong> with <strong><em>10+ years of experience</em></strong> in games and entertainment, focused on <em>visual development</em> and <em>stylized characters</em>. Currently at <strong>E-Line Media</strong> on <strong>Endstar</strong>, with credits on <em>The Wingfeather Saga</em> (<strong>Angel Studios</strong>) and games like <em>Wonderbox</em> at <strong>PUGA Studios</strong>.', 'Oi, eu sou <span class="accent-orange"><strong>Vini Cavalcanti</strong></span>, <strong>Senior 3D Character Artist</strong> com <strong><em>10+ anos de experiência</em></strong> em games e entretenimento, focado em <em>desenvolvimento visual</em> e <em>personagens estilizados</em>. Atualmente na <strong>E-Line Media</strong> no <strong>Endstar</strong>, com créditos em <em>The Wingfeather Saga</em> (<strong>Angel Studios</strong>) e games como <em>Wonderbox</em> na <strong>PUGA Studios</strong>.'],
-    ['.instructor__pills span:nth-child(1)', 'Senior Artist', 'Artista Sênior'],
-    ['.instructor__pills span:nth-child(2)', '10+ years exp', '10+ anos de exp'],
-    ['.instructor__pills span:nth-child(3)', 'Industry active', 'Ativo na indústria'],
+    ['.instructor__pills > span:nth-child(1) .pill__text', 'Senior Artist', 'Artista Sênior'],
+    ['.instructor__pills > span:nth-child(2) .pill__text', '10+ years exp', '10+ anos de exp'],
+    ['.instructor__pills > span:nth-child(3) .pill__text', 'Industry active', 'Ativo na indústria'],
 
     ['.pricing__badges .badge--limited', 'Lifetime access', 'Acesso vitalício'],
     ['.pricing__badges .badge--oneonone', 'EN · EN/PT Subtitles', 'EN · Legendas EN/PT'],

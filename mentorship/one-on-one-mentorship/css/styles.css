@@ -459,7 +459,6 @@ ul { list-style: none; }
   color: var(--color-blue);
   margin-bottom: 1.25rem;
 }
-.how-card:nth-child(even) .how-card__icon { background: var(--color-orange-soft); color: var(--color-orange); }
 .how-card__step {
   font-size: 0.75rem;
   font-weight: 700;
@@ -1138,3 +1137,22 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .module--bonus .week-card { background: var(--color-white); box-shadow: none; border: 1px dashed rgba(239,119,34,.45); }
 .module--bonus .week-card__label { background: var(--color-orange); color: var(--color-white); box-shadow: none; }
 .module--bonus .week-card p + p { margin-top: 0.25rem; }
+
+/* SECTION: icons — Phosphor Icons (fill, MIT) inside brand bubbles. Rules: inline SVG + currentColor; orange #EF7722 on #FFF2E7, blue #0CA6DF on #EFF8FD; icon = 54% of the bubble; alternate orange/blue, orange first. Never sparkles/4-point stars/magic wands/sunbursts; never mix outline or emoji icons. */
+.ico{display:inline-flex;align-items:center;justify-content:center;flex:none;border-radius:50%;width:var(--ico,40px);height:var(--ico,40px);border:0;box-shadow:none;}
+.ico svg{width:54%;height:54%;display:block;}
+.ico--orange{background:var(--color-orange-soft);color:var(--color-orange);}
+.ico--blue{background:var(--color-blue-soft);color:var(--color-blue);}
+.ico--xs{--ico:18px;}.ico--sm{--ico:24px;}.ico--md{--ico:40px;}.ico--lg{--ico:56px;}
+.site-footer__social{gap:1rem;}
+.site-footer__social a{display:inline-flex;}
+.site-footer__social a:hover{color:inherit;}
+.instructor__pills > span{display:inline-flex;align-items:center;gap:0.5rem;padding-left:0.375rem;}
+.instructor__pills > span .ico{--ico:24px;}
+.discord-banner__badge svg{width:54%;height:54%;color:var(--color-blue);display:block;}
+.how-card__icon{width:3.5rem;height:3.5rem;}
+.fit__icon svg{width:54%;height:54%;}
+.fit__icon--no{background:var(--color-blue-soft);color:var(--color-blue);}
+.career__stat-icon svg{width:54%;height:54%;display:block;}
+.how-card__icon.ico--orange{background:var(--color-orange-soft);color:var(--color-orange);}
+.how-card__icon.ico--blue{background:var(--color-blue-soft);color:var(--color-blue);}

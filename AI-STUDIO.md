@@ -41,3 +41,11 @@ Seguir o padrão: `<section class="section" id="nome">` + `<div class="container
 1. Ativar FormSubmit no primeiro envio real do domínio vivo (email de confirmação chega em contact@vinicavalcanti.art, clicar Activate uma vez).
 2. OG image dedicada 1200x630 (placeholder atual: `images/portfolio-warrior.webp`).
 3. Cor do billboard da mentoria (`#0B0D0C`) foi definida como neutro escuro; se quiser tom amostrado da arte, informar hex.
+
+## 9. Ícones (padrão do site, 2026-10-15)
+- Biblioteca: **Phosphor Icons, estilo FILL** (MIT), inline como SVG (`svg.ph`, viewBox 0 0 256 256, `fill="currentColor"`), sem CDN. Fonte: pacote `@phosphor-icons/core` 2.1.1, pasta `assets/fill`. Única exceção: a marca do ArtStation (não existe no Phosphor) usa o glifo oficial via Simple Icons (CC0), viewBox 0 0 24 24.
+- Bolha: `.ico` (círculo, sem borda, sem sombra) + cor `.ico--orange` (ícone #EF7722 sobre #FFF2E7) ou `.ico--blue` (#0CA6DF sobre #EFF8FD) + tamanho `.ico--xs/sm/md/lg` (18/24/40/56px). O ícone ocupa 54% do diâmetro. Vários ícones lado a lado alternam laranja/azul, começando pelo laranja.
+- Onde estão: rodapé (Instagram, ArtStation, LinkedIn), selos do About (paint-brush, trophy, briefcase, graduation-cap), badges dos cards de curso (play-circle para aulas, clock para duração; ícone direto dentro do badge, sem bolha extra), pills de fatos da mentoria (calendar-check, check-circle, infinity), banner do Discord (discord-logo em bolha branca). Nas LPs: pills do instrutor, rodapé, Discord; na mentoria também how-it-works, lifetime, fit (check-circle / x-circle) e career (currency-dollar, laptop, trend-up).
+- Mesmo elemento com ícone + texto traduzido: o texto fica em `span.pill__text` e o seletor i18n aponta para ele (senão o toggle apaga o ícone).
+- Hambúrguer do menu mobile: mantido como três traços neutros (controle de UI, não ícone de marca).
+- PROIBIDO: sparkles/brilhos, estrelas de 4 pontas, varinha mágica, sol com raios, asteriscos radiais (lembram logos de IA). Não misturar outline fino, emoji ou ícone colorido de outra biblioteca.
