@@ -754,4 +754,4 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .site-footer__social a:hover{color:inherit;}
 .instructor__pills > span{display:inline-flex;align-items:center;gap:0.5rem;padding:0.3125rem 1rem 0.3125rem 0.3125rem;}
 .instructor__pills > span .ico{--ico:30px;}
-.discord-banner__badge svg{width:54%;height:54%;color:var(--color-blue);display:block;}
+.discord-banner__badge svg{width:3.25rem;height:3.25rem;color:var(--color-blue);display:block;}

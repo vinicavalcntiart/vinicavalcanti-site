@@ -53,7 +53,7 @@ mentorship-one-on-one/
 | `SECTION: faq` | 4 objection-killing questions | Objection handling |
 | `SECTION: final-cta` | Banner.webp visual + closing headline + both CTAs | Last push |
 | `SECTION: contact` | Contact form (name/email/message), orange band + pattern, FormSubmit backend | Secondary conversion / questions |
-| `SECTION: discord` | Banner da comunidade: banda azul (`--color-blue` gradiente) + pattern-light, selo branco circular com o discord-logo do Phosphor (SVG inline; o antigo discord-logo.webp foi removido), CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Última seção antes do footer | Community / retention |
+| `SECTION: discord` | Banner da comunidade: banda azul (`--color-blue` gradiente) + pattern-light, selo branco circular com a marca oficial do Discord (SVG inline via Simple Icons, `svg.si`, 3.25rem em azul; o discord-logo do Phosphor foi descartado por deformar o Clyde; o antigo discord-logo.webp foi removido), CTA externo para https://discord.gg/MuEwrCS46r (nova aba). Última seção antes do footer | Community / retention |
 
 PROMOÇÃO ATIVA: cupom **MENTORSHIP20** (20% off, "por tempo limitado" — promoção REAL autorizada pelo Vini em 2026-08-09, não é urgência falsa). Elementos: `.hero__promo` (pill no hero, variante clara laranja-soft) e `.promo-banner` (card no pricing) + 3 entradas i18n. Quando acabar, remover elementos E entradas i18n.
 | `SECTION: footer` | Logo, links to root site, tagline | Brand consistency |
