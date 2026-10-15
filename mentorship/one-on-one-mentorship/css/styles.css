@@ -1147,8 +1147,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .site-footer__social{gap:1rem;}
 .site-footer__social a{display:inline-flex;}
 .site-footer__social a:hover{color:inherit;}
-.instructor__pills > span{display:inline-flex;align-items:center;gap:0.5rem;padding-left:0.375rem;}
-.instructor__pills > span .ico{--ico:24px;}
+.instructor__pills > span{display:inline-flex;align-items:center;gap:0.5rem;padding:0.3125rem 1rem 0.3125rem 0.3125rem;}
+.instructor__pills > span .ico{--ico:30px;}
 .discord-banner__badge svg{width:54%;height:54%;color:var(--color-blue);display:block;}
 .how-card__icon{width:3.5rem;height:3.5rem;}
 .fit__icon svg{width:54%;height:54%;}
