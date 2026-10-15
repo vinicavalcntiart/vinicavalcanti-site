@@ -84,3 +84,14 @@ The navy is used only for hero, identity section, and final CTA band. Everything
 - `Turnable_Zbrush.mp4` is ~10 MB — should be compressed to ~2-3 MB (H.264, CRF 26-28) and/or a webm variant added.
 - Poster frame currently uses `images/1280x720.webp` (course cover art); a real first-frame poster from the video would be better.
 - OG image uses `images/1280x720.webp`; a dedicated 1200×630 OG image is preferred.
+
+## 9. Ícones (padrão do site, ver seção 9 do AI-STUDIO.md da raiz)
+
+Phosphor Icons FILL inline (`svg.ph`), bolhas `.ico` laranja/azul alternadas. Nesta LP (2026-10-15):
+- Hero: badges com ícone direto (14px, 15px em 640px+), alternando laranja/azul via `.badge--ico-orange|blue`: chart-bar (nível), subtitles (EN/PT), clock (duração), cube (ZBrush). O eyebrow "Course" fica sem ícone.
+- Bônus: bolha `.bonus-card__icon ico ico--md` acima do h3: polygon (basemesh), paint-brush (brushes), layout (UI), seal-percent (30% TopoGun). Laranja, azul, laranja, azul.
+- Pricing: lista `.pricing__includes` com check-circle laranja direto (20px) no lugar do "✓" via CSS; badges com infinity (Lifetime) e subtitles (EN · PT).
+- Included (banda vermelha): bolha gift laranja acima do eyebrow.
+- Instrutor (pills), rodapé: desde a padronização geral.
+- REGRA i18n: todo texto que divide o elemento com um ícone fica em `span.pill__text` e o seletor no i18n.js aponta para ele (hero badges 2 e 3, badges do pricing, 6 itens da lista). Sem isso o toggle apaga o ícone.
+- Mantidos sem ícone de propósito: números 01-04 dos módulos (parte do design), "+" do FAQ (controle de UI), studios.
