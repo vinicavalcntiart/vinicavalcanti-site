@@ -43,6 +43,9 @@ Seguir o padrão: `<section class="section" id="nome">` + `<div class="container
 2. OG image dedicada 1200x630 (placeholder atual: `images/portfolio-warrior.webp`).
 3. Cor do billboard da mentoria (`#0B0D0C`) foi definida como neutro escuro; se quiser tom amostrado da arte, informar hex.
 
+## 8b. Favicon (2026-10-18)
+`favicon.ico` (16/32/48) na raiz e `images/favicon_vini_cavalcanti.png` (144px, cópia idêntica em cada LP) têm FUNDO OPACO ESCURO `#0B0B0C` com a raposa centralizada a 78% do lado. Motivo: o PNG antigo era transparente e o Google exibia a raposa sobre um disco branco; o Google recorta o ícone em círculo, então o quadrado escuro vira um disco escuro. A raposa foi recortada do `images/logo_vini_cavalcanti_3D.webp` (220px de altura). Não voltar a fundo transparente nem claro. Mudança no Google depende de recrawl (dias).
+
 ## 9. Ícones (padrão do site, 2026-10-15)
 - Biblioteca: **Phosphor Icons, estilo FILL** (MIT), inline como SVG (`svg.ph`, viewBox 0 0 256 256, `fill="currentColor"`), sem CDN. Fonte: pacote `@phosphor-icons/core` 2.1.1, pasta `assets/fill`. Exceções: as marcas do ArtStation (não existe no Phosphor) e do Discord (o glifo do Phosphor deforma o Clyde) usam o glifo oficial via Simple Icons (CC0), viewBox 0 0 24 24, `svg.si`.
 - Bolha: `.ico` (círculo, sem borda, sem sombra) + cor `.ico--orange` (ícone #EF7722 sobre #FFF2E7) ou `.ico--blue` (#0CA6DF sobre #EFF8FD) + tamanho `.ico--xs/sm/md/lg` (18/30/40/56px; o `sm` era 24px até 2026-10-15 e subiu para 30px porque sumia dentro das pills). O ícone ocupa 54% do diâmetro. Vários ícones lado a lado alternam laranja/azul, começando pelo laranja.
