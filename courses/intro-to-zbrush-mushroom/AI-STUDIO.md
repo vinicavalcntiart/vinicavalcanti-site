@@ -74,3 +74,7 @@ Específicos deste curso (sampleados do chapéu vermelho-tijolo da arte do cogum
 - Já existiam: pills do instrutor, next-steps (bolhas md), Discord (marca oficial via Simple Icons), rodapé.
 - Mantidos sem ícone: números dos 13 cards de aula, "+" do FAQ, studios, player de screenshots.
 - REGRA i18n: texto que divide o elemento com um ícone fica em `span.pill__text` e o seletor do i18n.js aponta para ele (hero badges 2, 3 e 4, badges do pricing, 7 itens da lista).
+
+## Header e foto (2026-10-22)
+- Botão Members Area é LARANJA em todo o site (override `.btn--members` no fim do CSS); o header continua réplica do root. Motivo: o hero da home ficou azul e o botão azul ficava repetitivo.
+- Foto do Vini limitada a 18rem (mobile) / 19rem (768px+) / 21rem (1024px+), centralizada na coluna (override no fim do CSS). Antes ocupava a coluna inteira.

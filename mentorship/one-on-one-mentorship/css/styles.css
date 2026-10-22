@@ -1156,3 +1156,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .career__stat-icon svg{width:54%;height:54%;display:block;}
 .how-card__icon.ico--orange{background:var(--color-orange-soft);color:var(--color-orange);}
 .how-card__icon.ico--blue{background:var(--color-blue-soft);color:var(--color-blue);}
+
+/* Members Area em laranja (2026-10-22, igual em todo o site; header é réplica do root). */
+.btn--members{background:var(--color-orange);}
+.btn--members:hover{background:var(--color-orange-hover);}
+
+/* Foto do Vini menor (2026-10-22): limite de largura em todas as páginas, centralizada na coluna. */
+.mentor__photo{max-width:18rem;}
+@media (min-width:768px){.mentor__photo{max-width:19rem;margin-inline:auto;}}
+@media (min-width:1024px){.mentor__photo{max-width:21rem;}}

@@ -90,3 +90,7 @@ Phosphor FILL inline (`svg.ph`), bolhas `.ico` laranja/azul alternadas. Nesta LP
 - Pricing: lista com check-circle laranja direto (20px) no lugar do "✓" via CSS; badges com infinity (Lifetime) e subtitles (EN · PT).
 - Mantidos sem ícone: números 01-04 dos módulos, "+" do FAQ, studios.
 - REGRA i18n: texto que divide o elemento com um ícone fica em `span.pill__text` e o seletor do i18n.js aponta para ele (hero badges 2 e 3, badges do pricing, 6 itens da lista).
+
+## Header e foto (2026-10-22)
+- Botão Members Area é LARANJA em todo o site (override `.btn--members` no fim do CSS); o header continua réplica do root. Motivo: o hero da home ficou azul e o botão azul ficava repetitivo.
+- Foto do Vini limitada a 18rem (mobile) / 19rem (768px+) / 21rem (1024px+), centralizada na coluna (override no fim do CSS). Antes ocupava a coluna inteira.

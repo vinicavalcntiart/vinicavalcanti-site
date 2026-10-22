@@ -748,3 +748,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .pricing__includes li{display:flex;align-items:flex-start;gap:0.625rem;padding-left:0;}
 .pricing__includes li::before{content:none;}
 .pricing__includes li .ph{width:20px;height:20px;flex:none;color:var(--color-orange);margin-top:0.2rem;}
+
+/* Members Area em laranja (2026-10-22, igual em todo o site; header é réplica do root). */
+.btn--members{background:var(--color-orange);}
+.btn--members:hover{background:var(--color-orange-hover);}
+
+/* Foto do Vini menor (2026-10-22): limite de largura em todas as páginas, centralizada na coluna. */
+.instructor__photo{max-width:18rem;}
+@media (min-width:768px){.instructor__photo{max-width:19rem;margin-inline:auto;}}
+@media (min-width:1024px){.instructor__photo{max-width:21rem;}}

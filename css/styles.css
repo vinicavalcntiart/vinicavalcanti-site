@@ -302,3 +302,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 @media (max-width:600px){.promo-bar__pill{padding:2px 8px;}}
 @media (max-width:600px){.promo-bar__d{display:none;}}
 @media (max-width:600px){.promo-bar__cta--short{display:inline;}}
+/* SECTION:hero-blue (2026-10-22) — hero da home em azul da marca com degradê leve para um azul mais claro (mistura do token blue com o token blue-grad), pattern branco mais visível (.18), texto branco, "memorable" segue laranja, botão primário com anel branco para não vibrar contra o azul, botão inverso branco com texto azul. Decisão do Vini para conversar com os stories. */
+.hero--home{background:linear-gradient(135deg,#0CA6DF 0%,#28B0E3 100%);}
+.hero--home::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='83.14'%3E%3Cpath d='M0 .5h48M0 42.07h48M0 0l48 83.14M48 0L0 83.14' stroke='%23FFFFFF' stroke-opacity='.18' fill='none'/%3E%3C/svg%3E");}
+.hero--home h1{color:var(--color-white);}
+.hero__sub{color:rgba(255,255,255,.92);}
+.hero--home .eyebrow{background:rgba(255,255,255,.16);color:var(--color-white);box-shadow:inset 0 0 0 1px rgba(255,255,255,.28);}
+.hero--home .btn--primary{box-shadow:0 0 0 2px rgba(255,255,255,.85),var(--shadow-md);}
+.hero--home .btn--inverse{background:var(--color-white);color:var(--color-blue);box-shadow:var(--shadow-md);}
+.hero--home .btn--inverse:hover{background:var(--color-blue-soft);}
+.hero__studios-label{color:rgba(255,255,255,.65);}
+.hero__studios span:not(.hero__studios-label){background:rgba(255,255,255,.14);color:var(--color-white);box-shadow:inset 0 0 0 1px rgba(255,255,255,.24);}
+/* Members Area em laranja em todo o site (header é réplica nas 6 páginas): azul ficava repetitivo colado no hero azul. */
+.btn--members{background:var(--color-orange);}
+.btn--members:hover{background:var(--color-orange-hover);}
+
+/* Foto do Vini menor (2026-10-22): limite de largura em todas as páginas, centralizada na coluna. */
+.instructor__photo{max-width:18rem;}
+@media (min-width:768px){.instructor__photo{max-width:19rem;margin-inline:auto;}}
+@media (min-width:1024px){.instructor__photo{max-width:21rem;}}

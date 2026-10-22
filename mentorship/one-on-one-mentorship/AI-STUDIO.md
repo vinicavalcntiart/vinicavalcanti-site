@@ -193,3 +193,7 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 - Styles for all v6.2 additions live at the end of `styles.css` under the comment "ADDED (home v2 parity)", copied byte-exact from the homepage stylesheet. Keep them grouped there.
 
 - Ícones: seguem o padrão do site (Phosphor fill em bolhas laranja/azul, ver seção 9 do AI-STUDIO.md da raiz). Nesta página: how-it-works (calendar-check, chat-circle-dots, play-circle, trophy, alternando laranja/azul), lifetime (infinity, check-circle, play-circle), fit (check-circle laranja / x-circle azul), career (currency-dollar, laptop, trend-up), Discord.
+
+## Header e foto (2026-10-22)
+- Botão Members Area é LARANJA em todo o site (override `.btn--members` no fim do CSS); o header continua réplica do root. Motivo: o hero da home ficou azul e o botão azul ficava repetitivo.
+- Foto do Vini limitada a 18rem (mobile) / 19rem (768px+) / 21rem (1024px+), centralizada na coluna (override no fim do CSS). Antes ocupava a coluna inteira.
