@@ -323,7 +323,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 @media (min-width:1024px){.instructor__photo{max-width:21rem;}}
 /* "memorable" no hero azul: laranja puro sobre azul tinha contraste ~1:1; agora é branco com sublinhado laranja grosso (escolha do Vini entre caixa laranja e sublinhado). 2026-10-22 */
 .hero--home .accent-orange{color:var(--color-white);text-decoration:underline;text-decoration-color:var(--color-orange);text-decoration-thickness:0.14em;text-underline-offset:0.12em;}
-/* SECTION:store (2026-10-22) — cara sutil de loja na seção de cursos: etiqueta de preço sobre a arte, faixa de selos de confiança, "Lifetime access" no rodapé do card e carrinho no CTA. Fatos reais (acesso vitalício, garantia de 15 dias, checkout Hotmart, legendas PT). */
+/* SECTION:store (2026-10-22) — "lojinha do site": banda azul-clara com pattern azul, plaquinha School store, etiqueta de preço sobre a arte, "Lifetime access" no rodapé do card e carrinho no CTA. SEM selos de "pagamento seguro" (o Vini vetou: cara de site de golpe). */
 .course-card__media{position:relative;}
 .course-card__pricetag{position:absolute;left:1rem;bottom:1rem;z-index:2;display:inline-flex;align-items:center;gap:0.4rem;background:var(--color-white);color:var(--color-text);border-radius:var(--radius-pill);padding:0.45rem 0.9rem 0.45rem 0.7rem;font-family:var(--font-display);font-weight:700;font-size:1.0625rem;line-height:1;box-shadow:var(--shadow-md);}
 .course-card__pricetag .ph{width:16px;height:16px;color:var(--color-orange);flex:none;}
@@ -331,6 +331,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .course-card__meta .ph{width:16px;height:16px;color:var(--color-blue);flex:none;}
 .course-card__foot .btn{display:inline-flex;align-items:center;gap:0.5rem;}
 .course-card__foot .btn .ph{width:17px;height:17px;flex:none;}
-.store-strip{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;margin:-0.5rem auto 2.25rem;}
-.store-strip li{display:inline-flex;align-items:center;gap:0.5rem;padding:0.3125rem 0.9rem 0.3125rem 0.3125rem;border-radius:var(--radius-pill);background:var(--color-white);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06),var(--shadow-sm);font-size:0.8125rem;font-weight:600;color:rgba(0,0,0,.7);}
-@media (max-width:639px){.course-card__foot{gap:0.75rem;} .course-card__meta{font-size:0.75rem;} .store-strip{margin-bottom:1.75rem;}}
+@media (max-width:639px){.course-card__foot{gap:0.75rem;} .course-card__meta{font-size:0.75rem;}}
+.section--store{background:var(--color-blue-soft);}
+.section--pattern-blue{position:relative;overflow:hidden;}
+.section--pattern-blue::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='83.14'%3E%3Cpath d='M0 .5h48M0 42.07h48M0 0l48 83.14M48 0L0 83.14' stroke='%230CA6DF' stroke-opacity='.10' fill='none'/%3E%3C/svg%3E");-webkit-mask-image:radial-gradient(ellipse 85% 75% at 50% 50%,transparent 15%,#000 70%);mask-image:radial-gradient(ellipse 85% 75% at 50% 50%,transparent 15%,#000 70%);}
+.section--pattern-blue > .container{position:relative;}
+.store-sign{display:inline-flex;align-items:center;gap:0.55rem;padding:0.3rem 0.95rem 0.3rem 0.3rem;border-radius:var(--radius-pill);background:var(--color-white);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06),var(--shadow-sm);font-size:0.8125rem;font-weight:700;letter-spacing:0.02em;text-transform:uppercase;color:var(--color-text);}
+.store-sign .ico{--ico:28px;}

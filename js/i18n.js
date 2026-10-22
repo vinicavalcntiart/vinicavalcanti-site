@@ -37,9 +37,9 @@
     ['.instructor__pills > span:nth-child(3) .pill__text', 'Industry active', 'Ativo na indústria'],
     ['.instructor__pills > span:nth-child(4) .pill__text', 'M.A. Cand. &middot; PG Dip', 'Mestrando &middot; PG Dip'],
 
-    ['#courses .section__head .eyebrow', 'Courses', 'Cursos'],
+    ['#courses .store-sign .pill__text', 'School store', 'Loja da escola'],
     ['#courses .section__head h2', 'Learn the full character pipeline', 'Aprenda o pipeline completo de personagens'],
-    ['#courses .section__lead', 'Each course covers one real stage of production, taught the same way it happens inside a studio.', 'Cada curso cobre uma etapa real de produ\u00e7\u00e3o, ensinada do mesmo jeito que acontece dentro de um est\u00fadio.'],
+    ['#courses .section__lead', 'Each course covers one real stage of production, taught the same way it happens inside a studio. Lifetime access, 15-day money-back guarantee.', 'Cada curso cobre uma etapa real de produ\u00e7\u00e3o, ensinada do mesmo jeito que acontece dentro de um est\u00fadio. Acesso vital\u00edcio, garantia de reembolso de 15 dias.'],
     ['#courses .grid-3 article:nth-of-type(1) .course-card__ribbon', 'START HERE', 'COMECE AQUI'],
     ['#courses .grid-3 article:nth-of-type(1) .badge--level', 'Absolute Beginner', 'Iniciante Absoluto'],
     ['#courses .grid-3 article:nth-of-type(1) .badge--meta .pill__text', '13 lessons', '13 aulas'],
@@ -52,10 +52,7 @@
     ['#courses .grid-3 article:nth-of-type(4) .course-card__body > p', 'Design and sculpt an appealing creature from scratch, balancing anatomy, charm and strong shape language.', 'Desenhe e esculpa uma criatura cheia de apelo do zero, equilibrando anatomia, carisma e uma linguagem de formas forte.'],
     ['#courses .course-card__foot a .pill__text', 'Get this course', 'Quero este curso'],
     ['#courses .course-card__meta .pill__text', 'Lifetime access', 'Acesso vital\u00edcio'],
-    ['.store-strip li:nth-child(1) .pill__text', 'Lifetime access', 'Acesso vital\u00edcio'],
-    ['.store-strip li:nth-child(2) .pill__text', '15-day money-back guarantee', 'Garantia de reembolso de 15 dias'],
-    ['.store-strip li:nth-child(3) .pill__text', 'Secure checkout via Hotmart', 'Checkout seguro via Hotmart'],
-    ['.store-strip li:nth-child(4) .pill__text', 'English with Portuguese subtitles', 'Ingl\u00eas com legendas em portugu\u00eas'],
+    ['.courses__note', 'All courses are in English with Portuguese subtitles.', 'Todos os cursos s\u00e3o em ingl\u00eas com legendas em portugu\u00eas.'],
 
     ['.mship-billboard__badges .badge--season', 'Season 2', 'Temporada 2'],
     ['.mship-billboard__badges span:nth-child(2)', 'Limited Spots', 'Vagas Limitadas'],
