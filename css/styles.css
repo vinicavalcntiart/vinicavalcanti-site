@@ -321,5 +321,5 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .instructor__photo{max-width:18rem;}
 @media (min-width:768px){.instructor__photo{max-width:19rem;margin-inline:auto;}}
 @media (min-width:1024px){.instructor__photo{max-width:21rem;}}
-/* "memorable" no hero azul: laranja puro sobre azul tinha contraste ~1:1; agora é accent como caixa laranja com texto branco (mesma linguagem dos pills dos stories). 2026-10-22 */
-.hero--home .accent-orange{color:var(--color-white);background:var(--color-orange);padding:0 0.18em;margin:0 -0.04em;border-radius:0.22em;-webkit-box-decoration-break:clone;box-decoration-break:clone;}
+/* "memorable" no hero azul: laranja puro sobre azul tinha contraste ~1:1; agora é branco com sublinhado laranja grosso (escolha do Vini entre caixa laranja e sublinhado). 2026-10-22 */
+.hero--home .accent-orange{color:var(--color-white);text-decoration:underline;text-decoration-color:var(--color-orange);text-decoration-thickness:0.14em;text-underline-offset:0.12em;}
