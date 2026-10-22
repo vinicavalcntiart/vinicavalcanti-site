@@ -66,6 +66,7 @@
     ['#mentorship-cta', 'Start Now!', 'Come\u00e7ar Agora!'],
     ['.mship-billboard__price span:nth-child(1)', 'Investment', 'Investimento'],
     ['.mship-billboard__price .hero__price-note', 'or 3 payments', 'ou 3x'],
+    ['.mship-billboard__promo', 'Limited time: <strong>20% off</strong> with coupon <strong class="mship-billboard__code">MENTORSHIP20</strong>', 'Por tempo limitado: <strong>20% de desconto</strong> com o cupom <strong class="mship-billboard__code">MENTORSHIP20</strong>'],
 
     ['#testimonials .eyebrow', 'Students', 'Alunos'],
     ['#testimonials .section__head h2', 'Artists already on their way.', 'Artistas j\u00e1 a caminho.'],

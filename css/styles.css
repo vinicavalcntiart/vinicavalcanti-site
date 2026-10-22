@@ -338,3 +338,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .section--pattern-blue > .container{position:relative;}
 .store-sign{display:inline-flex;align-items:center;gap:0.55rem;padding:0.3rem 0.95rem 0.3rem 0.3rem;border-radius:var(--radius-pill);background:var(--color-white);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06),var(--shadow-sm);font-size:0.8125rem;font-weight:700;letter-spacing:0.02em;text-transform:uppercase;color:var(--color-text);}
 .store-sign .ico{--ico:28px;}
+/* SECTION:mentorship-promo (2026-10-22) — cupom real MENTORSHIP20 (20% off, por tempo limitado), mesmo da LP da mentoria. Remover daqui e da LP quando a promoção acabar. */
+.mship-billboard__promo{margin:1.25rem auto 0;display:inline-flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:0.25rem;border-radius:var(--radius-pill);background:rgba(239,119,34,.14);box-shadow:inset 0 0 0 1px rgba(239,119,34,.45);padding:0.5rem 1.125rem;font-size:0.9375rem;font-weight:500;color:rgba(255,255,255,.9);}
+.mship-billboard__promo strong{color:var(--color-orange-grad-end);margin-inline:0.25rem;}
+.mship-billboard__code{background:var(--color-white);color:var(--color-orange)!important;border-radius:8px;padding:0.125rem 0.5rem;letter-spacing:0.06em;white-space:nowrap;font-weight:700;}
