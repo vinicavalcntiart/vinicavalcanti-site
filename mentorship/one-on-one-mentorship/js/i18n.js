@@ -27,7 +27,8 @@
     { s: '.hero__cta-row .btn--primary', en: 'Sign up now!', pt: 'Inscreva-se agora!' },
     { s: '.hero__price-label', en: 'Investment', pt: 'Investimento' },
     { s: '.hero__price-note', en: 'or 3 payments', pt: 'ou 3x' },
-    { s: '.hero__promo', en: 'Limited time: <strong>20% off</strong> with coupon <strong>MENTORSHIP20</strong>', pt: 'Por tempo limitado: <strong>20% de desconto</strong> com o cupom <strong>MENTORSHIP20</strong>' },
+    { s: '.hero__promo--bf', en: 'Black Friday, Nov 27: <strong>60% off</strong>', pt: 'Black Friday, 27 de novembro: <strong>60% de desconto</strong>' },
+    { s: '.hero__promo--now', en: 'Until then: <strong>20% off</strong> with coupon <strong>MENTORSHIP20</strong>', pt: 'At\u00e9 l\u00e1: <strong>20% de desconto</strong> com o cupom <strong>MENTORSHIP20</strong>' },
 
     /* video */
     { s: '.video-section .eyebrow', en: 'Watch first', pt: 'Assista primeiro' },
@@ -181,8 +182,8 @@
     { s: '#pricing .pricing__includes li:nth-child(6)', en: 'Portfolio-focused review at the end', pt: 'Review focado em portf&oacute;lio no fim' },
     { s: '#pricing .pricing__includes li:nth-child(7)', en: 'Lifetime access to every lesson', pt: 'Acesso vital&iacute;cio a todas as aulas' },
     { s: '#pricing .pricing__includes li:nth-child(8)', en: 'Access to the project files', pt: 'Acesso aos project files' },
-    { s: '.promo-banner__tag', en: 'Limited time', pt: 'Por tempo limitado' },
-    { s: '.promo-banner p', en: 'Get <strong>20% off</strong> with coupon <strong class="promo-banner__code">MENTORSHIP20</strong> at checkout.', pt: 'Use o cupom <strong class="promo-banner__code">MENTORSHIP20</strong> no checkout e ganhe <strong>20% de desconto</strong>.' },
+    { s: '.promo-banner__tag', en: 'Black Friday &middot; Nov 27', pt: 'Black Friday &middot; 27 de nov' },
+    { s: '.promo-banner p', en: '<strong>60% off</strong> on Black Friday. Until then, get <strong>20% off</strong> with coupon <strong class="promo-banner__code">MENTORSHIP20</strong> at checkout.', pt: '<strong>60% de desconto</strong> na Black Friday. At\u00e9 l\u00e1, use o cupom <strong class="promo-banner__code">MENTORSHIP20</strong> no checkout e ganhe <strong>20% de desconto</strong>.' },
     { s: '#pricing .pricing__price-note', en: 'one payment, or split in 3', pt: 'pagamento &uacute;nico, ou em 3x' },
     { s: '#pricing .pricing__cta .btn--primary', en: 'Sign up now!', pt: 'Inscreva-se agora!' },
     { s: '#pricing .pricing__cta .btn--secondary', en: 'Sign up now! 3 payments', pt: 'Inscreva-se agora! Em 3x' },

@@ -1165,3 +1165,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .mentor__photo{max-width:18rem;}
 @media (min-width:768px){.mentor__photo{max-width:19rem;margin-inline:auto;}}
 @media (min-width:1024px){.mentor__photo{max-width:21rem;}}
+/* Black Friday (2026-11-07): pill laranja cheia com o anúncio de 60% em 27/11 acima da pill do MENTORSHIP20. Remover depois da data. */
+.hero__promo--bf{background:var(--color-orange);color:var(--color-white);box-shadow:none;margin-right:0.5rem;}
+.hero__promo--bf strong{color:var(--color-white);}

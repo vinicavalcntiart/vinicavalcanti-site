@@ -344,3 +344,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .mship-billboard__code{background:var(--color-white);color:var(--color-orange)!important;border-radius:8px;padding:0.125rem 0.5rem;letter-spacing:0.06em;white-space:nowrap;font-weight:700;}
 /* Etiqueta de preço no canto de cima em telas pequenas, só nos cards cuja arte tem texto no canto inferior esquerdo (hoje: Stylized Characters). */
 @media (max-width:639px){.course-card--tag-top .course-card__pricetag{bottom:auto;top:1rem;}}
+/* SECTION:black-friday (2026-11-07) — Black Friday REAL anunciada pelo Vini nos stories: 60% off na mentoria em 27/11; até lá vale o MENTORSHIP20. Bloco no billboard da home; a faixa do topo também virou o anúncio. Em 27/11 trocar as strings para "hoje"; depois da data, remover daqui, da faixa e da LP no mesmo commit. */
+.mship-billboard__bf{margin:1.5rem auto 0;display:inline-flex;align-items:center;gap:0.75rem;padding:0.5rem 0.625rem 0.5rem 1.125rem;border-radius:var(--radius-pill);background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16);}
+.mship-billboard__bf-pct{font-family:var(--font-display);font-weight:700;font-size:1.75rem;line-height:1;color:var(--color-orange-grad-end);letter-spacing:-0.02em;}
+.mship-billboard__bf-tag{display:inline-flex;align-items:center;background:var(--color-orange);color:var(--color-white);border-radius:var(--radius-pill);padding:0.4rem 0.875rem;font-size:0.8125rem;font-weight:700;letter-spacing:0.02em;white-space:nowrap;}
+.mship-billboard__bf + .mship-billboard__promo{margin-top:0.75rem;}
+@media (max-width:639px){.mship-billboard__bf-pct{font-size:1.5rem;}}

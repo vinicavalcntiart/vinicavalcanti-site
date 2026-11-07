@@ -197,3 +197,6 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 ## Header e foto (2026-10-22)
 - Botão Members Area é LARANJA em todo o site (override `.btn--members` no fim do CSS); o header continua réplica do root. Motivo: o hero da home ficou azul e o botão azul ficava repetitivo.
 - Foto do Vini limitada a 18rem (mobile) / 19rem (768px+) / 21rem (1024px+), centralizada na coluna (override no fim do CSS). Antes ocupava a coluna inteira.
+
+## Black Friday 2026 (anunciada em 2026-11-07, data 27/11)
+60% off em 27/11 (promoção REAL dos stories do Vini). Hero: pill laranja cheia `.hero__promo--bf` ("Black Friday, Nov 27: 60% off") antes da pill `.hero__promo--now` do MENTORSHIP20 ("Until then: 20% off…"). Pricing: `.promo-banner` com tag "Black Friday · Nov 27" e texto "60% off on Black Friday. Until then, get 20% off with coupon MENTORSHIP20 at checkout." Strings no i18n.js. Nenhum código de BF inventado. No dia 27 trocar para "hoje"; depois, remover e voltar ao bloco só do MENTORSHIP20 (ver git).

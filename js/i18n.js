@@ -4,13 +4,13 @@
 
   /* [selector, EN innerHTML, PT innerHTML] - applied to ALL matches */
   var STR = [
-    ['.promo-bar__pill', 'Season 2', 'Temporada 2'],
-    ['.promo-bar__title', '1:1 Mentorship', 'Mentoria 1:1'],
-    ['.promo-bar__title-ext', 'with a Senior Character Artist', 'com Senior Character Artist'],
-    ['.promo-bar__desc--a', 'one character, from blockout to portfolio', 'um personagem, do blockout ao portf\u00f3lio'],
+    ['.promo-bar__pill', 'Black Friday', 'Black Friday'],
+    ['.promo-bar__title', '60% off the Mentorship', '60% off na Mentoria'],
+    ['.promo-bar__title-ext', 'on Nov 27', 'em 27 de novembro'],
+    ['.promo-bar__desc--a', 'until then: 20% off with MENTORSHIP20', 'at\u00e9 l\u00e1: 20% off com MENTORSHIP20'],
     ['.promo-bar__desc--b', 'limited spots', 'vagas limitadas'],
-    ['.promo-bar__cta--long', 'Apply now &rarr;', 'Quero entrar &rarr;'],
-    ['.promo-bar__cta--short', 'Apply &rarr;', 'Entrar &rarr;'],
+    ['.promo-bar__cta--long', 'See the mentorship &rarr;', 'Ver a mentoria &rarr;'],
+    ['.promo-bar__cta--short', 'Nov 27 &rarr;', '27 de nov &rarr;'],
 
     ['#nav-link-courses, #mobile-menu a[href="#courses"], .site-footer__links a[href="#courses"]', 'Courses', 'Cursos'],
     ['#nav-link-mentorship, #mobile-menu a[href="#mentorship"], .site-footer__links a[href="#mentorship"]', 'Mentorship', 'Mentoria'],
@@ -66,7 +66,9 @@
     ['#mentorship-cta', 'Start Now!', 'Come\u00e7ar Agora!'],
     ['.mship-billboard__price span:nth-child(1)', 'Investment', 'Investimento'],
     ['.mship-billboard__price .hero__price-note', 'or 3 payments', 'ou 3x'],
-    ['.mship-billboard__promo', 'Limited time: <strong>20% off</strong> with coupon <strong class="mship-billboard__code">MENTORSHIP20</strong>', 'Por tempo limitado: <strong>20% de desconto</strong> com o cupom <strong class="mship-billboard__code">MENTORSHIP20</strong>'],
+    ['.mship-billboard__bf-pct', '60% off', '60% off'],
+    ['.mship-billboard__bf-tag', 'Black Friday &middot; Nov 27', 'Black Friday &middot; 27 de nov'],
+    ['.mship-billboard__promo', 'Until then: <strong>20% off</strong> with coupon <strong class="mship-billboard__code">MENTORSHIP20</strong>', 'At\u00e9 l\u00e1: <strong>20% de desconto</strong> com o cupom <strong class="mship-billboard__code">MENTORSHIP20</strong>'],
 
     ['#testimonials .eyebrow', 'Students', 'Alunos'],
     ['#testimonials .section__head h2', 'Artists already on their way.', 'Artistas j\u00e1 a caminho.'],
