@@ -357,24 +357,26 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 @media (max-width:600px){.promo-bar__count.promo-bar__d{display:none;}}
 @media (min-width:601px) and (max-width:899px){.promo-bar__count.promo-bar__x{display:none;}}
 @media (max-width:639px){.mship-billboard__bf{padding:1rem 1.125rem 1rem 1.25rem;gap:0.875rem;border-radius:26px;} .mship-billboard__bf-pct{font-size:2.25rem;} .mship-billboard__bf-fox{width:78px;height:94px;} .mship-billboard__bf .mship-billboard__promo{font-size:0.75rem;}}
-/* SECTION:bf-hero (2026-11-09) — banner grande de Black Friday no topo da home (pedido do Vini via chat dos stories). Fundo #0B0B0C com brilho radial laranja e pattern branco sutil, "Black Friday" + "60% off" gigantes, contagem, cupom, CTA para a LP e a raposa feliz pulando. js/main.js: atualiza a contagem, adiciona .is-today em 27/11 e esconde o bloco depois da data. Remover do HTML depois da campanha. */
-.bf-hero{background:radial-gradient(ellipse 70% 80% at 50% 110%,rgba(239,119,34,.42),rgba(239,119,34,0) 70%),#0B0B0C;color:var(--color-white);padding-block:2.5rem 2.75rem;}
-.bf-hero__inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto;align-items:center;gap:1rem 2rem;}
-.bf-hero__copy{display:flex;flex-direction:column;align-items:flex-start;gap:0.5rem;min-width:0;animation:bfIn .7s cubic-bezier(.2,.8,.2,1) both;}
-.bf-hero__kicker{font-family:var(--font-display);font-weight:700;font-size:1.5rem;line-height:1;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,.92);}
-.bf-hero__pct{font-family:var(--font-display);font-weight:700;font-size:clamp(4rem,14vw,7.5rem);line-height:0.95;letter-spacing:-0.03em;color:var(--color-orange-grad-end);text-shadow:0 0 32px rgba(239,119,34,.5);animation:bfPulse 2.6s ease-in-out infinite;}
-.bf-hero__sub{font-size:1.125rem;font-weight:600;color:rgba(255,255,255,.9);}
-.bf-hero__count{display:inline-flex;align-items:center;gap:0.5rem;font-family:var(--font-display);font-weight:700;font-size:1rem;color:var(--color-orange-grad-end);}
-.bf-hero__count b{background:var(--color-orange);color:var(--color-white);border-radius:var(--radius-pill);padding:0.2rem 0.75rem;font-size:0.9375rem;line-height:1.4;}
-.bf-hero__today{display:none;font-family:var(--font-display);font-weight:700;font-size:1.25rem;color:var(--color-orange-grad-end);}
-.bf-hero__promo{font-size:0.9375rem;color:rgba(255,255,255,.75);}
+/* SECTION:bf-hero (2026-11-09, refeito no mesmo dia após retorno do Vini: "BLACK FRIDAY" protagonista, contador ao vivo DD:HH:MM:SS em destaque, raposa pequena, identidade própria e não cópia do selo). Fundo #0B0B0C + brilho laranja + pattern-light. js/main.js: tick por segundo até 27/11 00:00 BRT (UTC-3), .is-today em 27/11, hidden depois. Remover do HTML depois da campanha. */
+.bf-hero{background:radial-gradient(ellipse 80% 70% at 50% 100%,rgba(239,119,34,.40),rgba(239,119,34,0) 70%),#0B0B0C;color:var(--color-white);padding-block:2.5rem 2.75rem;}
+.bf-hero__inner{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:0.75rem;animation:bfIn .7s cubic-bezier(.2,.8,.2,1) both;}
+.bf-hero__kicker{font-family:var(--font-display);font-weight:700;font-size:clamp(2.5rem,12vw,8.5rem);line-height:0.95;letter-spacing:-0.035em;text-transform:uppercase;color:var(--color-white);text-shadow:0 0 40px rgba(239,119,34,.35);white-space:nowrap;}
+.bf-hero__sub{font-family:var(--font-display);font-weight:700;font-size:clamp(1.25rem,3.2vw,2rem);line-height:1.1;color:rgba(255,255,255,.92);}
+.bf-hero__sub strong{color:var(--color-orange-grad-end);}
+.bf-hero__timer{display:flex;gap:0.625rem;margin-top:0.5rem;}
+.bf-hero__unit{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:5.25rem;padding:0.75rem 0.75rem 0.6rem;border-radius:18px;background:rgba(255,255,255,.05);box-shadow:inset 0 0 0 1px rgba(239,119,34,.55),0 0 28px rgba(239,119,34,.18);}
+.bf-hero__num{font-family:var(--font-display);font-weight:700;font-size:2.75rem;line-height:1;color:var(--color-orange-grad-end);font-variant-numeric:tabular-nums;letter-spacing:-0.02em;}
+.bf-hero__lbl{margin-top:0.35rem;font-size:0.6875rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,.6);}
+.bf-hero__until{font-size:0.8125rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,.55);}
+.bf-hero__today{display:none;font-family:var(--font-display);font-weight:700;font-size:clamp(1.75rem,5vw,3rem);color:var(--color-orange-grad-end);text-shadow:0 0 32px rgba(239,119,34,.5);}
+.bf-hero__actions{display:flex;flex-direction:column;align-items:center;gap:0.75rem;margin-top:0.5rem;}
+.bf-hero__promo{font-size:0.8125rem;color:rgba(255,255,255,.65);}
 .bf-hero__promo strong{color:var(--color-orange-grad-end);margin-inline:0.2rem;}
-.bf-hero__code{background:var(--color-white);color:var(--color-orange)!important;border-radius:8px;padding:0.1rem 0.45rem;letter-spacing:0.06em;white-space:nowrap;font-weight:700;font-size:0.8125rem;}
-.bf-hero .btn--primary{margin-top:0.5rem;box-shadow:0 0 0 2px rgba(255,255,255,.18),var(--shadow-orange);}
-.bf-hero__fox{width:clamp(150px,22vw,260px);height:auto;display:block;justify-self:end;filter:drop-shadow(0 16px 28px rgba(0,0,0,.45));animation:bfIn .9s .15s cubic-bezier(.2,.8,.2,1) both;}
-.bf-hero.is-today .bf-hero__count,.bf-hero.is-today .bf-hero__promo,.bf-hero.is-today .bf-hero__sub{display:none;}
+.bf-hero__code{background:var(--color-white);color:var(--color-orange)!important;border-radius:8px;padding:0.1rem 0.45rem;letter-spacing:0.06em;white-space:nowrap;font-weight:700;font-size:0.75rem;}
+.bf-hero .btn--primary{box-shadow:0 0 0 2px rgba(255,255,255,.18),var(--shadow-orange);}
+.bf-hero__fox{position:absolute;right:0;bottom:-2.75rem;width:88px;height:auto;display:block;filter:drop-shadow(0 10px 18px rgba(0,0,0,.45));}
+.bf-hero.is-today .bf-hero__timer,.bf-hero.is-today .bf-hero__until,.bf-hero.is-today .bf-hero__promo{display:none;}
 .bf-hero.is-today .bf-hero__today{display:block;}
-@keyframes bfPulse{0%,100%{transform:scale(1);text-shadow:0 0 32px rgba(239,119,34,.5);}50%{transform:scale(1.025);text-shadow:0 0 48px rgba(239,119,34,.75);}}
 @keyframes bfIn{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
-@media (prefers-reduced-motion:reduce){.bf-hero__pct,.bf-hero__copy,.bf-hero__fox{animation:none;}}
-@media (max-width:639px){.bf-hero{padding-block:1.75rem 2rem;} .bf-hero__inner{grid-template-columns:1fr auto;gap:0.75rem 0.75rem;align-items:start;} .bf-hero__kicker{font-size:1.125rem;} .bf-hero__sub{font-size:0.9375rem;} .bf-hero__promo{font-size:0.8125rem;} .bf-hero__fox{width:clamp(96px,28vw,124px);align-self:center;}}
+@media (prefers-reduced-motion:reduce){.bf-hero__inner{animation:none;}}
+@media (max-width:639px){.bf-hero{padding-block:1.75rem 2rem;} .bf-hero__inner{gap:0.625rem;} .bf-hero__timer{gap:0.4rem;} .bf-hero__unit{min-width:0;flex:1 1 0;padding:0.6rem 0.25rem 0.5rem;border-radius:14px;} .bf-hero__timer{align-self:stretch;} .bf-hero__num{font-size:2rem;} .bf-hero__lbl{font-size:0.625rem;letter-spacing:0.1em;} .bf-hero__fox{width:56px;right:-0.25rem;bottom:-2rem;} .bf-hero__promo{max-width:calc(100% - 4.5rem);}}

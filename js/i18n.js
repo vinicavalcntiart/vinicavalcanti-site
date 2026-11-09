@@ -5,10 +5,13 @@
   /* [selector, EN innerHTML, PT innerHTML] - applied to ALL matches */
   var STR = [
     ['.bf-hero__kicker', 'Black Friday', 'Black Friday'],
-    ['.bf-hero__pct', '60% off', '60% off'],
-    ['.bf-hero__sub', 'on the 1:1 Mentorship &middot; Nov 27', 'na Mentoria 1:1 &middot; 27 de novembro'],
-    ['.bf-hero__count .pill__text', 'days to go', 'dias restantes'],
-    ['.bf-hero__today', 'Black Friday is today', 'A Black Friday \u00e9 hoje'],
+    ['.bf-hero__sub', '<strong>60% off</strong> on the 1:1 Mentorship', '<strong>60% off</strong> na Mentoria 1:1'],
+    ['.bf-hero__unit:nth-child(1) .pill__text', 'days', 'dias'],
+    ['.bf-hero__unit:nth-child(2) .pill__text', 'hours', 'horas'],
+    ['.bf-hero__unit:nth-child(3) .pill__text', 'min', 'min'],
+    ['.bf-hero__unit:nth-child(4) .pill__text', 'sec', 'seg'],
+    ['.bf-hero__until', 'Nov 27 &middot; 00:00 BRT', '27 de nov &middot; 00:00 (Bras\u00edlia)'],
+    ['.bf-hero__today', 'Today &middot; 60% off', 'Hoje &middot; 60% off'],
     ['.bf-hero__promo', 'Until then: <strong>20% off</strong> with coupon <strong class="bf-hero__code">MENTORSHIP20</strong>', 'At\u00e9 l\u00e1: <strong>20% de desconto</strong> com o cupom <strong class="bf-hero__code">MENTORSHIP20</strong>'],
     ['#bf-hero-cta', 'See the Mentorship', 'Ver a Mentoria'],
     ['.promo-bar__pill', 'Black Friday', 'Black Friday'],

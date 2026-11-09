@@ -96,15 +96,27 @@
   }
 })();
 
-/* Black Friday (real date: 2026-11-27). Updates the day counters in the top bar and the BF hero; on the day the hero shows its "today" state; after the date the hero and the counters disappear. */
+/* Black Friday (real date: 2026-11-27, 00:00 BRT = 03:00 UTC). Top bar: day counter. BF hero: live DD:HH:MM:SS, "today" state during Nov 27 (BRT), hidden from Nov 28. */
 (function () {
   'use strict';
-  var target = new Date(2026, 10, 27);
-  var days = Math.ceil((target - new Date()) / 86400000);
+  var TARGET = Date.UTC(2026, 10, 27, 3, 0, 0);
+  var DAY = 86400000;
   var hero = document.querySelector('.bf-hero');
-  var counters = document.querySelectorAll('.promo-bar__days, .bf-hero__days');
-  if (days > 0) { counters.forEach(function (el) { el.textContent = String(days); }); return; }
-  document.querySelectorAll('.promo-bar__count, .bf-hero__count').forEach(function (el) { el.hidden = true; });
-  if (!hero) return;
-  if (days === 0) { hero.classList.add('is-today'); } else { hero.hidden = true; }
+  var nums = {};
+  document.querySelectorAll('.bf-hero__num').forEach(function (el) { nums[el.getAttribute('data-unit')] = el; });
+  var barDays = document.querySelectorAll('.promo-bar__days');
+  var pad = function (n) { return n < 10 ? '0' + n : String(n); };
+  function tick() {
+    var diff = TARGET - Date.now();
+    if (diff > 0) {
+      var d = Math.floor(diff / DAY), h = Math.floor(diff % DAY / 3600000), mi = Math.floor(diff % 3600000 / 60000), s = Math.floor(diff % 60000 / 1000);
+      if (nums.d) { nums.d.textContent = String(d); nums.h.textContent = pad(h); nums.m.textContent = pad(mi); nums.s.textContent = pad(s); }
+      barDays.forEach(function (el) { el.textContent = String(d); if (d < 1) { var w = el.closest('.promo-bar__count'); if (w) w.hidden = true; } });
+      return true;
+    }
+    document.querySelectorAll('.promo-bar__count').forEach(function (el) { el.hidden = true; });
+    if (hero) { if (diff > -DAY) { hero.classList.add('is-today'); } else { hero.hidden = true; } }
+    return false;
+  }
+  if (tick()) { var id = setInterval(function () { if (!tick()) clearInterval(id); }, 1000); }
 })();

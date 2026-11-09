@@ -110,19 +110,24 @@ src="https://www.facebook.com/tr?id=999436976070756&ev=PageView&noscript=1"
 </header>
 
 <main>
-<!-- SECTION: bf-hero (Black Friday 2026, REAL: 60% off on the mentorship on Nov 27; hidden by js/main.js after the date, "today" state on the day) -->
+<!-- SECTION: bf-hero (Black Friday 2026, REAL: 60% off on the mentorship on Nov 27; live countdown to Nov 27 00:00 BRT in js/main.js; "today" state on the day, hidden after) -->
 <section class="bf-hero section--pattern-light" id="black-friday" aria-label="Black Friday">
   <div class="container bf-hero__inner">
-    <div class="bf-hero__copy">
-      <p class="bf-hero__kicker">Black Friday</p>
-      <p class="bf-hero__pct">60% off</p>
-      <p class="bf-hero__sub">on the 1:1 Mentorship &middot; Nov 27</p>
-      <p class="bf-hero__count"><b class="bf-hero__days">18</b> <span class="pill__text">days to go</span></p>
-      <p class="bf-hero__today">Black Friday is today</p>
-      <p class="bf-hero__promo">Until then: <strong>20% off</strong> with coupon <strong class="bf-hero__code">MENTORSHIP20</strong></p>
-      <a href="./mentorship/one-on-one-mentorship/" id="bf-hero-cta" class="btn btn--primary">See the Mentorship</a>
+    <p class="bf-hero__kicker">Black Friday</p>
+    <p class="bf-hero__sub"><strong>60% off</strong> on the 1:1 Mentorship</p>
+    <div class="bf-hero__timer" role="timer">
+      <div class="bf-hero__unit"><b class="bf-hero__num" data-unit="d">18</b><span class="bf-hero__lbl pill__text">days</span></div>
+      <div class="bf-hero__unit"><b class="bf-hero__num" data-unit="h">01</b><span class="bf-hero__lbl pill__text">hours</span></div>
+      <div class="bf-hero__unit"><b class="bf-hero__num" data-unit="m">01</b><span class="bf-hero__lbl pill__text">min</span></div>
+      <div class="bf-hero__unit"><b class="bf-hero__num" data-unit="s">44</b><span class="bf-hero__lbl pill__text">sec</span></div>
     </div>
-    <img class="bf-hero__fox" src="images/fox-happy-hop.svg" alt="" width="260" height="313" decoding="async" fetchpriority="high">
+    <p class="bf-hero__until">Nov 27 &middot; 00:00 BRT</p>
+    <p class="bf-hero__today">Today &middot; 60% off</p>
+    <div class="bf-hero__actions">
+      <a href="./mentorship/one-on-one-mentorship/" id="bf-hero-cta" class="btn btn--primary">See the Mentorship</a>
+      <p class="bf-hero__promo">Until then: <strong>20% off</strong> with coupon <strong class="bf-hero__code">MENTORSHIP20</strong></p>
+    </div>
+    <img class="bf-hero__fox" src="images/fox-happy-hop.svg" alt="" width="72" height="87" decoding="async">
   </div>
 </section>
 
