@@ -203,3 +203,4 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 
 ### Reforço de 2026-11-09
 Hero: as duas pills viraram um selo escuro `.hero__bf` (#111, "60% OFF" 2.25rem laranja claro, título "Black Friday · Nov 27", sub "until then: 20% off with MENTORSHIP20", pulso leve de 2.4s via box-shadow, desligado em prefers-reduced-motion) com a raposa feliz inclinada `./images/fox-happy-tilt.svg` como `<img>` à direita, padding reservado. Strings no i18n (`.hero__bf-pct`, `.hero__bf-title`, `.hero__bf-sub`). Pricing `.promo-banner` segue igual. Remover tudo depois de 27/11.
+- 2026-11-09: a raposa do selo (`fox-happy-tilt.svg`) ganhou animação interna (cabeça inclina entre -12° e -3°, cauda abana), sem pulo para não vazar do selo; respeita prefers-reduced-motion. Pedido do Vini via chat dos stories.
