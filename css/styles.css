@@ -345,14 +345,15 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 /* Etiqueta de preço no canto de cima em telas pequenas, só nos cards cuja arte tem texto no canto inferior esquerdo (hoje: Stylized Characters). */
 @media (max-width:639px){.course-card--tag-top .course-card__pricetag{bottom:auto;top:1rem;}}
 /* SECTION:black-friday (2026-11-07) — Black Friday REAL anunciada pelo Vini nos stories: 60% off na mentoria em 27/11; até lá vale o MENTORSHIP20. Bloco no billboard da home; a faixa do topo também virou o anúncio. Em 27/11 trocar as strings para "hoje"; depois da data, remover daqui, da faixa e da LP no mesmo commit. */
-.mship-billboard__bf{position:relative;margin:1.5rem auto 0;display:inline-flex;align-items:center;gap:1.25rem;padding:1.1rem 7.5rem 1.1rem 2rem;border-radius:var(--radius-pill);background:radial-gradient(ellipse at 50% 120%,rgba(239,119,34,.35),rgba(239,119,34,0) 70%),rgba(255,255,255,.06);box-shadow:inset 0 0 0 1px rgba(239,119,34,.35),0 0 60px rgba(239,119,34,.18);}
+.mship-billboard__bf{position:relative;margin:1.5rem auto 0;display:inline-flex;align-items:center;gap:1.5rem;padding:1.1rem 1.5rem 1.1rem 2rem;max-width:100%;text-align:left;border-radius:32px;background:radial-gradient(ellipse at 50% 120%,rgba(239,119,34,.35),rgba(239,119,34,0) 70%),rgba(255,255,255,.06);box-shadow:inset 0 0 0 1px rgba(239,119,34,.35),0 0 60px rgba(239,119,34,.18);}
 .mship-billboard__bf-pct{display:block;font-family:var(--font-display);font-weight:700;font-size:3.5rem;line-height:1;color:var(--color-orange-grad-end);letter-spacing:-0.02em;text-shadow:0 0 24px rgba(239,119,34,.45);}
 .mship-billboard__bf-tag{display:inline-flex;align-items:center;background:var(--color-orange);color:var(--color-white);border-radius:var(--radius-pill);padding:0.4rem 0.875rem;font-size:0.8125rem;font-weight:700;letter-spacing:0.02em;white-space:nowrap;}
-.mship-billboard__bf-col{display:flex;flex-direction:column;align-items:flex-start;gap:0.4rem;}
-.mship-billboard__bf-fox{position:absolute;right:0.6rem;bottom:-0.9rem;width:100px;height:120px;display:block;filter:drop-shadow(0 8px 16px rgba(0,0,0,.35));}
-.mship-billboard__bf + .mship-billboard__promo{margin-top:1rem;}
+.mship-billboard__bf-col{display:flex;flex-direction:column;align-items:flex-start;gap:0.5rem;min-width:0;}
+.mship-billboard__bf-fox{position:static;flex:none;width:96px;height:116px;display:block;filter:drop-shadow(0 8px 16px rgba(0,0,0,.35));}
+.mship-billboard__bf .mship-billboard__promo{margin:0.25rem 0 0;padding:0;background:none;box-shadow:none;border-radius:0;display:block;font-size:0.8125rem;line-height:1.5;color:rgba(255,255,255,.75);}
+.mship-billboard__bf .mship-billboard__code{padding:0.1rem 0.4rem;font-size:0.75rem;}
 .promo-bar__count{display:inline-flex;align-items:center;gap:6px;color:var(--color-orange-grad-end);font-weight:700;font-family:var(--font-display);}
 .promo-bar__count b{background:var(--color-orange);color:var(--color-white);border-radius:var(--radius-pill);padding:2px 9px;font-size:12px;line-height:1.4;}
 @media (max-width:600px){.promo-bar__count.promo-bar__d{display:none;}}
 @media (min-width:601px) and (max-width:899px){.promo-bar__count.promo-bar__x{display:none;}}
-@media (max-width:639px){.mship-billboard__bf{padding:1rem 6rem 1rem 1.25rem;gap:0.75rem;} .mship-billboard__bf-pct{font-size:2.5rem;} .mship-billboard__bf-fox{right:0.4rem;bottom:-0.6rem;width:80px;height:96px;}}
+@media (max-width:639px){.mship-billboard__bf{padding:1rem 1.125rem 1rem 1.25rem;gap:0.875rem;border-radius:26px;} .mship-billboard__bf-pct{font-size:2.25rem;} .mship-billboard__bf-fox{width:78px;height:94px;} .mship-billboard__bf .mship-billboard__promo{font-size:0.75rem;}}
