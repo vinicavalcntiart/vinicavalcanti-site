@@ -1165,12 +1165,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .mentor__photo{max-width:18rem;}
 @media (min-width:768px){.mentor__photo{max-width:19rem;margin-inline:auto;}}
 @media (min-width:1024px){.mentor__photo{max-width:21rem;}}
-/* Black Friday (2026-11-07, reforçado em 2026-11-09): selo escuro com "60% OFF" grande, pulso leve e a raposa feliz inclinada. Remover depois da data. */
-.hero__bf{position:relative;display:inline-flex;align-items:center;gap:0.9rem;margin-top:1.125rem;padding:0.75rem 6.75rem 0.75rem 0.9rem;border-radius:20px;background:#111;color:var(--color-white);box-shadow:0 0 0 0 rgba(239,119,34,.55);animation:bfpulse 2.4s ease-in-out infinite;}
-.hero__bf-pct{font-family:var(--font-display);font-weight:700;font-size:2.25rem;line-height:1;color:var(--color-orange-grad-end,#F9A335);}
-.hero__bf-txt{display:flex;flex-direction:column;line-height:1.15;font-weight:600;font-size:0.875rem;letter-spacing:0.04em;text-transform:uppercase;}
-.hero__bf-sub{color:rgba(255,255,255,.65);font-weight:500;text-transform:none;letter-spacing:0;font-size:0.8125rem;}
-.hero__bf-fox{position:absolute;right:0.5rem;bottom:-0.75rem;width:92px;height:104px;display:block;}
-@keyframes bfpulse{0%,100%{box-shadow:0 0 0 0 rgba(239,119,34,.55);}60%{box-shadow:0 0 0 12px rgba(239,119,34,0);}}
-@media (prefers-reduced-motion:reduce){.hero__bf{animation:none;}}
-@media (max-width:639px){.hero__bf{padding-right:5.75rem;} .hero__bf-fox{right:0.4rem;bottom:-0.6rem;width:76px;height:86px;}}
+/* Black Friday (2026-11-07; igualado ao selo da home em 2026-11-09 a pedido do Vini): selo escuro com borda laranja suave e brilho, "60% off" grande em laranja claro, tag laranja, linha do cupom e a raposa feliz animada inteira dentro, à direita. Remover depois de 27/11. */
+.hero__bf{position:relative;display:inline-flex;align-items:center;gap:1.5rem;margin-top:1.125rem;padding:1.1rem 1.5rem 1.1rem 2rem;max-width:100%;text-align:left;border-radius:32px;background:radial-gradient(ellipse at 50% 120%,rgba(239,119,34,.38),rgba(239,119,34,0) 70%),#0B0B0C;color:var(--color-white);box-shadow:inset 0 0 0 1px rgba(239,119,34,.45),0 0 40px rgba(239,119,34,.18);}
+.hero__bf-col{display:flex;flex-direction:column;align-items:flex-start;gap:0.5rem;min-width:0;}
+.hero__bf-pct{display:block;font-family:var(--font-display);font-weight:700;font-size:3rem;line-height:1;color:var(--color-orange-grad-end,#F9A335);letter-spacing:-0.02em;text-shadow:0 0 24px rgba(239,119,34,.45);}
+.hero__bf-tag{display:inline-flex;align-items:center;background:var(--color-orange);color:var(--color-white);border-radius:var(--radius-pill);padding:0.4rem 0.875rem;font-size:0.8125rem;font-weight:700;letter-spacing:0.02em;white-space:nowrap;}
+.hero__bf-promo{margin:0.25rem 0 0;font-size:0.8125rem;line-height:1.5;color:rgba(255,255,255,.75);}
+.hero__bf-promo strong{color:var(--color-orange-grad-end,#F9A335);margin-inline:0.25rem;}
+.hero__bf-code{background:var(--color-white);color:var(--color-orange)!important;border-radius:8px;padding:0.1rem 0.4rem;letter-spacing:0.06em;white-space:nowrap;font-weight:700;font-size:0.75rem;}
+.hero__bf-fox{flex:none;width:96px;height:108px;display:block;filter:drop-shadow(0 8px 16px rgba(0,0,0,.35));}
+@media (max-width:639px){.hero__bf{padding:1rem 1.125rem 1rem 1.25rem;gap:0.875rem;border-radius:26px;} .hero__bf-pct{font-size:2.25rem;} .hero__bf-fox{width:78px;height:88px;} .hero__bf-promo{font-size:0.75rem;}}
