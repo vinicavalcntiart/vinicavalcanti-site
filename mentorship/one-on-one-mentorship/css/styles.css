@@ -1165,6 +1165,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 .mentor__photo{max-width:18rem;}
 @media (min-width:768px){.mentor__photo{max-width:19rem;margin-inline:auto;}}
 @media (min-width:1024px){.mentor__photo{max-width:21rem;}}
-/* Black Friday (2026-11-07): pill laranja cheia com o anúncio de 60% em 27/11 acima da pill do MENTORSHIP20. Remover depois da data. */
-.hero__promo--bf{background:var(--color-orange);color:var(--color-white);box-shadow:none;margin-right:0.5rem;}
-.hero__promo--bf strong{color:var(--color-white);}
+/* Black Friday (2026-11-07, reforçado em 2026-11-09): selo escuro com "60% OFF" grande, pulso leve e a raposa feliz inclinada. Remover depois da data. */
+.hero__bf{position:relative;display:inline-flex;align-items:center;gap:0.9rem;margin-top:1.125rem;padding:0.75rem 6.75rem 0.75rem 0.9rem;border-radius:20px;background:#111;color:var(--color-white);box-shadow:0 0 0 0 rgba(239,119,34,.55);animation:bfpulse 2.4s ease-in-out infinite;}
+.hero__bf-pct{font-family:var(--font-display);font-weight:700;font-size:2.25rem;line-height:1;color:var(--color-orange-grad-end,#F9A335);}
+.hero__bf-txt{display:flex;flex-direction:column;line-height:1.15;font-weight:600;font-size:0.875rem;letter-spacing:0.04em;text-transform:uppercase;}
+.hero__bf-sub{color:rgba(255,255,255,.65);font-weight:500;text-transform:none;letter-spacing:0;font-size:0.8125rem;}
+.hero__bf-fox{position:absolute;right:0.5rem;bottom:-0.75rem;width:92px;height:104px;display:block;}
+@keyframes bfpulse{0%,100%{box-shadow:0 0 0 0 rgba(239,119,34,.55);}60%{box-shadow:0 0 0 12px rgba(239,119,34,0);}}
+@media (prefers-reduced-motion:reduce){.hero__bf{animation:none;}}
+@media (max-width:639px){.hero__bf{padding-right:5.75rem;} .hero__bf-fox{right:0.4rem;bottom:-0.6rem;width:76px;height:86px;}}

@@ -200,3 +200,6 @@ Typography rules: headings use `font-weight: 600–700` with `letter-spacing: -0
 
 ## Black Friday 2026 (anunciada em 2026-11-07, data 27/11)
 60% off em 27/11 (promoção REAL dos stories do Vini). Hero: pill laranja cheia `.hero__promo--bf` ("Black Friday, Nov 27: 60% off") antes da pill `.hero__promo--now` do MENTORSHIP20 ("Until then: 20% off…"). Pricing: `.promo-banner` com tag "Black Friday · Nov 27" e texto "60% off on Black Friday. Until then, get 20% off with coupon MENTORSHIP20 at checkout." Strings no i18n.js. Nenhum código de BF inventado. No dia 27 trocar para "hoje"; depois, remover e voltar ao bloco só do MENTORSHIP20 (ver git).
+
+### Reforço de 2026-11-09
+Hero: as duas pills viraram um selo escuro `.hero__bf` (#111, "60% OFF" 2.25rem laranja claro, título "Black Friday · Nov 27", sub "until then: 20% off with MENTORSHIP20", pulso leve de 2.4s via box-shadow, desligado em prefers-reduced-motion) com a raposa feliz inclinada `./images/fox-happy-tilt.svg` como `<img>` à direita, padding reservado. Strings no i18n (`.hero__bf-pct`, `.hero__bf-title`, `.hero__bf-sub`). Pricing `.promo-banner` segue igual. Remover tudo depois de 27/11.

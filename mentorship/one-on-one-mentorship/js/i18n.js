@@ -27,8 +27,9 @@
     { s: '.hero__cta-row .btn--primary', en: 'Sign up now!', pt: 'Inscreva-se agora!' },
     { s: '.hero__price-label', en: 'Investment', pt: 'Investimento' },
     { s: '.hero__price-note', en: 'or 3 payments', pt: 'ou 3x' },
-    { s: '.hero__promo--bf', en: 'Black Friday, Nov 27: <strong>60% off</strong>', pt: 'Black Friday, 27 de novembro: <strong>60% de desconto</strong>' },
-    { s: '.hero__promo--now', en: 'Until then: <strong>20% off</strong> with coupon <strong>MENTORSHIP20</strong>', pt: 'At\u00e9 l\u00e1: <strong>20% de desconto</strong> com o cupom <strong>MENTORSHIP20</strong>' },
+    { s: '.hero__bf-pct', en: '60% OFF', pt: '60% OFF' },
+    { s: '.hero__bf-title', en: 'Black Friday &middot; Nov 27', pt: 'Black Friday &middot; 27 de nov' },
+    { s: '.hero__bf-sub', en: 'until then: 20% off with MENTORSHIP20', pt: 'at\u00e9 l\u00e1: 20% off com MENTORSHIP20' },
 
     /* video */
     { s: '.video-section .eyebrow', en: 'Watch first', pt: 'Assista primeiro' },

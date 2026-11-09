@@ -95,3 +95,14 @@
     }, { threshold: 0.2 }).observe(pricing);
   }
 })();
+
+/* Black Friday countdown (real date: 2026-11-27). Updates the number in the top bar; hides the counter on/after the day. */
+(function () {
+  'use strict';
+  var el = document.querySelector('.promo-bar__days');
+  if (!el) return;
+  var target = new Date(2026, 10, 27);
+  var days = Math.ceil((target - new Date()) / 86400000);
+  if (days > 0) { el.textContent = String(days); }
+  else { var wrap = el.closest('.promo-bar__count'); if (wrap) wrap.hidden = true; }
+})();

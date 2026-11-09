@@ -7,7 +7,7 @@
     ['.promo-bar__pill', 'Black Friday', 'Black Friday'],
     ['.promo-bar__title', '60% off the Mentorship', '60% off na Mentoria'],
     ['.promo-bar__title-ext', 'on Nov 27', 'em 27 de novembro'],
-    ['.promo-bar__desc--a', 'until then: 20% off with MENTORSHIP20', 'at\u00e9 l\u00e1: 20% off com MENTORSHIP20'],
+    ['.promo-bar__count .pill__text', 'days to go', 'dias restantes'],
     ['.promo-bar__desc--b', 'limited spots', 'vagas limitadas'],
     ['.promo-bar__cta--long', 'See the mentorship &rarr;', 'Ver a mentoria &rarr;'],
     ['.promo-bar__cta--short', 'Nov 27 &rarr;', '27 de nov &rarr;'],
