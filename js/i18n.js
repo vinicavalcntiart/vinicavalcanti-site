@@ -4,6 +4,13 @@
 
   /* [selector, EN innerHTML, PT innerHTML] - applied to ALL matches */
   var STR = [
+    ['.bf-hero__kicker', 'Black Friday', 'Black Friday'],
+    ['.bf-hero__pct', '60% off', '60% off'],
+    ['.bf-hero__sub', 'on the 1:1 Mentorship &middot; Nov 27', 'na Mentoria 1:1 &middot; 27 de novembro'],
+    ['.bf-hero__count .pill__text', 'days to go', 'dias restantes'],
+    ['.bf-hero__today', 'Black Friday is today', 'A Black Friday \u00e9 hoje'],
+    ['.bf-hero__promo', 'Until then: <strong>20% off</strong> with coupon <strong class="bf-hero__code">MENTORSHIP20</strong>', 'At\u00e9 l\u00e1: <strong>20% de desconto</strong> com o cupom <strong class="bf-hero__code">MENTORSHIP20</strong>'],
+    ['#bf-hero-cta', 'See the Mentorship', 'Ver a Mentoria'],
     ['.promo-bar__pill', 'Black Friday', 'Black Friday'],
     ['.promo-bar__title', '60% off the Mentorship', '60% off na Mentoria'],
     ['.promo-bar__title-ext', 'on Nov 27', 'em 27 de novembro'],

@@ -96,13 +96,15 @@
   }
 })();
 
-/* Black Friday countdown (real date: 2026-11-27). Updates the number in the top bar; hides the counter on/after the day. */
+/* Black Friday (real date: 2026-11-27). Updates the day counters in the top bar and the BF hero; on the day the hero shows its "today" state; after the date the hero and the counters disappear. */
 (function () {
   'use strict';
-  var el = document.querySelector('.promo-bar__days');
-  if (!el) return;
   var target = new Date(2026, 10, 27);
   var days = Math.ceil((target - new Date()) / 86400000);
-  if (days > 0) { el.textContent = String(days); }
-  else { var wrap = el.closest('.promo-bar__count'); if (wrap) wrap.hidden = true; }
+  var hero = document.querySelector('.bf-hero');
+  var counters = document.querySelectorAll('.promo-bar__days, .bf-hero__days');
+  if (days > 0) { counters.forEach(function (el) { el.textContent = String(days); }); return; }
+  document.querySelectorAll('.promo-bar__count, .bf-hero__count').forEach(function (el) { el.hidden = true; });
+  if (!hero) return;
+  if (days === 0) { hero.classList.add('is-today'); } else { hero.hidden = true; }
 })();
