@@ -116,6 +116,8 @@
     { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(2) p:nth-of-type(2)', en: 'The full 13-lesson course, $19 value.', pt: 'O curso completo de 13 aulas, valor de $19.' },
     { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(3) p:nth-of-type(1)', en: '<strong>Intro to Blender + Grease Pencil</strong>', pt: '<strong>Intro to Blender + Grease Pencil</strong>' },
     { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(3) p:nth-of-type(2)', en: 'Blender fundamentals plus Grease Pencil.', pt: 'Fundamentos do Blender mais Grease Pencil.' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(4) p:nth-of-type(1)', en: '<strong>Character Design: Baby Allosaurus</strong>', pt: '<strong>Character Design: Baby Allosaurus</strong>' },
+    { s: '#schedule .module:nth-of-type(4) .week-card:nth-child(4) p:nth-of-type(2)', en: 'The full course, $49 value. Free for every mentorship student.', pt: 'O curso completo, valor de $49. Gr&aacute;tis para todos os alunos da mentoria.' },
 
     /* gallery */
     { s: '.gallery-section .section__head .eyebrow', en: "The standard you'll be chasing", pt: 'O padr&atilde;o que voc&ecirc; vai perseguir' },
@@ -183,6 +185,7 @@
     { s: '#pricing .pricing__includes li:nth-child(6)', en: 'Portfolio-focused review at the end', pt: 'Review focado em portf&oacute;lio no fim' },
     { s: '#pricing .pricing__includes li:nth-child(7)', en: 'Lifetime access to every lesson', pt: 'Acesso vital&iacute;cio a todas as aulas' },
     { s: '#pricing .pricing__includes li:nth-child(8)', en: 'Access to the project files', pt: 'Acesso aos project files' },
+    { s: '#pricing .pricing__includes li:nth-child(9)', en: 'Two bonus courses: Intro to ZBrush: Mushroom and Character Design: Baby Allosaurus', pt: 'Dois cursos b&ocirc;nus: Intro to ZBrush: Mushroom e Character Design: Baby Allosaurus' },
     { s: '.promo-banner__tag', en: 'Black Friday &middot; Nov 27', pt: 'Black Friday &middot; 27 de nov' },
     { s: '.promo-banner p', en: '<strong>60% off</strong> on Black Friday. Until then, get <strong>20% off</strong> with coupon <strong class="promo-banner__code">MENTORSHIP20</strong> at checkout.', pt: '<strong>60% de desconto</strong> na Black Friday. At\u00e9 l\u00e1, use o cupom <strong class="promo-banner__code">MENTORSHIP20</strong> no checkout e ganhe <strong>20% de desconto</strong>.' },
     { s: '#pricing .pricing__price-note', en: 'one payment, or split in 3', pt: 'pagamento &uacute;nico, ou em 3x' },
@@ -219,8 +222,8 @@
 
     /* included (intro course bundled) */
     { s: '#included .eyebrow', en: 'Also included', pt: 'Tamb&eacute;m incluso' },
-    { s: '#included h2', en: 'Intro to ZBrush: Mushroom comes with it', pt: 'O Intro to ZBrush: Mushroom vem junto' },
-    { s: '#included p', en: 'Starting from zero in ZBrush? The mentorship already includes the full <strong>Intro to ZBrush: Mushroom</strong> course <strong>($19 value)</strong>: 13 lessons to cover the basics before your one-on-one sessions begin.', pt: 'Come&ccedil;ando do zero no ZBrush? A mentoria j&aacute; inclui o curso completo <strong>Intro to ZBrush: Mushroom</strong> <strong>(valor de $19)</strong>: 13 aulas para cobrir a base antes de as suas sess&otilde;es one-on-one come&ccedil;arem.' },
+    { s: '#included h2', en: 'Two courses come with it', pt: 'Dois cursos v&ecirc;m junto' },
+    { s: '#included p', en: 'Every mentorship student gets the full <strong>Intro to ZBrush: Mushroom</strong> course <strong>($19 value)</strong> to cover the basics, and the full <strong>Character Design: Baby Allosaurus</strong> course <strong>($49 value)</strong> as a free bonus. Both yours for life.', pt: 'Todo aluno da mentoria recebe o curso completo <strong>Intro to ZBrush: Mushroom</strong> <strong>(valor de $19)</strong> para cobrir a base, e o curso completo <strong>Character Design: Baby Allosaurus</strong> <strong>(valor de $49)</strong> como b&ocirc;nus gratuito. Os dois s&atilde;o seus para sempre.' },
 
     /* discord (school community banner) */
     { s: '#discord h2', en: 'Join the school\'s Discord', pt: 'Entre no Discord da escola' },
