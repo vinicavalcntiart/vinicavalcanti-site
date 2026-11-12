@@ -779,3 +779,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible, video:focus-visibl
 @media (min-width:1024px){.instructor__photo{max-width:21rem;}}
 /* Preço promocional (2026-11-12, pedido do Vini): valor cheio cortado + valor com o cupom, como nas páginas de curso. O desconto é aplicado no checkout com o cupom; a nota ao lado diz qual. Ao mudar preço ou cupom, atualizar os dois valores e a nota (HTML + i18n). */
 s.price-old{display:inline-block;text-decoration:line-through;text-decoration-thickness:2px;font-weight:600;color:inherit;opacity:.5;font-size:0.6em;margin-right:0.35em;}
+/* Botão copiar cupom (2026-11-12, pedido do Vini): o código do cupom vira um botão que copia o código; o ícone vira check e o texto vira "copied!"/"copiado!" por 1,5s (js/main.js, bloco "Copy coupon"). Mesma cara do selo de cupom (branco, laranja, cantos 8px). Área de toque de 40px via ::before, sem mudar o layout. */
+.copy-code{position:relative;display:inline-flex;align-items:center;gap:0.35em;vertical-align:baseline;margin:0;padding:0.125rem 0.5rem;border:1px solid rgba(239,119,34,.35);border-radius:8px;background:var(--color-white);color:var(--color-orange);font:inherit;font-weight:700;letter-spacing:0.06em;line-height:1.4;white-space:nowrap;cursor:pointer;-webkit-appearance:none;appearance:none;transition:background-color .15s ease,color .15s ease;}
+.copy-code::before{content:"";position:absolute;left:0;right:0;top:50%;height:40px;transform:translateY(-50%);}
+.copy-code__ico{width:1em;height:1em;flex:none;}
+.copy-code:hover{background:var(--color-orange-soft);}
+.copy-code:focus-visible{outline:2px solid var(--color-orange);outline-offset:2px;}
+.copy-code.is-copied{background:var(--color-orange)!important;border-color:var(--color-orange);color:var(--color-white)!important;}
+.copy-code--xs{padding:0.05rem 0.4rem;font-size:0.6875rem;}
+/* Com o botão de cupom o selo "Limited time" precisa quebrar linha por item no celular, não dentro das palavras. */
+.hero__promo{flex-wrap:wrap;row-gap:0.3rem;} .hero__promo .copy-code{margin-inline:0.3rem;}
