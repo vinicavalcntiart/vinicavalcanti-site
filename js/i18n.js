@@ -75,7 +75,7 @@
     ['.mship-billboard__tag', "This is not a course. It's a mentorship.", 'Isso n\u00e3o \u00e9 um curso. \u00c9 uma mentoria.'],
     ['#mentorship-cta', 'Start Now!', 'Come\u00e7ar Agora!'],
     ['.mship-billboard__price span:nth-child(1)', 'Investment', 'Investimento'],
-    ['.mship-billboard__price .hero__price-note', 'or 3 payments', 'ou 3x'],
+    ['.mship-billboard__price .hero__price-note', 'with MENTORSHIP20 &middot; or 3 payments', 'com MENTORSHIP20 &middot; ou 3x'],
     ['.mship-billboard__bf-pct', '60% off', '60% off'],
     ['.mship-billboard__bf-tag', 'Black Friday &middot; Nov 27', 'Black Friday &middot; 27 de nov'],
     ['.mship-billboard__promo', 'Until then: <strong>20% off</strong> with coupon <strong class="mship-billboard__code">MENTORSHIP20</strong>', 'At\u00e9 l\u00e1: <strong>20% de desconto</strong> com o cupom <strong class="mship-billboard__code">MENTORSHIP20</strong>'],

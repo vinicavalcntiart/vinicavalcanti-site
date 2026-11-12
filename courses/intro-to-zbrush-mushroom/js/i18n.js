@@ -22,7 +22,7 @@
     ['.hero__sub', 'Your first steps in ZBrush. Start from zero and finish your first complete character: sculpted, painted and rendered.', 'Seus primeiros passos no ZBrush. Comece do zero e termine seu primeiro personagem completo: esculpido, pintado e renderizado.'],
     ['#hero-buy', 'Get this course', 'Quero este curso'],
     ['.hero__price-label', 'Price', 'Preço'],
-    ['.hero__price-note', 'One-time · Lifetime access', 'Pagamento único · Acesso vitalício'],
+    ['.hero__price-note', 'with ZBRUSH10 &middot; One-time &middot; Lifetime access', 'com ZBRUSH10 &middot; Pagamento único &middot; Acesso vitalício'],
     ['.hero__promo', 'Limited time: <strong>10% off</strong> with coupon <strong>ZBRUSH10</strong>', 'Por tempo limitado: <strong>10% de desconto</strong> com o cupom <strong>ZBRUSH10</strong>'],
     ['.hero__media-caption', 'The character you build in this course.', 'O personagem que você constrói neste curso.'],
 
@@ -94,7 +94,7 @@
     ['.pricing__includes li:nth-child(7) .pill__text', '15-day money-back guarantee', 'Garantia de reembolso de 15 dias'],
     ['.promo-banner__tag', 'Limited time', 'Por tempo limitado'],
     ['.promo-banner p', 'Get <strong>10% off</strong> with coupon <strong class="promo-banner__code">ZBRUSH10</strong> at checkout.', 'Use o cupom <strong class="promo-banner__code">ZBRUSH10</strong> no checkout e ganhe <strong>10% de desconto</strong>.'],
-    ['.pricing__price-note', 'one-time payment', 'pagamento único'],
+    ['.pricing__price-note', 'with coupon ZBRUSH10 &middot; one-time payment', 'com o cupom ZBRUSH10 &middot; pagamento único'],
     ['#pricing-buy', 'Get this course', 'Quero este curso'],
     ['.pricing__scarcity', 'Secure checkout via Hotmart. Study at your own pace, come back to the lessons whenever you want.', 'Checkout seguro via Hotmart. Estude no seu ritmo e volte às aulas quando quiser.'],
 

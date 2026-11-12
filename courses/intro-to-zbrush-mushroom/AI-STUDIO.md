@@ -78,3 +78,4 @@ Específicos deste curso (sampleados do chapéu vermelho-tijolo da arte do cogum
 ## Header e foto (2026-10-22)
 - Botão Members Area é LARANJA em todo o site (override `.btn--members` no fim do CSS); o header continua réplica do root. Motivo: o hero da home ficou azul e o botão azul ficava repetitivo.
 - Foto do Vini limitada a 18rem (mobile) / 19rem (768px+) / 21rem (1024px+), centralizada na coluna (override no fim do CSS). Antes ocupava a coluna inteira.
+- Preço promocional (2026-11-12): hero, pricing e sticky mostram `<s class="price-old">$19</s>$17.10` com a nota "with ZBRUSH10 · …" (i18n). Ao encerrar o cupom, remover o `<s>`, voltar $19 e as notas originais. Regra geral na seção 11 do AI-STUDIO.md da raiz.
