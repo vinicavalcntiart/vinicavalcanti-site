@@ -1190,3 +1190,5 @@ s.price-old{display:inline-block;text-decoration:line-through;text-decoration-th
 .copy-code:focus-visible{outline:2px solid var(--color-orange);outline-offset:2px;}
 .copy-code.is-copied{background:var(--color-orange)!important;border-color:var(--color-orange);color:var(--color-white)!important;}
 .copy-code--xs{padding:0.05rem 0.4rem;font-size:0.6875rem;}
+/* Segurança: o texto do botão de cupom sempre segue a cor e a fonte do botão, em qualquer contexto (revisão do stories, 2026-11-12). */
+.copy-code .copy-code__text{color:inherit;font:inherit;text-transform:none;letter-spacing:inherit;line-height:inherit;margin:0;opacity:1;}

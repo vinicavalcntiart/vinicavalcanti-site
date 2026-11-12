@@ -394,3 +394,5 @@ s.price-old{display:inline-block;text-decoration:line-through;text-decoration-th
 .mship-billboard__price .price-old{color:var(--color-bg,#FCFBF8);opacity:.7;}
 /* O span do botão de cupom dentro do bloco de preço do billboard herdava a regra dos rótulos (10px, branco .4, caixa alta) e sumia no chip branco. */
 .mship-billboard__price .copy-code__text{font-size:inherit;font-weight:inherit;text-transform:none;letter-spacing:inherit;color:inherit;line-height:inherit;margin:0;}
+/* Segurança: o texto do botão de cupom sempre segue a cor e a fonte do botão, em qualquer contexto (revisão do stories, 2026-11-12). */
+.copy-code .copy-code__text{color:inherit;font:inherit;text-transform:none;letter-spacing:inherit;line-height:inherit;margin:0;opacity:1;}

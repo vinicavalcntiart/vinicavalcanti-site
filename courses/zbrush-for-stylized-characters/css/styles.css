@@ -792,3 +792,5 @@ s.price-old{display:inline-block;text-decoration:line-through;text-decoration-th
 /* Legibilidade do valor riscado (2026-11-12, revisão do stories): sobre o fundo colorido do hero o riscado fica creme com opacidade .7; na barra fixa sobe para ~14.5px e opacidade .7. O card de preço é branco e segue laranja .5. */
 .hero .price-old{color:var(--color-bg,#FCFBF8);opacity:.7;}
 .sticky-cta__value .price-old{font-size:0.9rem;opacity:.7;}
+/* Segurança: o texto do botão de cupom sempre segue a cor e a fonte do botão, em qualquer contexto (revisão do stories, 2026-11-12). */
+.copy-code .copy-code__text{color:inherit;font:inherit;text-transform:none;letter-spacing:inherit;line-height:inherit;margin:0;opacity:1;}
