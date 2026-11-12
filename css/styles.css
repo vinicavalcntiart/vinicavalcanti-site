@@ -390,3 +390,7 @@ s.price-old{display:inline-block;text-decoration:line-through;text-decoration-th
 .copy-code:focus-visible{outline:2px solid var(--color-orange);outline-offset:2px;}
 .copy-code.is-copied{background:var(--color-orange)!important;border-color:var(--color-orange);color:var(--color-white)!important;}
 .copy-code--xs{padding:0.05rem 0.4rem;font-size:0.6875rem;}
+/* Legibilidade do valor riscado no billboard escuro (2026-11-12, revisão do stories): creme com opacidade .7. */
+.mship-billboard__price .price-old{color:var(--color-bg,#FCFBF8);opacity:.7;}
+/* O span do botão de cupom dentro do bloco de preço do billboard herdava a regra dos rótulos (10px, branco .4, caixa alta) e sumia no chip branco. */
+.mship-billboard__price .copy-code__text{font-size:inherit;font-weight:inherit;text-transform:none;letter-spacing:inherit;color:inherit;line-height:inherit;margin:0;}

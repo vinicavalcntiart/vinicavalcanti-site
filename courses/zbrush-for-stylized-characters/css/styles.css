@@ -789,3 +789,6 @@ s.price-old{display:inline-block;text-decoration:line-through;text-decoration-th
 .copy-code--xs{padding:0.05rem 0.4rem;font-size:0.6875rem;}
 /* Com o botão de cupom o selo "Limited time" precisa quebrar linha por item no celular, não dentro das palavras. */
 .hero__promo{flex-wrap:wrap;row-gap:0.3rem;} .hero__promo .copy-code{margin-inline:0.3rem;}
+/* Legibilidade do valor riscado (2026-11-12, revisão do stories): sobre o fundo colorido do hero o riscado fica creme com opacidade .7; na barra fixa sobe para ~14.5px e opacidade .7. O card de preço é branco e segue laranja .5. */
+.hero .price-old{color:var(--color-bg,#FCFBF8);opacity:.7;}
+.sticky-cta__value .price-old{font-size:0.9rem;opacity:.7;}
